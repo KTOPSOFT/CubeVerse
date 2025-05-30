@@ -1,0 +1,132 @@
+********************************************
+****************** V 1.0.7 *****************
+*************** Feb 27, 2021 ***************
+********************************************
+
+- Updated Options demo scene to include presets
+- Updated DefaultColorPicker demo scene so that it demonstrates both V1 and V2, as well as how each one can be used.
+- Fixed a bug when using the pipette/eyedropper in the editor. Seems like Unity also fixed the 'known issue' related to this :)
+
+********************************************
+****************** V 1.0.6 *****************
+*************** Dec 01, 2020 ***************
+********************************************
+
+- Added: ColorSwatch and preset components. Accessible through menu-item 'UI/ColorPicker/Swatch'
+- Added: DefaultColorPicker V2 demo prefab, this is a new prefab to make sure stuff doesn't break for existing users, the folowing things are different compared to V1:
+			Added swatch and presets
+			The icons for the colorbox now also have a selected state
+			Has a ColorPickerWindow instead of a PopupWindow, which can be instantiated using PopupWindow.Open aswell, meaning you can access the actual ColorPicker through code more easilly
+- Added: The GradientBoxSwitcher script now has a toggle for AlwaysShowHue, if toggled it will show the hue in the GradientBox even when the current saturation or value/light set in the slider overwrite the hue
+- Updated: Readme now contains information about the new components
+
+Note: When adding a swatch through menuitems, make sure to assign the 'Preset Prefab' before using
+
+************** UPDATE WARNING **************
+
+If you edited anything inside the demo folder, these things might break as I made changes here.
+I tried to make sure it just keeps working, but I can't guarantee, so be sure to make a backup before updating!
+
+
+
+
+********************************************
+****************** V 1.0.5 *****************
+*************** Nov 19, 2020 ***************
+********************************************
+
+- Added: TextMeshPro (TMP) versions for the Label, Input and Hexfield components
+
+TMP is completely optional, the menuItems and components are only available when you include TextMeshPro using the packagemanager to your project.
+
+In order to allow both a TMP version as well as a non-TMP version, I've placed my code in different assemblies.
+- Which means that if you want to, you can even delete the 'ColorPicker/Scripts/builtinText' folder if you don't want to include the regular ui text in your project (Note that this will break the examples that use these components)
+- Also slightly improves compile time when making changes to your own code as it no longer has to re-compile code in this package.
+
+*************** Update notice **************
+********************************************
+
+This updates moves a lot of files to new locations within the 'Assets/ColorPicker/Scripts/' folder.
+Unity's package update logic doesn't handle that very well. Therefore, when updating you should take the following steps
+- if you for some reason created any custom script inside 'Assets/ColorPicker/Scripts/', make a backup of them
+- Remove this folder and all its contents 'Assets/ColorPicker/Scripts/'
+- import the new package
+Done :)
+
+If you've updated without reading this notice and got a lot of errors in the console as a result, you can follow the above steps to fix the problem aswell.
+
+
+
+
+********************************************
+****************** V 1.0.4 *****************
+*************** Nov 16, 2020 ***************
+********************************************
+
+- Fixed: HexField did not allow you to enter the letters abcdef in lower case
+- Added: Option to ignore channels in HexField, usefull for when you want to allow the user to copy/paste a hex containing an alpha but you want to ignore that alpha
+- Other: Fixed broken url in readme, as well as some typos.
+
+
+
+
+********************************************
+****************** V 1.0.3 *****************
+*************** Oct 15, 2020 ***************
+********************************************
+
+- Fixed: Updated code to no longer use methods marked as deprecated.
+- Fixed: Input, Label, Slider and hexfield had a bug which caused the Type enum fields to be not working as intended
+- Fixed: Due to a change in a recent version of Unity 2020, CanvasRenderer was not automatically added to all the GradientBackgrounds anymore, resulting in runtime exceptions
+	existing ColorPickers that were updated to Unity 2020 didn't suffer from this problem as they already had a CanvasRenderer attached.
+	ColorComponents created in recent versions of Unity2020 didn't work as intented and threw a lot of runtime errors, 
+
+These fixed should not change or break any existing ColorPickers.
+	If you are using Unity 2020 or later you should update to this new version as you can't create new ColorPickers otherwise.
+	If you are using Unity 2019 LTS, I would advise to update to this new version as if makes editing existing ColorPickers work better.
+
+
+
+
+********************************************
+****************** V 1.0.2 *****************
+*************** Nov 01, 2016 ***************
+********************************************
+
+The ColorSlider and GradientBox now respect the minimum/maximum value of the slider, min and max value should be normalized values (between 0 and 1).
+-	ColorSlider and Gradientbox don't use the sliders normalized value anymore, instead they use their actual value.
+-	Added error messages to ColorSlider and GradientBox inspectors for when the slider's min and max values are not set between 0 and 1.
+
+************** UPDATE WARNING **************
+
+When updating from a previous version, this change can (although unlikely) break your existing colorpicker sliders!
+
+Slider2D's will have their min and max values reset with this update. But sinse they were ignored by the GradientBox anyway, this shouldn't cause any problems.
+ColorSliders won't have their min and max values reset, you'll have to do this manually if you changed them!
+For any normal ColorSlider the min value should be 0 and the max value should be 1.
+
+If you have written your own code that expects the slider his value to be between a different range then 0 - 1 (0-255 for instance).
+You'll need to update that piece of code when you update to this new version!
+This only applies to the slider and slider2D values, not to the values you can get from the colorpicker itself!
+
+
+
+
+********************************************
+****************** V 1.0.1 *****************
+*************** Dec 11, 2015 ***************
+********************************************
+
+- Fixed absolete warnings for Unity 5.3 and up
+
+
+
+
+********************************************
+****************** V 1.0.0 *****************
+*************** Dec 03, 2015 ***************
+********************************************
+
+Initial release
+
+********************************************

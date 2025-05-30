@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73ca2ddbf6e022748a2db98a0c813735, type: 3}
+  m_Name: Example Dynamic Message
+  m_EditorClassIdentifier: 
+  saveConversation: 0
+  useDynamicMessages: 1
+  useStoryTeller: 0
+  messageList:
+  - objectType: 0
+    messageAuthor: 1
+    messageContent: You can type "What's up?" to get a reply.
+    sentTime: 8:00 AM
+    audioMessage: {fileID: 0}
+    imageMessage: {fileID: 0}
+  dynamicMessages:
+  - messageID: MESSAGE_0
+    messageContent: What's up?
+    replyContent: Good, hope you're doing well!
+    replyLatency: 1
+    replyTimer: 1.5
+    enableReply: 1
+  - messageID: MESSAGE_1
+    messageContent: Not really
+    replyContent: What happened?
+    replyLatency: 1
+    replyTimer: 2
+    enableReply: 1
+  storyTeller: []

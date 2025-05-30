@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73ca2ddbf6e022748a2db98a0c813735, type: 3}
+  m_Name: Example StoryTeller
+  m_EditorClassIdentifier: 
+  saveConversation: 0
+  useDynamicMessages: 0
+  useStoryTeller: 1
+  messageList:
+  - objectType: 0
+    messageAuthor: 1
+    messageContent: If you want to create text sequences, you can enable <b>StoryTeller</b>
+      feature.
+    sentTime: 8:00 AM
+    audioMessage: {fileID: 0}
+    imageMessage: {fileID: 0}
+  - objectType: 0
+    messageAuthor: 1
+    messageContent: It is possible to create StoryTeller items that leads the player
+      to a different path depending on their choice.
+    sentTime: 8:00 AM
+    audioMessage: {fileID: 0}
+    imageMessage: {fileID: 0}
+  - objectType: 0
+    messageAuthor: 1
+    messageContent: You can basically use <b>'Call After'</b> to call another item
+      with IDs.
+    sentTime: 8:00 AM
+    audioMessage: {fileID: 0}
+    imageMessage: {fileID: 0}
+  - objectType: 0
+    messageAuthor: 1
+    messageContent: To call an item by using an external script or a scripting tool,
+      you can use <b>MessagingManager.CreateStoryTeller(chatIndex, "item ID");</b>.
+    sentTime: 8:00 AM
+    audioMessage: {fileID: 0}
+    imageMessage: {fileID: 0}
+  - objectType: 0
+    messageAuthor: 1
+    messageContent: If you want to see a live demonstration, you can type <b>SEQ_0</b>.
+      As long as Debug StoryTeller is enabled, you can test items with their IDs.
+    sentTime: 8:00 AM
+    audioMessage: {fileID: 0}
+    imageMessage: {fileID: 0}
+  dynamicMessages: []
+  storyTeller:
+  - itemID: SEQ_0
+    messageAuthor: 1
+    messageContent: Hey, how are you?
+    messageLatency: 1
+    messageTimer: 1.5
+    replies:
+    - replyID: 0_Pretty Bad
+      replyBrief: Pretty bad
+      replyContent: I feel pretty bad these days...
+      replyFeedback: Really? What happened?
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: SEQ_1
+    - replyID: 0_Not Bad
+      replyBrief: Not bad
+      replyContent: Eh not bad, what about you?
+      replyFeedback: same
+      feedbackLatency: 1
+      feedbackTimer: 1
+      callAfter: SEQ_2
+    - replyID: 0_Feeling Great
+      replyBrief: Feeling great
+      replyContent: Pretty great, what about you?
+      replyFeedback: Well, that makes both of us!
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: SEQ_3
+  - itemID: SEQ_1
+    messageAuthor: 0
+    messageContent: It's just...
+    messageLatency: 1.5
+    messageTimer: 0
+    replies:
+    - replyID: 1_I feel tired
+      replyBrief: I feel tired
+      replyContent: I don't know, I just I feel tired
+      replyFeedback: Since when?
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: SEQ_1_1
+    - replyID: 1_My stomach hurts
+      replyBrief: My stomach hurts
+      replyContent: My stomach hurts a lot
+      replyFeedback: Then you gotta see a doctor asap
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: 
+    - replyID: 1_I can't sleep
+      replyBrief: I can't sleep
+      replyContent: I can't sleep nowadays, not sure why
+      replyFeedback: Oh, I hope it's nothing important!
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: 
+  - itemID: SEQ_2
+    messageAuthor: 1
+    messageContent: We should hang out some time
+    messageLatency: 1
+    messageTimer: 1.5
+    replies:
+    - replyID: 2_Sure
+      replyBrief: Sure
+      replyContent: Sure, why not :)
+      replyFeedback: Great! Let me know when you're available :)
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: 
+    - replyID: 2_I'm busy
+      replyBrief: I'm busy
+      replyContent: I don't think we can, I'm pretty busy nowadays :/
+      replyFeedback: Ahh too bad. Maybe some other time then.
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: 
+    - replyID: 2_Nope
+      replyBrief: Nope
+      replyContent: Nope, I'll pass, I don't wanna hang out with you.
+      replyFeedback: Ouch :'/
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: 
+  - itemID: SEQ_3
+    messageAuthor: 1
+    messageContent: Sooo, you wanna catch up?
+    messageLatency: 1
+    messageTimer: 1.5
+    replies:
+    - replyID: 3_Sure
+      replyBrief: Sure
+      replyContent: Sure, why not :)
+      replyFeedback: Great! Let me know when you're available :)
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: 
+    - replyID: 3_I'm busy
+      replyBrief: I'm busy
+      replyContent: I don't think we can, I'm pretty busy nowadays :/
+      replyFeedback: Ahh too bad. Maybe some other time then.
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: 
+    - replyID: 3_Nope
+      replyBrief: Nope
+      replyContent: Nope, I'll pass, I don't wanna hang out with you.
+      replyFeedback: Ouch :'/
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: 
+  - itemID: SEQ_1_1
+    messageAuthor: 1
+    messageContent: Take care, drink some water.
+    messageLatency: 1
+    messageTimer: 1.5
+    replies:
+    - replyID: 1-1_Will do
+      replyBrief: Will do
+      replyContent: Yeah, will do
+      replyFeedback: 
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: 
+    - replyID: 1-1_Nope
+      replyBrief: Nope
+      replyContent: Nope, I don't like water
+      replyFeedback: Why is that? Water is a must for your health.
+      feedbackLatency: 1
+      feedbackTimer: 1.5
+      callAfter: 

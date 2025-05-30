@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f751a1e1edde242be719dda955ddfd, type: 3}
+  m_Name: Example Mail
+  m_EditorClassIdentifier: 
+  mailFolder: 0
+  subject: Sample Mail
+  from: hamburgers@mail.com
+  fromName: Butters Stotch
+  to: to@mail.com
+  time: 11:28 AM
+  date: 2022.01.15
+  contactImage: {fileID: 0}
+  useCustomContent: 0
+  mailContent: "This is just a sample mail created from a mail item. You can add
+    new mail items using <b>Create > DreamOS > New Mail Item</b>. \r\n\r\nIt is possible
+    to add attachments as well as custom content."
+  customContentPrefab: {fileID: 0}
+  attachments:
+  - attachmentTitle: Music Attachment
+    attachmentType: 0
+    musicAttachment: {fileID: 8300000, guid: 85e2036ad33791446904cb815b5dfdbd, type: 3}
+    pictureAttachment: {fileID: 0}
+    videoAttachment: {fileID: 0}
+    noteAttachment: 
+  - attachmentTitle: Note Attachment
+    attachmentType: 1
+    musicAttachment: {fileID: 0}
+    pictureAttachment: {fileID: 0}
+    videoAttachment: {fileID: 0}
+    noteAttachment: This is just a sample note created from a mail attachment!
+  - attachmentTitle: Picture Attachment
+    attachmentType: 2
+    musicAttachment: {fileID: 0}
+    pictureAttachment: {fileID: 21300000, guid: d59af46ad47654147899b61d910f9163,
+      type: 3}
+    videoAttachment: {fileID: 0}
+    noteAttachment: 

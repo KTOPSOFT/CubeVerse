@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c049dad4c8edd39419ac277da0174931, type: 3}
+  m_Name: Video Library
+  m_EditorClassIdentifier: 
+  videos:
+  - videoTitle: Rolls
+    videoDescription: Rostislav Uzunov
+    videoCover: {fileID: 21300000, guid: 003fb9362c08461488a2897b320d97fd, type: 3}
+    videoClip: {fileID: 32900000, guid: 253a1a5307910ea45ab89a8d710356e9, type: 3}
+    playFromURL: 0
+    videoURL: 
+    excludeFromLibrary: 0
+    isModContent: 0
+    modHelper: 0
+  - videoTitle: URL Showcase
+    videoDescription: Big Buck Bunny
+    videoCover: {fileID: 21300000, guid: 89d6641e878b1eb47bc0bb028eacfa7f, type: 3}
+    videoClip: {fileID: 0}
+    playFromURL: 1
+    videoURL: http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+    excludeFromLibrary: 0
+    isModContent: 0
+    modHelper: 0
