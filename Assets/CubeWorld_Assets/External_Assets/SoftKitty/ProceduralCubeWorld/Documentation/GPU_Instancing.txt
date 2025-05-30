@@ -1,0 +1,5 @@
+==============  [ For URP user ] How to enable GPU instancing  ==============
+1, Find the asset files of your "Render Pipeline Asset" in "Quality" Setting panel, for example:  "URP-Balanced.asset", "URP-HighFidelity.asset","URP-Performant.asset"...
+2 ,Select each one of them, turn on the "Debug" mode by click the icon with 3 dots on the top right of the Inspector .
+3, Find the option called "Use SRP Batcher", uncheck it.
+4, Now run the game, you should see the draw call number is massively decreased.
