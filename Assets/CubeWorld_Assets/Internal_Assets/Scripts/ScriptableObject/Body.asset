@@ -1,0 +1,3028 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df85eccc357b95043acb4065def4510b, type: 3}
+  m_Name: Body
+  m_EditorClassIdentifier: 
+  BodyList:
+  - Sex: 0
+    Skins:
+    - Skin: 0
+      Paths: Assets/CubeWorld_Assets/Internal_Assets/Prefabs/CustomProps/Body/Male/White
+      BodyData:
+      - BodyName: Male White Archer 01 Black
+        BodyMap: {fileID: 2800000, guid: 059c4e921885007468346d09836af143, type: 3}
+      - BodyName: Male White Archer 01 Blue
+        BodyMap: {fileID: 2800000, guid: bead1bc6bc9891c4fa986c0285673377, type: 3}
+      - BodyName: Male White Archer 01 Green
+        BodyMap: {fileID: 2800000, guid: 3bc8a8a50a58eed4a8dd77a206303113, type: 3}
+      - BodyName: Male White Archer 01 Maroon
+        BodyMap: {fileID: 2800000, guid: 56a748a36c01c9d409dfff4e45284de9, type: 3}
+      - BodyName: Male White Archer 01 Olive
+        BodyMap: {fileID: 2800000, guid: d850e2a326f22a74182cb5117b61981b, type: 3}
+      - BodyName: Male White Archer 01 Purple
+        BodyMap: {fileID: 2800000, guid: 39f8498c4c154664e87eca80e41c1a02, type: 3}
+      - BodyName: Male White Archer 01 White
+        BodyMap: {fileID: 2800000, guid: f2accaacfe5df07408b13fff4e57f5aa, type: 3}
+      - BodyName: Male White Archer 02 Blue
+        BodyMap: {fileID: 2800000, guid: c0219869969c9c54e9ca9c706571c61e, type: 3}
+      - BodyName: Male White Archer 02 Green
+        BodyMap: {fileID: 2800000, guid: 633af89e0c41d0c4192e66bf1ecd62cf, type: 3}
+      - BodyName: Male White Archer 02 Olive
+        BodyMap: {fileID: 2800000, guid: 0a204ea73ddcdb54e99d83b6ac0ca6b0, type: 3}
+      - BodyName: Male White Archer 02 Purple
+        BodyMap: {fileID: 2800000, guid: 56257ab3b45d4fc4d90a53411b750b23, type: 3}
+      - BodyName: Male White Archer 02 Red
+        BodyMap: {fileID: 2800000, guid: 66e15c2c954695946ba0adad92bc82b8, type: 3}
+      - BodyName: Male White Archer 02 White
+        BodyMap: {fileID: 2800000, guid: a06d07198d372904ba693222c299b905, type: 3}
+      - BodyName: Male White Archer 03 Black
+        BodyMap: {fileID: 2800000, guid: 2f060bd1b68836247bb6309c4a05b787, type: 3}
+      - BodyName: Male White Archer 03 Blue
+        BodyMap: {fileID: 2800000, guid: 021a69898bad08341829c2fd1c0fe8bb, type: 3}
+      - BodyName: Male White Archer 03 Green
+        BodyMap: {fileID: 2800000, guid: 9fe108fea77216c439ce2f1ef1000b1c, type: 3}
+      - BodyName: Male White Archer 03 Magenta
+        BodyMap: {fileID: 2800000, guid: 8668f0ed7effa86459343d3d73c09f4a, type: 3}
+      - BodyName: Male White Archer 03 Purple
+        BodyMap: {fileID: 2800000, guid: 0e9af79c98d2b4c4788d7a0aea7221e0, type: 3}
+      - BodyName: Male White Archer 03 Red
+        BodyMap: {fileID: 2800000, guid: 985a725c4fa4c4242b94df54d5a306da, type: 3}
+      - BodyName: Male White Archer 03 White
+        BodyMap: {fileID: 2800000, guid: f4feac0796d492444b643092f76f1bb0, type: 3}
+      - BodyName: Male White Archer 03 Yellow
+        BodyMap: {fileID: 2800000, guid: d85fd140f17184042ba93d64b8f75b3b, type: 3}
+      - BodyName: Male White Archer 04 Black
+        BodyMap: {fileID: 2800000, guid: 10d36c7b8f8b5c642b5adc77532a0b06, type: 3}
+      - BodyName: Male White Archer 04 Blue
+        BodyMap: {fileID: 2800000, guid: c428c11ac989513489bf711b7aee204f, type: 3}
+      - BodyName: Male White Archer 04 Green
+        BodyMap: {fileID: 2800000, guid: 753314c0c1862da46aa3dc6b23f2fd48, type: 3}
+      - BodyName: Male White Archer 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 0beaf6a801fddc34395c23f3137fb525, type: 3}
+      - BodyName: Male White Archer 04 Purple
+        BodyMap: {fileID: 2800000, guid: 8c04c0b280cee4e4484c8194572cdce3, type: 3}
+      - BodyName: Male White Archer 04 Red
+        BodyMap: {fileID: 2800000, guid: b8c48dd401e360f43a283a6ed48b3936, type: 3}
+      - BodyName: Male White Archer 04 White
+        BodyMap: {fileID: 2800000, guid: cec1c4b566ff10c43924c5ba851bad5a, type: 3}
+      - BodyName: Male White Archer 04 Yellow
+        BodyMap: {fileID: 2800000, guid: eec759060bd954c40b8196af9282efb9, type: 3}
+      - BodyName: Male White Archer 05 Black
+        BodyMap: {fileID: 2800000, guid: 98f95742c3e676c4d8f5401e0e0ed744, type: 3}
+      - BodyName: Male White Archer 05 Blue
+        BodyMap: {fileID: 2800000, guid: 4179b93da1f80ff4b88203a73113da01, type: 3}
+      - BodyName: Male White Archer 05 Green
+        BodyMap: {fileID: 2800000, guid: de6ba992cb975874f9d48ff342622d03, type: 3}
+      - BodyName: Male White Archer 05 Magenta
+        BodyMap: {fileID: 2800000, guid: c8564fe1a1c88944ca2ad03d48010951, type: 3}
+      - BodyName: Male White Archer 05 Purple
+        BodyMap: {fileID: 2800000, guid: 09702a924c67f3043acc5512220bb208, type: 3}
+      - BodyName: Male White Archer 05 Red
+        BodyMap: {fileID: 2800000, guid: 4971367fb96681947b6cfce96d7b4c1d, type: 3}
+      - BodyName: Male White Archer 05 White
+        BodyMap: {fileID: 2800000, guid: 24b670f8dcd689b4c9edac31dd5d8428, type: 3}
+      - BodyName: Male White Archer 05 Yellow
+        BodyMap: {fileID: 2800000, guid: ab8a83f1e0dc58d4b82e09a4c5650f11, type: 3}
+      - BodyName: Male White Barbarian 01 Blue
+        BodyMap: {fileID: 2800000, guid: 0d66ed9bc1713504797752abcadf5816, type: 3}
+      - BodyName: Male White Barbarian 01 Green
+        BodyMap: {fileID: 2800000, guid: f1188f6419a0b9e43a67e59858f86652, type: 3}
+      - BodyName: Male White Barbarian 01 Purple
+        BodyMap: {fileID: 2800000, guid: e28c575c8084fcc499197541e4801218, type: 3}
+      - BodyName: Male White Barbarian 01 Red
+        BodyMap: {fileID: 2800000, guid: 3018999eebddab5499b3da9944076680, type: 3}
+      - BodyName: Male White Barbarian 02 Black
+        BodyMap: {fileID: 2800000, guid: 5c09f93d657efc6498d671426e4a82ca, type: 3}
+      - BodyName: Male White Barbarian 02 Blue
+        BodyMap: {fileID: 2800000, guid: a5b43532459b95c4cbdf06f176a66684, type: 3}
+      - BodyName: Male White Barbarian 02 Brown
+        BodyMap: {fileID: 2800000, guid: 11b457c611087d149860b83e57f7fcae, type: 3}
+      - BodyName: Male White Barbarian 02 Green
+        BodyMap: {fileID: 2800000, guid: 55fd5c899ee0b7e4ba218d1e6fc0b0c5, type: 3}
+      - BodyName: Male White Barbarian 02 Purple
+        BodyMap: {fileID: 2800000, guid: 807ec34bd83a12644b68d3ac8119f857, type: 3}
+      - BodyName: Male White Barbarian 02 White
+        BodyMap: {fileID: 2800000, guid: e694f683c75d689429653fa13752dd7b, type: 3}
+      - BodyName: Male White Barbarian 03 Black
+        BodyMap: {fileID: 2800000, guid: 470d0b586c5355a4b9fd47b7bfb26a01, type: 3}
+      - BodyName: Male White Barbarian 03 Blue
+        BodyMap: {fileID: 2800000, guid: 31d8c7e8fc533be458a3f7e264e52bd5, type: 3}
+      - BodyName: Male White Barbarian 03 Brown
+        BodyMap: {fileID: 2800000, guid: f24a65b0b12a91043b17469eb2ed3f4b, type: 3}
+      - BodyName: Male White Barbarian 03 Green
+        BodyMap: {fileID: 2800000, guid: ea0703bc01679894b9b2e792cbe65e88, type: 3}
+      - BodyName: Male White Barbarian 03 Magenta
+        BodyMap: {fileID: 2800000, guid: 811f39dd39010124aa56c58722453a2c, type: 3}
+      - BodyName: Male White Barbarian 03 Purple
+        BodyMap: {fileID: 2800000, guid: 9976e6b887c783549a64ba44236a770b, type: 3}
+      - BodyName: Male White Barbarian 03 Red
+        BodyMap: {fileID: 2800000, guid: 4f5b77b9fee43004db6e95a19909705a, type: 3}
+      - BodyName: Male White Barbarian 03 White
+        BodyMap: {fileID: 2800000, guid: b1ba3662fcbfba248bbbb96b8da5ddb2, type: 3}
+      - BodyName: Male White Barbarian 04 Black
+        BodyMap: {fileID: 2800000, guid: f6441258a80c9f94ab8a1caea458fdab, type: 3}
+      - BodyName: Male White Barbarian 04 Blue
+        BodyMap: {fileID: 2800000, guid: ffc8bb39dc16ee840882be5433c43e3a, type: 3}
+      - BodyName: Male White Barbarian 04 Green
+        BodyMap: {fileID: 2800000, guid: c937898ce7ad02f488cd5aab5b2393ff, type: 3}
+      - BodyName: Male White Barbarian 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 048aca6791fa914458fac07e24d645ea, type: 3}
+      - BodyName: Male White Barbarian 04 Purple
+        BodyMap: {fileID: 2800000, guid: dca45b92332822c40a773af56c6b5b0a, type: 3}
+      - BodyName: Male White Barbarian 04 Red
+        BodyMap: {fileID: 2800000, guid: b0531681073dbb74881da0d23673dac5, type: 3}
+      - BodyName: Male White Barbarian 04 White
+        BodyMap: {fileID: 2800000, guid: f219b548b8fb4d645898e6c042881311, type: 3}
+      - BodyName: Male White Barbarian 04 Yellow
+        BodyMap: {fileID: 2800000, guid: def64d2ca9d6d6447a8791ae74b8455d, type: 3}
+      - BodyName: Male White Barbarian 05 Black
+        BodyMap: {fileID: 2800000, guid: 8a9d0a65631078845a67d01df747ca05, type: 3}
+      - BodyName: Male White Barbarian 05 Blue
+        BodyMap: {fileID: 2800000, guid: 76068bc573141fb4b8ca0ee5d47c13f6, type: 3}
+      - BodyName: Male White Barbarian 05 Green
+        BodyMap: {fileID: 2800000, guid: 65da4c8b7196fa24ca45d40f85b1ba08, type: 3}
+      - BodyName: Male White Barbarian 05 Magenta
+        BodyMap: {fileID: 2800000, guid: c72998e08227d3f46b2557b8ee527a25, type: 3}
+      - BodyName: Male White Barbarian 05 Purple
+        BodyMap: {fileID: 2800000, guid: c3a1ba403dc283d4eb52063f484aeefd, type: 3}
+      - BodyName: Male White Barbarian 05 Red
+        BodyMap: {fileID: 2800000, guid: 2c2a07150df0d794597d21d29a9e7afb, type: 3}
+      - BodyName: Male White Barbarian 05 White
+        BodyMap: {fileID: 2800000, guid: cf99c5730ed113d41b431ce26a2a0ab7, type: 3}
+      - BodyName: Male White Barbarian 05 Yellow
+        BodyMap: {fileID: 2800000, guid: 6f9a4450346ba584d8ec717970270f7c, type: 3}
+      - BodyName: Male White Barbarian 06 Black
+        BodyMap: {fileID: 2800000, guid: bd42f34d3fc3b1d4fbf5e81d44d24426, type: 3}
+      - BodyName: Male White Barbarian 06 Blue
+        BodyMap: {fileID: 2800000, guid: 2f00c29d8a225e947b20c9456979a2c8, type: 3}
+      - BodyName: Male White Barbarian 06 Green
+        BodyMap: {fileID: 2800000, guid: 3020e100f11c865489362573ce31599e, type: 3}
+      - BodyName: Male White Barbarian 06 Magenta
+        BodyMap: {fileID: 2800000, guid: 7fb303ecc644b344bab77c7cc81da4c5, type: 3}
+      - BodyName: Male White Barbarian 06 Purple
+        BodyMap: {fileID: 2800000, guid: 34cb9deb7ed886840b98faf0879be5af, type: 3}
+      - BodyName: Male White Barbarian 06 Red
+        BodyMap: {fileID: 2800000, guid: 3f03e53f7f0fc1e48806a2b2bae7f5f5, type: 3}
+      - BodyName: Male White Barbarian 06 White
+        BodyMap: {fileID: 2800000, guid: 120d6c1fdcb12a74fa53bde0ecaaf3d8, type: 3}
+      - BodyName: Male White Barbarian 06 Yellow
+        BodyMap: {fileID: 2800000, guid: dc1809bd95c3ea94b8fbd8c1dcf968b4, type: 3}
+      - BodyName: Male White Casual 01A 1
+        BodyMap: {fileID: 2800000, guid: cdf6454546b136b47bf8e31c5e605afe, type: 3}
+      - BodyName: Male White Casual 01A
+        BodyMap: {fileID: 2800000, guid: 2f2cefd87df319943bc56b6f7dadd0a0, type: 3}
+      - BodyName: Male White Casual 01B 1
+        BodyMap: {fileID: 2800000, guid: 4aa9347399d6ec64b90fc2f6b168a5a1, type: 3}
+      - BodyName: Male White Casual 01B
+        BodyMap: {fileID: 2800000, guid: 3f7a5aa654d74ad49b722b0af08f4dad, type: 3}
+      - BodyName: Male White Casual 01C 1
+        BodyMap: {fileID: 2800000, guid: a28f7089cfe35a4468a7457fa216437c, type: 3}
+      - BodyName: Male White Casual 01C
+        BodyMap: {fileID: 2800000, guid: 9e8729f85ad455e42a0130e730ce4643, type: 3}
+      - BodyName: Male White Casual 01D
+        BodyMap: {fileID: 2800000, guid: 775b4b4448e15da4ab535b24b4116718, type: 3}
+      - BodyName: Male White Casual 02A
+        BodyMap: {fileID: 2800000, guid: eeb0daac5a8995d40ac90349386561fd, type: 3}
+      - BodyName: Male White Casual 02B
+        BodyMap: {fileID: 2800000, guid: 8a4edc9d916ba754c9b33c52a2a1b2d7, type: 3}
+      - BodyName: Male White Casual 02C
+        BodyMap: {fileID: 2800000, guid: 140c9f6ac5cebc14ab48d67f6b42f7d5, type: 3}
+      - BodyName: Male White Casual 03A
+        BodyMap: {fileID: 2800000, guid: 2ca893d5b9e0dba42905fb8136b83276, type: 3}
+      - BodyName: Male White Casual 03B
+        BodyMap: {fileID: 2800000, guid: c2283ffb4f550e644a0b914280bcf0ed, type: 3}
+      - BodyName: Male White Casual 03C
+        BodyMap: {fileID: 2800000, guid: a3806e76555a40141a3fbdd6ea66bba5, type: 3}
+      - BodyName: Male White Casual 04A
+        BodyMap: {fileID: 2800000, guid: f72e45f92a30bb44d9312dfbcb9b3adb, type: 3}
+      - BodyName: Male White Casual 04B
+        BodyMap: {fileID: 2800000, guid: b88deb7bd0f65a34797a8a3a640228ba, type: 3}
+      - BodyName: Male White Casual 04C
+        BodyMap: {fileID: 2800000, guid: 5c04fe232c0f4f747be562674ee16d5a, type: 3}
+      - BodyName: Male White Casual 05A
+        BodyMap: {fileID: 2800000, guid: ba15dab3e1aaaac4c9e1c4a001cc1236, type: 3}
+      - BodyName: Male White Casual 05B
+        BodyMap: {fileID: 2800000, guid: 65435dbfecd20904cab4ed8640d7e6d5, type: 3}
+      - BodyName: Male White Casual 05C
+        BodyMap: {fileID: 2800000, guid: 6f75f82a5a11bbe4db67fabf82c404b0, type: 3}
+      - BodyName: Male White Casual 06A
+        BodyMap: {fileID: 2800000, guid: 3d0489f4d18d56f438f3a2c6c6e4775e, type: 3}
+      - BodyName: Male White Casual 06B
+        BodyMap: {fileID: 2800000, guid: 0ee878c9c6e9499419e7e99fa6ea40d9, type: 3}
+      - BodyName: Male White Casual 06C
+        BodyMap: {fileID: 2800000, guid: cb23b9be0a4bae54d820c7c228ca1867, type: 3}
+      - BodyName: Male White Casual 07A
+        BodyMap: {fileID: 2800000, guid: 7d7c393014bd3d4429cbe06eabc0b113, type: 3}
+      - BodyName: Male White Casual 07B
+        BodyMap: {fileID: 2800000, guid: ee1d3f900a146a1408b177eacceb580d, type: 3}
+      - BodyName: Male White Casual 07C
+        BodyMap: {fileID: 2800000, guid: 5d1f4fba3a0aa9b4fa3c25ba10a49a4d, type: 3}
+      - BodyName: Male White Casual 08A
+        BodyMap: {fileID: 2800000, guid: 7969496d2715bc345af42d1208aec8b9, type: 3}
+      - BodyName: Male White Casual 08B
+        BodyMap: {fileID: 2800000, guid: 6a4b4ae51fd967e46bd67b004e81dc34, type: 3}
+      - BodyName: Male White Casual 08C
+        BodyMap: {fileID: 2800000, guid: 7d4c07e70ba26124ba6ef13e8f4536f2, type: 3}
+      - BodyName: Male White Doctor 01
+        BodyMap: {fileID: 2800000, guid: 470bf15a0dbd50d41933a489acf5c7b4, type: 3}
+      - BodyName: Male White Fireman 01
+        BodyMap: {fileID: 2800000, guid: 3ab57f315af401f4f8ad952cc94fbb6d, type: 3}
+      - BodyName: Male White Fireman 02
+        BodyMap: {fileID: 2800000, guid: cb4baea3249307d4282b6f06ec79c9cd, type: 3}
+      - BodyName: Male White King 01 Black
+        BodyMap: {fileID: 2800000, guid: 2592dda9114a47d4cb948244ec6a69a5, type: 3}
+      - BodyName: Male White King 01 Blue
+        BodyMap: {fileID: 2800000, guid: e3180ab3ae90a984e934e8c8b2babaa5, type: 3}
+      - BodyName: Male White King 01 Green
+        BodyMap: {fileID: 2800000, guid: 4ba1dd8baaf84c747954ee253d6b21ce, type: 3}
+      - BodyName: Male White King 01 Magenta
+        BodyMap: {fileID: 2800000, guid: d42ea13a30687ab4383a84c991d13908, type: 3}
+      - BodyName: Male White King 01 Purple
+        BodyMap: {fileID: 2800000, guid: 2a598f1e9d53673448fe7fa529dd1abe, type: 3}
+      - BodyName: Male White King 01 Red
+        BodyMap: {fileID: 2800000, guid: 86ec4e942c524514fba90e94790ae072, type: 3}
+      - BodyName: Male White King 01 White
+        BodyMap: {fileID: 2800000, guid: 725d877da95e9a442b19f5f35bc0b1bd, type: 3}
+      - BodyName: Male White King 01 Yellow
+        BodyMap: {fileID: 2800000, guid: eaf980eaf3783a447addcbb6f1d06b39, type: 3}
+      - BodyName: Male White Knight 01 Black
+        BodyMap: {fileID: 2800000, guid: 4dc2b85e3005ddb46a0f060551a63bde, type: 3}
+      - BodyName: Male White Knight 01 Blue
+        BodyMap: {fileID: 2800000, guid: 40e691be7a6cc954790028575568a6ab, type: 3}
+      - BodyName: Male White Knight 01 Red
+        BodyMap: {fileID: 2800000, guid: cefb3ce821faa8f46abe3d6dab14858c, type: 3}
+      - BodyName: Male White Knight 01 White
+        BodyMap: {fileID: 2800000, guid: 74970ccdbdede0e47818afa5fbd69b74, type: 3}
+      - BodyName: Male White Knight 02 Black
+        BodyMap: {fileID: 2800000, guid: 0d7a2729aaac841408573b26137c3c9c, type: 3}
+      - BodyName: Male White Knight 02 Blue
+        BodyMap: {fileID: 2800000, guid: d99949e0ae02f2046b6e808d592c3ef5, type: 3}
+      - BodyName: Male White Knight 02 Green
+        BodyMap: {fileID: 2800000, guid: 032dd9130b3373b4a9b9b44683e09117, type: 3}
+      - BodyName: Male White Knight 02 Purple
+        BodyMap: {fileID: 2800000, guid: 2bd301427f501a045a071c4fca3f425e, type: 3}
+      - BodyName: Male White Knight 02 Red
+        BodyMap: {fileID: 2800000, guid: 3306f03724756cf4d97ed15da3e1e9c9, type: 3}
+      - BodyName: Male White Knight 02 White
+        BodyMap: {fileID: 2800000, guid: 9e0f378eb9f840447b1ad87774615bd0, type: 3}
+      - BodyName: Male White Knight 03 Black
+        BodyMap: {fileID: 2800000, guid: 523309fc64c9a0540b171cd53f82e427, type: 3}
+      - BodyName: Male White Knight 03 Blue
+        BodyMap: {fileID: 2800000, guid: 087f327e0525c784e9d18044c4b4ebc8, type: 3}
+      - BodyName: Male White Knight 03 Brown
+        BodyMap: {fileID: 2800000, guid: 0a3a4520cdb9f6a4498c933767d2a53c, type: 3}
+      - BodyName: Male White Knight 03 Green
+        BodyMap: {fileID: 2800000, guid: 2d1e691340738f6438a558cc21f8fb7d, type: 3}
+      - BodyName: Male White Knight 03 Magenta
+        BodyMap: {fileID: 2800000, guid: ad8c2091ce9fec041bb9c51614d52bac, type: 3}
+      - BodyName: Male White Knight 03 Purple
+        BodyMap: {fileID: 2800000, guid: d87bb228892488c49b452fcb56fd9970, type: 3}
+      - BodyName: Male White Knight 03 Red
+        BodyMap: {fileID: 2800000, guid: e1a1cb8fc5c802d4bb7b5e034b72b9a6, type: 3}
+      - BodyName: Male White Knight 03 White
+        BodyMap: {fileID: 2800000, guid: f8be1b9347b5dd04f9d40adef3d2eec4, type: 3}
+      - BodyName: Male White Knight 04 Black
+        BodyMap: {fileID: 2800000, guid: 4d77a9a6b40c75344b52775f212b6214, type: 3}
+      - BodyName: Male White Knight 04 Blue
+        BodyMap: {fileID: 2800000, guid: 3fafbcab45114bb429ce9d09ac5b4292, type: 3}
+      - BodyName: Male White Knight 04 Brown
+        BodyMap: {fileID: 2800000, guid: ea125dba18e90074db683dc8a14507eb, type: 3}
+      - BodyName: Male White Knight 04 Green
+        BodyMap: {fileID: 2800000, guid: 51849399774ad204e99b5988fa3b791a, type: 3}
+      - BodyName: Male White Knight 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 20806a28c96adc244992a23f3207196e, type: 3}
+      - BodyName: Male White Knight 04 Purple
+        BodyMap: {fileID: 2800000, guid: f47e530159f23cf4692fd9d30fd7fc18, type: 3}
+      - BodyName: Male White Knight 04 Red
+        BodyMap: {fileID: 2800000, guid: d584d9a350cd28e438bad1c858580c28, type: 3}
+      - BodyName: Male White Knight 04 White
+        BodyMap: {fileID: 2800000, guid: 347d5552bb71edf43ad94c940100f888, type: 3}
+      - BodyName: Male White Knight 05 Black
+        BodyMap: {fileID: 2800000, guid: 921b35f445b6fbf45939275e17b91008, type: 3}
+      - BodyName: Male White Knight 05 Blue
+        BodyMap: {fileID: 2800000, guid: cc9af5806f9f5f845aab8850130c183e, type: 3}
+      - BodyName: Male White Knight 05 Brown
+        BodyMap: {fileID: 2800000, guid: ac761fa62e6c2064ea541f967062ab0b, type: 3}
+      - BodyName: Male White Knight 05 Green
+        BodyMap: {fileID: 2800000, guid: 933b31846134a6b40af77406113051e2, type: 3}
+      - BodyName: Male White Knight 05 Magenta
+        BodyMap: {fileID: 2800000, guid: eebeedfd140e45245b94f2b6593480e3, type: 3}
+      - BodyName: Male White Knight 05 Purple
+        BodyMap: {fileID: 2800000, guid: 90b29b0f6de085049b3d8c16eeb65e62, type: 3}
+      - BodyName: Male White Knight 05 Red
+        BodyMap: {fileID: 2800000, guid: 0f369b7b4fbe5ab4c89e142c584560a5, type: 3}
+      - BodyName: Male White Knight 05 White
+        BodyMap: {fileID: 2800000, guid: c304363e47b8ffc4690c8d35340ab4c8, type: 3}
+      - BodyName: Male White Knight 06 Black
+        BodyMap: {fileID: 2800000, guid: f93e0f0360b4af74cbfde3ee0dae33ea, type: 3}
+      - BodyName: Male White Knight 06 Blue
+        BodyMap: {fileID: 2800000, guid: 1c9f702143c402c468110614aff47153, type: 3}
+      - BodyName: Male White Knight 06 Green
+        BodyMap: {fileID: 2800000, guid: 8c57ab1e4d6a66e4d9c5cd74d0a1b142, type: 3}
+      - BodyName: Male White Knight 06 Magenta
+        BodyMap: {fileID: 2800000, guid: be6a7490315446541803a4a2790bfb1a, type: 3}
+      - BodyName: Male White Knight 06 Purple
+        BodyMap: {fileID: 2800000, guid: 1d8907f38ec50c743ad7e2fc31bffd2b, type: 3}
+      - BodyName: Male White Knight 06 Red
+        BodyMap: {fileID: 2800000, guid: 961bc95da5def214daaad37c0f2c72ab, type: 3}
+      - BodyName: Male White Knight 06 White
+        BodyMap: {fileID: 2800000, guid: 6ac4619da8d126c49a1218bcf5f92204, type: 3}
+      - BodyName: Male White Knight 06 Yellow
+        BodyMap: {fileID: 2800000, guid: ddfb802e95a1a14438f1f4ab4369d88f, type: 3}
+      - BodyName: Male White Knight 07 Black
+        BodyMap: {fileID: 2800000, guid: d7fa876c1b744bf419e1e48193cbaa36, type: 3}
+      - BodyName: Male White Knight 07 Blue
+        BodyMap: {fileID: 2800000, guid: 1132c30a81eb1504e9444da0450ba67b, type: 3}
+      - BodyName: Male White Knight 07 Green
+        BodyMap: {fileID: 2800000, guid: 7922f6f0142e8b247ba64cb9e3f3f8dd, type: 3}
+      - BodyName: Male White Knight 07 Magenta
+        BodyMap: {fileID: 2800000, guid: 7076f9ff4d8a05f4b8f5756cfef02b82, type: 3}
+      - BodyName: Male White Knight 07 Purple
+        BodyMap: {fileID: 2800000, guid: cdd5084ab8cba3242be12a79cb31e1b0, type: 3}
+      - BodyName: Male White Knight 07 Red
+        BodyMap: {fileID: 2800000, guid: 5caf2677f2d29f34980654f48ffdad57, type: 3}
+      - BodyName: Male White Knight 07 White
+        BodyMap: {fileID: 2800000, guid: b0c9dea9b0b7cf946adf493e4fa620c8, type: 3}
+      - BodyName: Male White Knight 07 Yellow
+        BodyMap: {fileID: 2800000, guid: 30cb4f78e71148d4e8fa893211b0427b, type: 3}
+      - BodyName: Male White Knight 08 Black
+        BodyMap: {fileID: 2800000, guid: 41e53e91b47973f4b904df8a06dc6f51, type: 3}
+      - BodyName: Male White Knight 08 Blue
+        BodyMap: {fileID: 2800000, guid: a8587ea655de2d243939a27178fa99e5, type: 3}
+      - BodyName: Male White Knight 08 Green
+        BodyMap: {fileID: 2800000, guid: 0b551de7ba259094682fdbb3e2831224, type: 3}
+      - BodyName: Male White Knight 08 Magenta
+        BodyMap: {fileID: 2800000, guid: 925667f8ce8bd1e45b5854238230df2c, type: 3}
+      - BodyName: Male White Knight 08 Purple
+        BodyMap: {fileID: 2800000, guid: 825d67338cf61c245a39c5c53cd97307, type: 3}
+      - BodyName: Male White Knight 08 Red
+        BodyMap: {fileID: 2800000, guid: a4c98bdfaf7d54640a76bce5dec9d834, type: 3}
+      - BodyName: Male White Knight 08 White
+        BodyMap: {fileID: 2800000, guid: ee21ca777edcedc4d89333f11fcc3565, type: 3}
+      - BodyName: Male White Knight 08 Yellow
+        BodyMap: {fileID: 2800000, guid: 7e8527721b5060f4a9a8a206ecd9cc89, type: 3}
+      - BodyName: Male White L Robe 01 Blue
+        BodyMap: {fileID: 2800000, guid: 3cbd082df2657374d8c4bae4758c7c19, type: 3}
+      - BodyName: Male White L Robe 01 Brown
+        BodyMap: {fileID: 2800000, guid: a8745536b1a43da4eb18e975093d8837, type: 3}
+      - BodyName: Male White L Robe 01 Green
+        BodyMap: {fileID: 2800000, guid: 68e648a4aa263df40ad0175a52da0e62, type: 3}
+      - BodyName: Male White L Robe 01 Purple
+        BodyMap: {fileID: 2800000, guid: 439b1758fb410dd45828b1a4c190a486, type: 3}
+      - BodyName: Male White L Robe 01 Red
+        BodyMap: {fileID: 2800000, guid: ad05c0c078f00ad42ba1e3940ce57243, type: 3}
+      - BodyName: Male White L Robe 02 Blue
+        BodyMap: {fileID: 2800000, guid: bafd663af65580f45af880bf3535c392, type: 3}
+      - BodyName: Male White L Robe 02 Brown
+        BodyMap: {fileID: 2800000, guid: 240a85de9f0e2624e83e049a8b82e22d, type: 3}
+      - BodyName: Male White L Robe 02 Green
+        BodyMap: {fileID: 2800000, guid: 2b6df4a7d2af00f45878a29f15eb85ab, type: 3}
+      - BodyName: Male White L Robe 02 Purple
+        BodyMap: {fileID: 2800000, guid: de569cd8564261f4fbcead6ff3e59838, type: 3}
+      - BodyName: Male White L Robe 02 Red
+        BodyMap: {fileID: 2800000, guid: 5a841717d96fcc441934d493c49083d1, type: 3}
+      - BodyName: Male White Naked
+        BodyMap: {fileID: 2800000, guid: 49a7c560a15b24a4e8c4783761168d29, type: 3}
+      - BodyName: Male White Nurse 01
+        BodyMap: {fileID: 2800000, guid: 9969b5877ac5c82408ecb9e07510e120, type: 3}
+      - BodyName: Male White Office 01A
+        BodyMap: {fileID: 2800000, guid: 6f89edfb7da747b41bb0eb2c6d0d37e3, type: 3}
+      - BodyName: Male White Office 01B
+        BodyMap: {fileID: 2800000, guid: 9959ccd68caa3e34db902df39d28fd46, type: 3}
+      - BodyName: Male White Office 01C
+        BodyMap: {fileID: 2800000, guid: aa9bb08752940a845b170a40870b642b, type: 3}
+      - BodyName: Male White Office 01D
+        BodyMap: {fileID: 2800000, guid: 37738b7be93bab04b9982d647c7fe750, type: 3}
+      - BodyName: Male White Office 02A
+        BodyMap: {fileID: 2800000, guid: ca53d54414836534d86c7aa05065b315, type: 3}
+      - BodyName: Male White Office 02B
+        BodyMap: {fileID: 2800000, guid: 99c7060b7e79088418cabdddbc2ebb38, type: 3}
+      - BodyName: Male White Office 02C
+        BodyMap: {fileID: 2800000, guid: 84398078bbfdcc94b989065f4caeafd5, type: 3}
+      - BodyName: Male White Office 02D
+        BodyMap: {fileID: 2800000, guid: 0fb9d4b4702338c4e8e1e727df6d2b7c, type: 3}
+      - BodyName: Male White Patient 01
+        BodyMap: {fileID: 2800000, guid: 85d4091f2237f0e40923188ddf7bb438, type: 3}
+      - BodyName: Male White Police 01
+        BodyMap: {fileID: 2800000, guid: 099a118247c14ef42ad6400b2ff949d1, type: 3}
+      - BodyName: Male White S Robe 01 Blue
+        BodyMap: {fileID: 2800000, guid: 78aaf4e5c1f62a74b9757271b0985244, type: 3}
+      - BodyName: Male White S Robe 01 Brown
+        BodyMap: {fileID: 2800000, guid: e06d4e3fdc336e34f93ec9671bfd68b2, type: 3}
+      - BodyName: Male White S Robe 01 Green
+        BodyMap: {fileID: 2800000, guid: bf70324ce2e3ed14db6bd49098bf8fad, type: 3}
+      - BodyName: Male White S Robe 01 Purple
+        BodyMap: {fileID: 2800000, guid: b407c05131df0b24d98c931601a53d9c, type: 3}
+      - BodyName: Male White S Robe 01 Red
+        BodyMap: {fileID: 2800000, guid: be0a1aff2575f4a4cb4aebfa49c84d98, type: 3}
+      - BodyName: Male White S Robe 02 Blue
+        BodyMap: {fileID: 2800000, guid: fc8dcc3fa3eb2b04ba7b3d56dd62322e, type: 3}
+      - BodyName: Male White S Robe 02 Brown
+        BodyMap: {fileID: 2800000, guid: cc1ad69609defbc45bb09277e7f449d8, type: 3}
+      - BodyName: Male White S Robe 02 Green
+        BodyMap: {fileID: 2800000, guid: 45f2eb0909d9c5f46971820015cf8e1a, type: 3}
+      - BodyName: Male White S Robe 02 Purple
+        BodyMap: {fileID: 2800000, guid: 485aaacac06c8614db15edaabd473176, type: 3}
+      - BodyName: Male White S Robe 02 Red
+        BodyMap: {fileID: 2800000, guid: 3a3f0a490d6f43749ba40bbaf1160144, type: 3}
+      - BodyName: Male White Santa 01
+        BodyMap: {fileID: 2800000, guid: f1c373f28f47ae64c899683e3fa6c891, type: 3}
+      - BodyName: Male White Sports 01A
+        BodyMap: {fileID: 2800000, guid: 3dc06c01b1eb1a24885f4ba25ddf8cae, type: 3}
+      - BodyName: Male White Sports 01B
+        BodyMap: {fileID: 2800000, guid: bb239f56649b63e458c2e946249515bf, type: 3}
+      - BodyName: Male White Sports 01C
+        BodyMap: {fileID: 2800000, guid: 22e4f95fdbfdc8646b862ae714ad1221, type: 3}
+      - BodyName: Male White Sports 01D
+        BodyMap: {fileID: 2800000, guid: afa02e0d80b2c20488124ffe72883500, type: 3}
+      - BodyName: Male White Sports 02A
+        BodyMap: {fileID: 2800000, guid: 3ef7e95c840067846b007fba8e7ca817, type: 3}
+      - BodyName: Male White Sports 02B
+        BodyMap: {fileID: 2800000, guid: 870657252b0d4814881c2b8969fe3a21, type: 3}
+      - BodyName: Male White Sports 02C
+        BodyMap: {fileID: 2800000, guid: 064f2893fc97e3c4fa6ebfccd6e7c010, type: 3}
+      - BodyName: Male White Sports 02D
+        BodyMap: {fileID: 2800000, guid: 5930364cd91a834469f1e62130c62683, type: 3}
+      - BodyName: Male White Sports 3A
+        BodyMap: {fileID: 2800000, guid: f2e48e87f730ce543b7aab7382bc0e04, type: 3}
+      - BodyName: Male White Sports 3B
+        BodyMap: {fileID: 2800000, guid: 2d40387f5946f0d44a4faa7190fd0859, type: 3}
+      - BodyName: Male White Sports 3C
+        BodyMap: {fileID: 2800000, guid: bc87193f0abc70e49bf2d0a5a46bb024, type: 3}
+      - BodyName: Male White Sports 3D
+        BodyMap: {fileID: 2800000, guid: a1c912d315f5d85409dd0be1ab1c0147, type: 3}
+      - BodyName: Male White Wizard 01 Black
+        BodyMap: {fileID: 2800000, guid: c04b694e6eff9d241882d929dfd664a7, type: 3}
+      - BodyName: Male White Wizard 01 Blue
+        BodyMap: {fileID: 2800000, guid: 958776b7747c39440ae10771a402e87e, type: 3}
+      - BodyName: Male White Wizard 01 Green
+        BodyMap: {fileID: 2800000, guid: 13888bf02aa6ff84d9fb9a9603e6de37, type: 3}
+      - BodyName: Male White Wizard 01 Purple
+        BodyMap: {fileID: 2800000, guid: 0767b7ba3371d7b4586c9501468ed093, type: 3}
+      - BodyName: Male White Wizard 01 Red
+        BodyMap: {fileID: 2800000, guid: 43521ce6643f8204498b77d54a3b34cc, type: 3}
+      - BodyName: Male White Wizard 01 White
+        BodyMap: {fileID: 2800000, guid: 90ddff3ba9a60a04bbdba2013995e2b8, type: 3}
+      - BodyName: Male White Wizard 02 Black
+        BodyMap: {fileID: 2800000, guid: 130e43247ef93ff44915f4d32e5cd66a, type: 3}
+      - BodyName: Male White Wizard 02 Blue
+        BodyMap: {fileID: 2800000, guid: 81503160678174d488687a3e0e165719, type: 3}
+      - BodyName: Male White Wizard 02 Brown
+        BodyMap: {fileID: 2800000, guid: f6bb3e8618defac4cacb87724ba46ebd, type: 3}
+      - BodyName: Male White Wizard 02 Green
+        BodyMap: {fileID: 2800000, guid: 430bfae70428d574eb029a755451cb94, type: 3}
+      - BodyName: Male White Wizard 02 Purple
+        BodyMap: {fileID: 2800000, guid: bfc7423d9beb0da4b9274280e1c1e18e, type: 3}
+      - BodyName: Male White Wizard 02 Red
+        BodyMap: {fileID: 2800000, guid: 1d24ca42c0ec69f4381705daf209774c, type: 3}
+      - BodyName: Male White Wizard 02 White
+        BodyMap: {fileID: 2800000, guid: 391fd020a490b2442943af7d275929c2, type: 3}
+      - BodyName: Male White Wizard 03 Black
+        BodyMap: {fileID: 2800000, guid: c3d2c5d137b477b499c05022c49768d1, type: 3}
+      - BodyName: Male White Wizard 03 Blue
+        BodyMap: {fileID: 2800000, guid: 9381ea0dd8a9b4444814b40dda0dc31d, type: 3}
+      - BodyName: Male White Wizard 03 Green
+        BodyMap: {fileID: 2800000, guid: 37863fa6048f31a4abc1c72195220673, type: 3}
+      - BodyName: Male White Wizard 03 Purple
+        BodyMap: {fileID: 2800000, guid: 4e9cf501f9a9ccf48b0228b1f8268d10, type: 3}
+      - BodyName: Male White Wizard 03 Red
+        BodyMap: {fileID: 2800000, guid: 1e793e21c8937484fa908121796bae4f, type: 3}
+      - BodyName: Male White Wizard 03 Yellow
+        BodyMap: {fileID: 2800000, guid: e6d322ed4b723984897c2d52703c3834, type: 3}
+      - BodyName: Male White Wizard 04 Black
+        BodyMap: {fileID: 2800000, guid: 7814442fd60bd8a43bb9847d87b25057, type: 3}
+      - BodyName: Male White Wizard 04 Blue
+        BodyMap: {fileID: 2800000, guid: 3190e128e7455684a9a6140bd0888f64, type: 3}
+      - BodyName: Male White Wizard 04 Brown
+        BodyMap: {fileID: 2800000, guid: 6c0301ce7b10d014db41b75556d57334, type: 3}
+      - BodyName: Male White Wizard 04 Green
+        BodyMap: {fileID: 2800000, guid: e7b2758afcf4a11469a5ef1736451272, type: 3}
+      - BodyName: Male White Wizard 04 Magenta
+        BodyMap: {fileID: 2800000, guid: b294f1a7ad6fc9c41a609d6ea2b7925c, type: 3}
+      - BodyName: Male White Wizard 04 Purple
+        BodyMap: {fileID: 2800000, guid: 47673075a1bf04e4cb51ec5f7e8a16b7, type: 3}
+      - BodyName: Male White Wizard 04 Red
+        BodyMap: {fileID: 2800000, guid: 1e02062470a49444facbd36862066495, type: 3}
+      - BodyName: Male White Wizard 04 White
+        BodyMap: {fileID: 2800000, guid: 750a030d24361544e825743fe9aa5200, type: 3}
+      - BodyName: Male White Wizard 05 Black
+        BodyMap: {fileID: 2800000, guid: 67b7a0e105ea72d47880ac6ecb64bf03, type: 3}
+      - BodyName: Male White Wizard 05 Blue
+        BodyMap: {fileID: 2800000, guid: a7f3e86fa59220f4d994188cb57efc2c, type: 3}
+      - BodyName: Male White Wizard 05 Brown
+        BodyMap: {fileID: 2800000, guid: 8aaf2bd76edd1384bb6dd804397ed6fb, type: 3}
+      - BodyName: Male White Wizard 05 Green
+        BodyMap: {fileID: 2800000, guid: bd057462b3eec3e4bb17d0cd2893ddda, type: 3}
+      - BodyName: Male White Wizard 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 7658efc26a8cd304d9ef46e6a218288e, type: 3}
+      - BodyName: Male White Wizard 05 Purple
+        BodyMap: {fileID: 2800000, guid: 5b8c00e9eef979b44ae4684c7d361b1a, type: 3}
+      - BodyName: Male White Wizard 05 Red
+        BodyMap: {fileID: 2800000, guid: c4e88e971ca3590438b67ab41e6cf37f, type: 3}
+      - BodyName: Male White Wizard 05 White
+        BodyMap: {fileID: 2800000, guid: e198d51ae7e989841a16b2494c1d2dc9, type: 3}
+      - BodyName: Male White Wizard 06 Black
+        BodyMap: {fileID: 2800000, guid: b1262e7ad71c7c54889f7cd1ba41eb5c, type: 3}
+      - BodyName: Male White Wizard 06 Blue
+        BodyMap: {fileID: 2800000, guid: cda615c5dd606d9459e7020c66254747, type: 3}
+      - BodyName: Male White Wizard 06 Brown
+        BodyMap: {fileID: 2800000, guid: 24c2e3beeec041948a54e99e8ad1daf8, type: 3}
+      - BodyName: Male White Wizard 06 Green
+        BodyMap: {fileID: 2800000, guid: bb000b207e49dc346b837d188a2cca4f, type: 3}
+      - BodyName: Male White Wizard 06 Magenta
+        BodyMap: {fileID: 2800000, guid: 56590a8e8e2a4dd49b2c8ba38c4a5572, type: 3}
+      - BodyName: Male White Wizard 06 Purple
+        BodyMap: {fileID: 2800000, guid: 100ba1ffb154b804e9bbeb27337ade3f, type: 3}
+      - BodyName: Male White Wizard 06 Red
+        BodyMap: {fileID: 2800000, guid: 0c6aa7be4c3963b4daab3411735903e0, type: 3}
+      - BodyName: Male White Wizard 06 White
+        BodyMap: {fileID: 2800000, guid: 565c3235765072d4d98167d1e6c9268a, type: 3}
+    - Skin: 1
+      Paths: Assets/CubeWorld_Assets/Internal_Assets/Prefabs/CustomProps/Body/Male/Brown
+      BodyData:
+      - BodyName: Male Brown Archer 01 Black
+        BodyMap: {fileID: 2800000, guid: 327261de248305a4b8005ef9ca5662b1, type: 3}
+      - BodyName: Male Brown Archer 01 Blue
+        BodyMap: {fileID: 2800000, guid: 138ebd9974397a84c9ce4ee86c797b8d, type: 3}
+      - BodyName: Male Brown Archer 01 Green
+        BodyMap: {fileID: 2800000, guid: eb01e6f2300142e43a25d3fb05389a00, type: 3}
+      - BodyName: Male Brown Archer 01 Maroon
+        BodyMap: {fileID: 2800000, guid: 0163df9eeff064b4bace592a382c2d08, type: 3}
+      - BodyName: Male Brown Archer 01 Olive
+        BodyMap: {fileID: 2800000, guid: 653088819b1321746a5c32af22ba5972, type: 3}
+      - BodyName: Male Brown Archer 01 Purple
+        BodyMap: {fileID: 2800000, guid: 856c968ca3e52ba4e9cd617ed2d3315b, type: 3}
+      - BodyName: Male Brown Archer 01 White
+        BodyMap: {fileID: 2800000, guid: 067ce75bcdbffe544a101665b1a0f159, type: 3}
+      - BodyName: Male Brown Archer 02 Blue
+        BodyMap: {fileID: 2800000, guid: 7f431ef40396bed4781d4d29fc24d917, type: 3}
+      - BodyName: Male Brown Archer 02 Green
+        BodyMap: {fileID: 2800000, guid: b479ac19af036b5439d6dbe039a8cfd5, type: 3}
+      - BodyName: Male Brown Archer 02 Olive
+        BodyMap: {fileID: 2800000, guid: a3f4c606dff500e4f8e763cd01a14f33, type: 3}
+      - BodyName: Male Brown Archer 02 Purple
+        BodyMap: {fileID: 2800000, guid: 7f4b51bb15a3ab34fae6639351a40935, type: 3}
+      - BodyName: Male Brown Archer 02 Red
+        BodyMap: {fileID: 2800000, guid: 141864ea11177ae4ea984344823091f5, type: 3}
+      - BodyName: Male Brown Archer 02 White
+        BodyMap: {fileID: 2800000, guid: 8de5396d0935c84429dcb3ce46ff0df3, type: 3}
+      - BodyName: Male Brown Archer 03 Black
+        BodyMap: {fileID: 2800000, guid: 00c2fa1ac8c7fc94f911b32709c64d9c, type: 3}
+      - BodyName: Male Brown Archer 03 Blue
+        BodyMap: {fileID: 2800000, guid: 0016640dc5791174aa0ca8d67c510d1f, type: 3}
+      - BodyName: Male Brown Archer 03 Green
+        BodyMap: {fileID: 2800000, guid: 4e87c678ed4a35f4a9c3d1e8f4b108d3, type: 3}
+      - BodyName: Male Brown Archer 03 Magenta
+        BodyMap: {fileID: 2800000, guid: 91cd472831d95854fbf356753f2ffce6, type: 3}
+      - BodyName: Male Brown Archer 03 Purple
+        BodyMap: {fileID: 2800000, guid: d192c22b5e39f7f4d9651893cecc1f11, type: 3}
+      - BodyName: Male Brown Archer 03 Red
+        BodyMap: {fileID: 2800000, guid: 8a859ebeea256b24089b7b97eec6b8f7, type: 3}
+      - BodyName: Male Brown Archer 03 White
+        BodyMap: {fileID: 2800000, guid: 5dc746b7c1aba1f4b969dd9e06720334, type: 3}
+      - BodyName: Male Brown Archer 03 Yellow
+        BodyMap: {fileID: 2800000, guid: 75ce667046a17b64bac115d9b6ac4eb1, type: 3}
+      - BodyName: Male Brown Archer 04 Black
+        BodyMap: {fileID: 2800000, guid: d52f0dfab3b6cb2438a13a3b4b861d08, type: 3}
+      - BodyName: Male Brown Archer 04 Blue
+        BodyMap: {fileID: 2800000, guid: 577571b7ed94e0e41b41a4e9d694b17d, type: 3}
+      - BodyName: Male Brown Archer 04 Green
+        BodyMap: {fileID: 2800000, guid: 245caa7eb0f30c641b3549f47533b256, type: 3}
+      - BodyName: Male Brown Archer 04 Magenta
+        BodyMap: {fileID: 2800000, guid: ea0065a6982aa5946922977bf9c5c5d9, type: 3}
+      - BodyName: Male Brown Archer 04 Purple
+        BodyMap: {fileID: 2800000, guid: 314562aee8823ce4294c5a326c8d4e5f, type: 3}
+      - BodyName: Male Brown Archer 04 Red
+        BodyMap: {fileID: 2800000, guid: 9301c8a856990b443be4f663027f5b91, type: 3}
+      - BodyName: Male Brown Archer 04 White
+        BodyMap: {fileID: 2800000, guid: c77eadff601ac154084cd9c638d6ea04, type: 3}
+      - BodyName: Male Brown Archer 04 Yellow
+        BodyMap: {fileID: 2800000, guid: 7eba6d5009a49ee498ee39a6ca734226, type: 3}
+      - BodyName: Male Brown Archer 05 Black
+        BodyMap: {fileID: 2800000, guid: 8bb2631b2442cfd47a9890c18e35d771, type: 3}
+      - BodyName: Male Brown Archer 05 Blue
+        BodyMap: {fileID: 2800000, guid: 59c9012abd568aa479471872399a28a0, type: 3}
+      - BodyName: Male Brown Archer 05 Green
+        BodyMap: {fileID: 2800000, guid: bdbc5978c5a13284a81945f1f8cb65b0, type: 3}
+      - BodyName: Male Brown Archer 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 4392d6474be1efa4a86c467159ffbdea, type: 3}
+      - BodyName: Male Brown Archer 05 Purple
+        BodyMap: {fileID: 2800000, guid: 145803f1d978ab04bb2ca1291fdc1756, type: 3}
+      - BodyName: Male Brown Archer 05 Red
+        BodyMap: {fileID: 2800000, guid: 0bc4ff40ab2cf014eaf21e8820cac205, type: 3}
+      - BodyName: Male Brown Archer 05 White
+        BodyMap: {fileID: 2800000, guid: 5d6038c203d78b94d8344c850dc05e79, type: 3}
+      - BodyName: Male Brown Archer 05 Yellow
+        BodyMap: {fileID: 2800000, guid: 690ec3c0f73545540a8f1c3bfc45f8ab, type: 3}
+      - BodyName: Male Brown Barbarian 01 Blue
+        BodyMap: {fileID: 2800000, guid: d23f5d758f97c6147b2e6ef6d6e8ca91, type: 3}
+      - BodyName: Male Brown Barbarian 01 Green
+        BodyMap: {fileID: 2800000, guid: 7c98602fb452cb3428d3bc39ed67da06, type: 3}
+      - BodyName: Male Brown Barbarian 01 Purple
+        BodyMap: {fileID: 2800000, guid: 33bcb72432a4b34478d72b73daa4efb1, type: 3}
+      - BodyName: Male Brown Barbarian 01 Red
+        BodyMap: {fileID: 2800000, guid: 2ac678a76da83d6498173b117e75dc5d, type: 3}
+      - BodyName: Male Brown Barbarian 02 Black
+        BodyMap: {fileID: 2800000, guid: 48ad1c1e5a756b74bbc23d4a0aaafc98, type: 3}
+      - BodyName: Male Brown Barbarian 02 Blue
+        BodyMap: {fileID: 2800000, guid: 9db221da9076e644e97b6be06a43c93e, type: 3}
+      - BodyName: Male Brown Barbarian 02 Brown
+        BodyMap: {fileID: 2800000, guid: fc0cfa53b12c847458a3526e9aaf43b4, type: 3}
+      - BodyName: Male Brown Barbarian 02 Green
+        BodyMap: {fileID: 2800000, guid: 1fbd73114810f2544913fa954f15053d, type: 3}
+      - BodyName: Male Brown Barbarian 02 Purple
+        BodyMap: {fileID: 2800000, guid: ce4f8e9e49b31054f9a6ec4904e4ced9, type: 3}
+      - BodyName: Male Brown Barbarian 02 White
+        BodyMap: {fileID: 2800000, guid: 9eb7e7ed1c7a9774faa47f1e78252156, type: 3}
+      - BodyName: Male Brown Barbarian 03 Black
+        BodyMap: {fileID: 2800000, guid: 10d72c181367a8f4f850ddbe64685df3, type: 3}
+      - BodyName: Male Brown Barbarian 03 Blue
+        BodyMap: {fileID: 2800000, guid: 8c1182366814a314ca7be6a76de16af0, type: 3}
+      - BodyName: Male Brown Barbarian 03 Brown
+        BodyMap: {fileID: 2800000, guid: 8676f0bc8a869f44aa0aa1e67f57de30, type: 3}
+      - BodyName: Male Brown Barbarian 03 Green
+        BodyMap: {fileID: 2800000, guid: e3036999cb6cdb944afd7823408d7641, type: 3}
+      - BodyName: Male Brown Barbarian 03 Magenta
+        BodyMap: {fileID: 2800000, guid: 74b4163433ab3994384f06fa121f75b5, type: 3}
+      - BodyName: Male Brown Barbarian 03 Purple
+        BodyMap: {fileID: 2800000, guid: 7d315c3c2f03eb149ae810eadd79d697, type: 3}
+      - BodyName: Male Brown Barbarian 03 Red
+        BodyMap: {fileID: 2800000, guid: def6d4fa2d6ede4489fb121a5ee6fbc5, type: 3}
+      - BodyName: Male Brown Barbarian 03 White
+        BodyMap: {fileID: 2800000, guid: c4d8d8211ae79be469a1c5ec38cb1408, type: 3}
+      - BodyName: Male Brown Barbarian 04 Black
+        BodyMap: {fileID: 2800000, guid: 8f9b6cfa1b5d25549b974e34b8c3854f, type: 3}
+      - BodyName: Male Brown Barbarian 04 Blue
+        BodyMap: {fileID: 2800000, guid: 241890c84fa0fe848bd9ca264060daa8, type: 3}
+      - BodyName: Male Brown Barbarian 04 Green
+        BodyMap: {fileID: 2800000, guid: bd20aa6476609684dac6283bd6e040ff, type: 3}
+      - BodyName: Male Brown Barbarian 04 Magenta
+        BodyMap: {fileID: 2800000, guid: ff6a69a46ef896147ba9cac4870a9eed, type: 3}
+      - BodyName: Male Brown Barbarian 04 Purple
+        BodyMap: {fileID: 2800000, guid: 2a06ae83844a7f140b2723c25cfc4a57, type: 3}
+      - BodyName: Male Brown Barbarian 04 Red
+        BodyMap: {fileID: 2800000, guid: 61b9112d3cb1559458e2251d46b4a7d6, type: 3}
+      - BodyName: Male Brown Barbarian 04 White
+        BodyMap: {fileID: 2800000, guid: 08a27218e32263d48a36a1e5c88d797a, type: 3}
+      - BodyName: Male Brown Barbarian 04 Yellow
+        BodyMap: {fileID: 2800000, guid: 0cc957bc6cb2fbd428a51fb11924daf1, type: 3}
+      - BodyName: Male Brown Barbarian 05 Black
+        BodyMap: {fileID: 2800000, guid: 01609ff0d69a0b7458725033a6a447b0, type: 3}
+      - BodyName: Male Brown Barbarian 05 Blue
+        BodyMap: {fileID: 2800000, guid: 11d7ac85cd106b44a84c0513ffeedd2d, type: 3}
+      - BodyName: Male Brown Barbarian 05 Green
+        BodyMap: {fileID: 2800000, guid: cd1e92d5c4d6c404597b2cbb44822bbc, type: 3}
+      - BodyName: Male Brown Barbarian 05 Magenta
+        BodyMap: {fileID: 2800000, guid: c4e88a02ab7d8be4199e35e93c410300, type: 3}
+      - BodyName: Male Brown Barbarian 05 Purple
+        BodyMap: {fileID: 2800000, guid: 5039c0ae7c916254e876bf0c0e7e381f, type: 3}
+      - BodyName: Male Brown Barbarian 05 Red
+        BodyMap: {fileID: 2800000, guid: 3c9cc0ed862f4da4e83d34f7b78b9b27, type: 3}
+      - BodyName: Male Brown Barbarian 05 White
+        BodyMap: {fileID: 2800000, guid: 456e93b1842deda4d9a3188e5df4411b, type: 3}
+      - BodyName: Male Brown Barbarian 05 Yellow
+        BodyMap: {fileID: 2800000, guid: add43ea370c46644994024eb427265d0, type: 3}
+      - BodyName: Male Brown Barbarian 06 Black
+        BodyMap: {fileID: 2800000, guid: 15a2b3172bbf3ef4db472c1e40e1c4b5, type: 3}
+      - BodyName: Male Brown Barbarian 06 Blue
+        BodyMap: {fileID: 2800000, guid: ae53ac618b88cbd47a67644e362581ce, type: 3}
+      - BodyName: Male Brown Barbarian 06 Green
+        BodyMap: {fileID: 2800000, guid: 51252f5bdce07a743842cd22b296c259, type: 3}
+      - BodyName: Male Brown Barbarian 06 Magenta
+        BodyMap: {fileID: 2800000, guid: 7c461a9576b370044b8c57a1edfd5646, type: 3}
+      - BodyName: Male Brown Barbarian 06 Purple
+        BodyMap: {fileID: 2800000, guid: fd3af9f332765c2478b4c77b2e014753, type: 3}
+      - BodyName: Male Brown Barbarian 06 Red
+        BodyMap: {fileID: 2800000, guid: 66e35f3ecb699dd4db59cc06062606d7, type: 3}
+      - BodyName: Male Brown Barbarian 06 White
+        BodyMap: {fileID: 2800000, guid: 13d60de6ab5c32a409494ee4e3aa875a, type: 3}
+      - BodyName: Male Brown Barbarian 06 Yellow
+        BodyMap: {fileID: 2800000, guid: a6664801f3d3bb743a20def26f0addef, type: 3}
+      - BodyName: Male Brown Casual 01A 1
+        BodyMap: {fileID: 2800000, guid: 712cbf19f6146a14498883a81c3a8cd2, type: 3}
+      - BodyName: Male Brown Casual 01A
+        BodyMap: {fileID: 2800000, guid: 4260e5c07cad2be49903adc087ef2439, type: 3}
+      - BodyName: Male Brown Casual 01B 1
+        BodyMap: {fileID: 2800000, guid: f2ef414fc9b00374fa54c10b5cd008ba, type: 3}
+      - BodyName: Male Brown Casual 01B
+        BodyMap: {fileID: 2800000, guid: 0eea97553c9941541a24beeae2eb3caf, type: 3}
+      - BodyName: Male Brown Casual 01C 1
+        BodyMap: {fileID: 2800000, guid: 0d88e561adfc2ff4fb9f7f9fced74562, type: 3}
+      - BodyName: Male Brown Casual 01C
+        BodyMap: {fileID: 2800000, guid: ff666ca4ea3d7db48b6daf9d972f98a8, type: 3}
+      - BodyName: Male Brown Casual 01D
+        BodyMap: {fileID: 2800000, guid: ca67cf8197fadf14bbaa37ec6da89b32, type: 3}
+      - BodyName: Male Brown Casual 02A
+        BodyMap: {fileID: 2800000, guid: 5acd0a91d7becad45a47da1663194b06, type: 3}
+      - BodyName: Male Brown Casual 02B
+        BodyMap: {fileID: 2800000, guid: b47d6ca94f4fe684ba89ba16c3c780f3, type: 3}
+      - BodyName: Male Brown Casual 02C
+        BodyMap: {fileID: 2800000, guid: 0b52da7570a218d4987342d3c7791924, type: 3}
+      - BodyName: Male Brown Casual 03A
+        BodyMap: {fileID: 2800000, guid: 665c821b8fa31d641a7023cba6bfbf5c, type: 3}
+      - BodyName: Male Brown Casual 03B
+        BodyMap: {fileID: 2800000, guid: f34e467e535a65448a97074b732b8cb7, type: 3}
+      - BodyName: Male Brown Casual 03C
+        BodyMap: {fileID: 2800000, guid: ae40f3578461fb441b2751f3d4a33d33, type: 3}
+      - BodyName: Male Brown Casual 04A
+        BodyMap: {fileID: 2800000, guid: 7e082d74dd3b4f446897022dbf789579, type: 3}
+      - BodyName: Male Brown Casual 04B
+        BodyMap: {fileID: 2800000, guid: b5ce6411e69e424429bd956e60be838f, type: 3}
+      - BodyName: Male Brown Casual 04C
+        BodyMap: {fileID: 2800000, guid: 828aab42ce0154a428379693d486c8d9, type: 3}
+      - BodyName: Male Brown Casual 05A
+        BodyMap: {fileID: 2800000, guid: 3c7f43b29536725449ee57c5f2d34e1f, type: 3}
+      - BodyName: Male Brown Casual 05B
+        BodyMap: {fileID: 2800000, guid: e9b2eb1643281d542968af7bef250591, type: 3}
+      - BodyName: Male Brown Casual 05C
+        BodyMap: {fileID: 2800000, guid: 06ef8aaf811dd504b8dea5f66ba3ccee, type: 3}
+      - BodyName: Male Brown Casual 06A
+        BodyMap: {fileID: 2800000, guid: bed00ab2ad512634eb6d0cf913bd5464, type: 3}
+      - BodyName: Male Brown Casual 06B
+        BodyMap: {fileID: 2800000, guid: feefeb7c3635003429c336b36ebd662e, type: 3}
+      - BodyName: Male Brown Casual 06C
+        BodyMap: {fileID: 2800000, guid: 21fe64656cc7bc5459fc38e25e733127, type: 3}
+      - BodyName: Male Brown Casual 07A
+        BodyMap: {fileID: 2800000, guid: d65a8bd4b66558d49852848bed1215a0, type: 3}
+      - BodyName: Male Brown Casual 07B
+        BodyMap: {fileID: 2800000, guid: 0d486ee5412043649b1415eeed57f37a, type: 3}
+      - BodyName: Male Brown Casual 07C
+        BodyMap: {fileID: 2800000, guid: a355890d73fcf6240b6a10509711fe02, type: 3}
+      - BodyName: Male Brown Casual 08A
+        BodyMap: {fileID: 2800000, guid: 9dca04f0e2bda1c489b109ee31d4fd39, type: 3}
+      - BodyName: Male Brown Casual 08B
+        BodyMap: {fileID: 2800000, guid: d86fa97d9e9339f40b0540356d764faa, type: 3}
+      - BodyName: Male Brown Casual 08C
+        BodyMap: {fileID: 2800000, guid: 23f0f972391c2614aac7e7c3777eea2b, type: 3}
+      - BodyName: Male Brown Doctor 01
+        BodyMap: {fileID: 2800000, guid: 8a41d42fc19e72949bed3450f49fae70, type: 3}
+      - BodyName: Male Brown Fireman 01
+        BodyMap: {fileID: 2800000, guid: 732f184d6228d5741a63c3bf692fbf0a, type: 3}
+      - BodyName: Male Brown Fireman 02
+        BodyMap: {fileID: 2800000, guid: d1a28c9505dae244388cf6ad9690da2a, type: 3}
+      - BodyName: Male Brown King 01 Black
+        BodyMap: {fileID: 2800000, guid: a0537b50afaf51943b5a1beb3eb67c02, type: 3}
+      - BodyName: Male Brown King 01 Blue
+        BodyMap: {fileID: 2800000, guid: 2160c09ce2bb31e49bbb4a04f4031bd7, type: 3}
+      - BodyName: Male Brown King 01 Green
+        BodyMap: {fileID: 2800000, guid: 4aca65fc3a299c847a6dce9944cbdcef, type: 3}
+      - BodyName: Male Brown King 01 Magenta
+        BodyMap: {fileID: 2800000, guid: 3c675d3942b971b48ab566054246b41d, type: 3}
+      - BodyName: Male Brown King 01 Purple
+        BodyMap: {fileID: 2800000, guid: 0f29d5df41dd5724fa698f603018deb3, type: 3}
+      - BodyName: Male Brown King 01 Red
+        BodyMap: {fileID: 2800000, guid: 558dbbb00b61aa04bafc55daa87ff0e8, type: 3}
+      - BodyName: Male Brown King 01 White
+        BodyMap: {fileID: 2800000, guid: 6db3daaefb6edec4abe5127eaa426b3a, type: 3}
+      - BodyName: Male Brown King 01 Yellow
+        BodyMap: {fileID: 2800000, guid: fad9227c512f98f43a01cc5556100638, type: 3}
+      - BodyName: Male Brown Knight 01 Black
+        BodyMap: {fileID: 2800000, guid: 2f24bb79ac57a3342978b4f128ef2750, type: 3}
+      - BodyName: Male Brown Knight 01 Blue
+        BodyMap: {fileID: 2800000, guid: b01ea71f776704042a4ef66a2169d080, type: 3}
+      - BodyName: Male Brown Knight 01 Red
+        BodyMap: {fileID: 2800000, guid: 6f51ab6f0a63b1b408782b69228e7a26, type: 3}
+      - BodyName: Male Brown Knight 01 White
+        BodyMap: {fileID: 2800000, guid: 7d442eda0b5abc54d86e03ec95e2c1ad, type: 3}
+      - BodyName: Male Brown Knight 02 Black
+        BodyMap: {fileID: 2800000, guid: 3ee77b763ace943439f0b1a3ddfd8db1, type: 3}
+      - BodyName: Male Brown Knight 02 Blue
+        BodyMap: {fileID: 2800000, guid: 6f21d81193091fb4386363c313082478, type: 3}
+      - BodyName: Male Brown Knight 02 Green
+        BodyMap: {fileID: 2800000, guid: 751c49ee5fc881343a820a3a5c335991, type: 3}
+      - BodyName: Male Brown Knight 02 Purple
+        BodyMap: {fileID: 2800000, guid: 6a83196bb4f4b834782557dfc8ab8f8f, type: 3}
+      - BodyName: Male Brown Knight 02 Red
+        BodyMap: {fileID: 2800000, guid: 8a429a060029aa647b11de3adede9071, type: 3}
+      - BodyName: Male Brown Knight 02 White
+        BodyMap: {fileID: 2800000, guid: 9ebc09cfac01baa49b20bf165a5801fc, type: 3}
+      - BodyName: Male Brown Knight 03 Black
+        BodyMap: {fileID: 2800000, guid: c2ee308d821f51642b3855d568ff879c, type: 3}
+      - BodyName: Male Brown Knight 03 Blue
+        BodyMap: {fileID: 2800000, guid: 42dfcff8262a55f4bb7f154fcffa98de, type: 3}
+      - BodyName: Male Brown Knight 03 Brown
+        BodyMap: {fileID: 2800000, guid: f7bfa83ccb329f74da6f27436cfdd348, type: 3}
+      - BodyName: Male Brown Knight 03 Green
+        BodyMap: {fileID: 2800000, guid: 9c6ba44efaacac94ebab33106516857a, type: 3}
+      - BodyName: Male Brown Knight 03 Magenta
+        BodyMap: {fileID: 2800000, guid: 8878c926036306a4a8016c335d75358b, type: 3}
+      - BodyName: Male Brown Knight 03 Purple
+        BodyMap: {fileID: 2800000, guid: 31146fba14f427a469950ddf965839e0, type: 3}
+      - BodyName: Male Brown Knight 03 Red
+        BodyMap: {fileID: 2800000, guid: 797518f7de4141142baf5976dc009f79, type: 3}
+      - BodyName: Male Brown Knight 03 White
+        BodyMap: {fileID: 2800000, guid: 3307b1f2a86b7cc4aa5c26d6b813762e, type: 3}
+      - BodyName: Male Brown Knight 04 Black
+        BodyMap: {fileID: 2800000, guid: 5e0c7c25dfa52f54e89a3d5b7756c254, type: 3}
+      - BodyName: Male Brown Knight 04 Blue
+        BodyMap: {fileID: 2800000, guid: 0292d83f5e177d24080fc14bc98b23f8, type: 3}
+      - BodyName: Male Brown Knight 04 Brown
+        BodyMap: {fileID: 2800000, guid: 5f202d58cff80c547803b06818d68656, type: 3}
+      - BodyName: Male Brown Knight 04 Green
+        BodyMap: {fileID: 2800000, guid: c49984bb373bdb34ca83055a7f3d5bf5, type: 3}
+      - BodyName: Male Brown Knight 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 6a0e175b15ebe0b4c88501de2642dcb5, type: 3}
+      - BodyName: Male Brown Knight 04 Purple
+        BodyMap: {fileID: 2800000, guid: e29c4c7f75b4bd04891e85745e55b37c, type: 3}
+      - BodyName: Male Brown Knight 04 Red
+        BodyMap: {fileID: 2800000, guid: af1c853fd9efe4147942020ad99b21ea, type: 3}
+      - BodyName: Male Brown Knight 04 White
+        BodyMap: {fileID: 2800000, guid: c60891a58d354ff4791b34f0eb948ad3, type: 3}
+      - BodyName: Male Brown Knight 05 Black
+        BodyMap: {fileID: 2800000, guid: a6b03b4037856994eb9abbe12a2a6d38, type: 3}
+      - BodyName: Male Brown Knight 05 Blue
+        BodyMap: {fileID: 2800000, guid: 284d7666bfa084d46a049410f79e18d3, type: 3}
+      - BodyName: Male Brown Knight 05 Brown
+        BodyMap: {fileID: 2800000, guid: 92eb49fd682c2b84faa2415e76ad9cac, type: 3}
+      - BodyName: Male Brown Knight 05 Green
+        BodyMap: {fileID: 2800000, guid: 2167a7755ebd9584b80f62ac30d1be99, type: 3}
+      - BodyName: Male Brown Knight 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 7ccd01895f638874097c9e9ec64a15e2, type: 3}
+      - BodyName: Male Brown Knight 05 Purple
+        BodyMap: {fileID: 2800000, guid: 2f121812216c1394b8df163f31a63eaa, type: 3}
+      - BodyName: Male Brown Knight 05 Red
+        BodyMap: {fileID: 2800000, guid: fa2697aa8704ec748bf21da97cb06425, type: 3}
+      - BodyName: Male Brown Knight 05 White
+        BodyMap: {fileID: 2800000, guid: 6137216f2c09ce9419c3ec30bfc3cbff, type: 3}
+      - BodyName: Male Brown Knight 06 Black
+        BodyMap: {fileID: 2800000, guid: c164fb432aba72545a54e21c041c39cf, type: 3}
+      - BodyName: Male Brown Knight 06 Blue
+        BodyMap: {fileID: 2800000, guid: 71f82a489e6a74f48ab83f7f350565e6, type: 3}
+      - BodyName: Male Brown Knight 06 Green
+        BodyMap: {fileID: 2800000, guid: 056e161117eaff445a72079ca4fe3731, type: 3}
+      - BodyName: Male Brown Knight 06 Magenta
+        BodyMap: {fileID: 2800000, guid: 6fe05be7591eed04f9a81cb13410f7c3, type: 3}
+      - BodyName: Male Brown Knight 06 Purple
+        BodyMap: {fileID: 2800000, guid: 5bcdbedc8433e124c94f3ceea3561dfa, type: 3}
+      - BodyName: Male Brown Knight 06 Red
+        BodyMap: {fileID: 2800000, guid: 0422e485809ba2244ae55b768a3ee327, type: 3}
+      - BodyName: Male Brown Knight 06 White
+        BodyMap: {fileID: 2800000, guid: 44ae01d85dabd094a85299d89d5675de, type: 3}
+      - BodyName: Male Brown Knight 06 Yellow
+        BodyMap: {fileID: 2800000, guid: 59ec998312817c146b1ae2dbae767b88, type: 3}
+      - BodyName: Male Brown Knight 07 Black
+        BodyMap: {fileID: 2800000, guid: f77f9229776132a45bf718ec59a6f725, type: 3}
+      - BodyName: Male Brown Knight 07 Blue
+        BodyMap: {fileID: 2800000, guid: 6d6312fdae79e914dbb3ecfa49797065, type: 3}
+      - BodyName: Male Brown Knight 07 Green
+        BodyMap: {fileID: 2800000, guid: 656d1ea6b0b97bb45a6d5fa890de2c13, type: 3}
+      - BodyName: Male Brown Knight 07 Magenta
+        BodyMap: {fileID: 2800000, guid: fbfdfa90134eb6746835ca95c526ebc9, type: 3}
+      - BodyName: Male Brown Knight 07 Purple
+        BodyMap: {fileID: 2800000, guid: 88bb75b32c8e20d4ba881797ae70c090, type: 3}
+      - BodyName: Male Brown Knight 07 Red
+        BodyMap: {fileID: 2800000, guid: 626ee9b93b601b24a893ae62d2526fc2, type: 3}
+      - BodyName: Male Brown Knight 07 White
+        BodyMap: {fileID: 2800000, guid: fe5d29bd931fc6444a302adb8b76eabf, type: 3}
+      - BodyName: Male Brown Knight 07 Yellow
+        BodyMap: {fileID: 2800000, guid: 3a958d07a19b42044a0873644a532d46, type: 3}
+      - BodyName: Male Brown Knight 08 Black
+        BodyMap: {fileID: 2800000, guid: 131a8ecadc92a5546ba06fcc39ab7ce6, type: 3}
+      - BodyName: Male Brown Knight 08 Blue
+        BodyMap: {fileID: 2800000, guid: f90658277592ff84e8c4871e85ca6d9a, type: 3}
+      - BodyName: Male Brown Knight 08 Green
+        BodyMap: {fileID: 2800000, guid: 5ceff83c44a794b4bb491ea96cfb0495, type: 3}
+      - BodyName: Male Brown Knight 08 Magenta
+        BodyMap: {fileID: 2800000, guid: c43327262dc57cf41a2efa15855497dc, type: 3}
+      - BodyName: Male Brown Knight 08 Purple
+        BodyMap: {fileID: 2800000, guid: 9dee66216fd351440b084006befe365a, type: 3}
+      - BodyName: Male Brown Knight 08 Red
+        BodyMap: {fileID: 2800000, guid: 0e5c06a644620fa4199e4b082d4e3092, type: 3}
+      - BodyName: Male Brown Knight 08 White
+        BodyMap: {fileID: 2800000, guid: 28ee4673041b7dc4fbef064352c4b8ae, type: 3}
+      - BodyName: Male Brown Knight 08 Yellow
+        BodyMap: {fileID: 2800000, guid: 57c503c4d855b0341ae00dd7b5d0ef14, type: 3}
+      - BodyName: Male Brown L Robe 01 Blue
+        BodyMap: {fileID: 2800000, guid: 361db49e0aeee404bb66de7532e3ea90, type: 3}
+      - BodyName: Male Brown L Robe 01 Brown
+        BodyMap: {fileID: 2800000, guid: 4c484da7637f8864ca7fba6cf21c5b80, type: 3}
+      - BodyName: Male Brown L Robe 01 Green
+        BodyMap: {fileID: 2800000, guid: e4d7a20e8a5d146499cea0e12f1c2f71, type: 3}
+      - BodyName: Male Brown L Robe 01 Purple
+        BodyMap: {fileID: 2800000, guid: 50e61a56b263aa64fb0633612d57ae3a, type: 3}
+      - BodyName: Male Brown L Robe 01 Red
+        BodyMap: {fileID: 2800000, guid: d9dc372daf147ce4eb96f16fc17da84a, type: 3}
+      - BodyName: Male Brown L Robe 02 Blue
+        BodyMap: {fileID: 2800000, guid: 0df0da85edd5b3f44bed2e92fe82e63c, type: 3}
+      - BodyName: Male Brown L Robe 02 Brown
+        BodyMap: {fileID: 2800000, guid: adf713e3ee6b821439ef6dda21c98022, type: 3}
+      - BodyName: Male Brown L Robe 02 Green
+        BodyMap: {fileID: 2800000, guid: 13434674bbbf01148b0e1f88f69dcfaa, type: 3}
+      - BodyName: Male Brown L Robe 02 Purple
+        BodyMap: {fileID: 2800000, guid: 780ea6f2f9a45dd46a6726bf636cf974, type: 3}
+      - BodyName: Male Brown L Robe 02 Red
+        BodyMap: {fileID: 2800000, guid: 2deb1b8a019bdb64a93a881a92b44afc, type: 3}
+      - BodyName: Male Brown Naked
+        BodyMap: {fileID: 2800000, guid: 92af7a08d062fdb48ac52b0be9eafcd6, type: 3}
+      - BodyName: Male Brown Nurse 01
+        BodyMap: {fileID: 2800000, guid: 38107f629742d1140a40106003236e27, type: 3}
+      - BodyName: Male Brown Office 01A
+        BodyMap: {fileID: 2800000, guid: 9232f08967c01e94dbf8e572faf3d1d6, type: 3}
+      - BodyName: Male Brown Office 01B
+        BodyMap: {fileID: 2800000, guid: b74574aacdb672e418356fd024ee7b57, type: 3}
+      - BodyName: Male Brown Office 01C
+        BodyMap: {fileID: 2800000, guid: e1d202e59f92c7045ac0fb01b6525637, type: 3}
+      - BodyName: Male Brown Office 01D
+        BodyMap: {fileID: 2800000, guid: 2fa03831c6440054bad8de095e86260e, type: 3}
+      - BodyName: Male Brown Office 02A
+        BodyMap: {fileID: 2800000, guid: c27fa613dfc02de41a7ac5786b6509c1, type: 3}
+      - BodyName: Male Brown Office 02B
+        BodyMap: {fileID: 2800000, guid: bb9d089ebd14d2745a427778f52ad4d9, type: 3}
+      - BodyName: Male Brown Office 02C
+        BodyMap: {fileID: 2800000, guid: 53371257340b8e648a2f3c8014cd80c0, type: 3}
+      - BodyName: Male Brown Office 02D
+        BodyMap: {fileID: 2800000, guid: 14bdc3fbe7da3fd41996f1d3eb4aa8e9, type: 3}
+      - BodyName: Male Brown Patient 01
+        BodyMap: {fileID: 2800000, guid: d3bcad6e0836a5141a764ec5e4286679, type: 3}
+      - BodyName: Male Brown Police 01
+        BodyMap: {fileID: 2800000, guid: f02f5f77072c448499547eadb3853afc, type: 3}
+      - BodyName: Male Brown S Robe 01 Blue
+        BodyMap: {fileID: 2800000, guid: 145a3530721636b4492e2448d6f2a898, type: 3}
+      - BodyName: Male Brown S Robe 01 Brown
+        BodyMap: {fileID: 2800000, guid: 822d974754f501346bf3f6166a37e8aa, type: 3}
+      - BodyName: Male Brown S Robe 01 Green
+        BodyMap: {fileID: 2800000, guid: fba6776cfb2eadf4f8cd9b162d973fd6, type: 3}
+      - BodyName: Male Brown S Robe 01 Purple
+        BodyMap: {fileID: 2800000, guid: ee36b870619bb454e89f50bd0eb7f429, type: 3}
+      - BodyName: Male Brown S Robe 01 Red
+        BodyMap: {fileID: 2800000, guid: c330ae57b3f35834f8f0b38485e98efa, type: 3}
+      - BodyName: Male Brown S Robe 02 Blue
+        BodyMap: {fileID: 2800000, guid: 658946735051e004e83d33786efb610c, type: 3}
+      - BodyName: Male Brown S Robe 02 Brown
+        BodyMap: {fileID: 2800000, guid: 3cd26c094c5ae414dbcb538091761883, type: 3}
+      - BodyName: Male Brown S Robe 02 Green
+        BodyMap: {fileID: 2800000, guid: 585fe3cff9b26354c8291d29dc426761, type: 3}
+      - BodyName: Male Brown S Robe 02 Purple
+        BodyMap: {fileID: 2800000, guid: 1ecf4a597ff8b4b469d6953f7faf315d, type: 3}
+      - BodyName: Male Brown S Robe 02 Red
+        BodyMap: {fileID: 2800000, guid: 81ae8ed8185d205458a877474b1fe87a, type: 3}
+      - BodyName: Male Brown Santa 01
+        BodyMap: {fileID: 2800000, guid: 25153a446f0cbb049b769c1c72b7a5a1, type: 3}
+      - BodyName: Male Brown Sports 01A
+        BodyMap: {fileID: 2800000, guid: bf2d1b13bb7b4a144b29f8aabb35e131, type: 3}
+      - BodyName: Male Brown Sports 01B
+        BodyMap: {fileID: 2800000, guid: 1d303b22edff3d348b121781b6d652aa, type: 3}
+      - BodyName: Male Brown Sports 01C
+        BodyMap: {fileID: 2800000, guid: d3159c4eae2f50b48a12dd988d6ce3a1, type: 3}
+      - BodyName: Male Brown Sports 01D
+        BodyMap: {fileID: 2800000, guid: 8bbfb41f7b613d94584a9ab887848324, type: 3}
+      - BodyName: Male Brown Sports 02A
+        BodyMap: {fileID: 2800000, guid: e150e89d84e214344a4d39e8d9518cb4, type: 3}
+      - BodyName: Male Brown Sports 02B
+        BodyMap: {fileID: 2800000, guid: d6546bf963fa48343bf7c50810dc873c, type: 3}
+      - BodyName: Male Brown Sports 02C
+        BodyMap: {fileID: 2800000, guid: d0884b6929d212b42819dc3c12768ec1, type: 3}
+      - BodyName: Male Brown Sports 02D
+        BodyMap: {fileID: 2800000, guid: dfe5c34e70dd2584abb2e72b0cc5597b, type: 3}
+      - BodyName: Male Brown Sports 3A
+        BodyMap: {fileID: 2800000, guid: 09029a5fc018d9147b85fe620d0abab7, type: 3}
+      - BodyName: Male Brown Sports 3B
+        BodyMap: {fileID: 2800000, guid: fee713ddc220e24438a2a9f998ff3fe7, type: 3}
+      - BodyName: Male Brown Sports 3C
+        BodyMap: {fileID: 2800000, guid: 21f45614249c60945a17701fef03b909, type: 3}
+      - BodyName: Male Brown Sports 3D
+        BodyMap: {fileID: 2800000, guid: b35f1ae246809cf48a0b07e91b18bc74, type: 3}
+      - BodyName: Male Brown Wizard 01 Black
+        BodyMap: {fileID: 2800000, guid: 8501d96f197d53e4aba243c85dda8f29, type: 3}
+      - BodyName: Male Brown Wizard 01 Blue
+        BodyMap: {fileID: 2800000, guid: 868e7ed47f1f01747942402828bac8a0, type: 3}
+      - BodyName: Male Brown Wizard 01 Green
+        BodyMap: {fileID: 2800000, guid: 99903b6e079ba614a861947d1a184d78, type: 3}
+      - BodyName: Male Brown Wizard 01 Purple
+        BodyMap: {fileID: 2800000, guid: 0c37e3fe6eb379a438b2a8f5bc1aff61, type: 3}
+      - BodyName: Male Brown Wizard 01 Red
+        BodyMap: {fileID: 2800000, guid: 742e0b81e270c91478ea65b4f95a9dc1, type: 3}
+      - BodyName: Male Brown Wizard 01 White
+        BodyMap: {fileID: 2800000, guid: 4352ebda2ce50c442ba2ce6dec33e574, type: 3}
+      - BodyName: Male Brown Wizard 02 Black
+        BodyMap: {fileID: 2800000, guid: 76723a033bc156340b1bb7a87fee08fc, type: 3}
+      - BodyName: Male Brown Wizard 02 Blue
+        BodyMap: {fileID: 2800000, guid: 2880b4aa2f878a7469067ab936dee15a, type: 3}
+      - BodyName: Male Brown Wizard 02 Brown
+        BodyMap: {fileID: 2800000, guid: 60ba3fd5c780d714692a0ca00b0921a0, type: 3}
+      - BodyName: Male Brown Wizard 02 Green
+        BodyMap: {fileID: 2800000, guid: 186db40dd40ace54c8ed79ba98977933, type: 3}
+      - BodyName: Male Brown Wizard 02 Purple
+        BodyMap: {fileID: 2800000, guid: a9ca307a530978846b5b499a68bea13c, type: 3}
+      - BodyName: Male Brown Wizard 02 Red
+        BodyMap: {fileID: 2800000, guid: 39b01ac1c5db619428d2ba2b972285e7, type: 3}
+      - BodyName: Male Brown Wizard 02 White
+        BodyMap: {fileID: 2800000, guid: 8b8c61315776d114ebec49eda3225cfa, type: 3}
+      - BodyName: Male Brown Wizard 03 Black
+        BodyMap: {fileID: 2800000, guid: f62b0e62faff1394c8165e63f368d80d, type: 3}
+      - BodyName: Male Brown Wizard 03 Blue
+        BodyMap: {fileID: 2800000, guid: 19c67b8168bb65849b7a7e14a00ef602, type: 3}
+      - BodyName: Male Brown Wizard 03 Green
+        BodyMap: {fileID: 2800000, guid: 745e7656609ec664c945b2fd484ea3f1, type: 3}
+      - BodyName: Male Brown Wizard 03 Purple
+        BodyMap: {fileID: 2800000, guid: 147571897eddd2b4c8bef12ac0ad36b5, type: 3}
+      - BodyName: Male Brown Wizard 03 Red
+        BodyMap: {fileID: 2800000, guid: 0c1f92b961391c448a4e3f46419e078a, type: 3}
+      - BodyName: Male Brown Wizard 03 Yellow
+        BodyMap: {fileID: 2800000, guid: edcf3581b3dcf7f45a4448a117eeb8e9, type: 3}
+      - BodyName: Male Brown Wizard 04 Black
+        BodyMap: {fileID: 2800000, guid: 974cab7750e87f049b6e629a68946ea8, type: 3}
+      - BodyName: Male Brown Wizard 04 Blue
+        BodyMap: {fileID: 2800000, guid: cc6d18f11eeeef54493143df62d112db, type: 3}
+      - BodyName: Male Brown Wizard 04 Brown
+        BodyMap: {fileID: 2800000, guid: 371bf74427a881744aead1365bfc209e, type: 3}
+      - BodyName: Male Brown Wizard 04 Green
+        BodyMap: {fileID: 2800000, guid: 3796a63a9630dca4aadd384a0259c2c7, type: 3}
+      - BodyName: Male Brown Wizard 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 12f0755e1eeea7e478481e8795e76e0f, type: 3}
+      - BodyName: Male Brown Wizard 04 Purple
+        BodyMap: {fileID: 2800000, guid: 7ec77f85a9a39bf40ba6c4a1d6da987d, type: 3}
+      - BodyName: Male Brown Wizard 04 Red
+        BodyMap: {fileID: 2800000, guid: e7e8a4d0d5c9ac74d9a9a4b740007c46, type: 3}
+      - BodyName: Male Brown Wizard 04 White
+        BodyMap: {fileID: 2800000, guid: 27b13da4cf2de2a40bf629265f245734, type: 3}
+      - BodyName: Male Brown Wizard 05 Black
+        BodyMap: {fileID: 2800000, guid: 666acdeebdabe0a4b8fef5d6fcdb88e7, type: 3}
+      - BodyName: Male Brown Wizard 05 Blue
+        BodyMap: {fileID: 2800000, guid: 94afdb22524311748a043919f08101db, type: 3}
+      - BodyName: Male Brown Wizard 05 Brown
+        BodyMap: {fileID: 2800000, guid: 507c9c53028e8b84a8367874a096f671, type: 3}
+      - BodyName: Male Brown Wizard 05 Green
+        BodyMap: {fileID: 2800000, guid: 5e77f949af3dff343a4813f3f83fbee7, type: 3}
+      - BodyName: Male Brown Wizard 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 1d6ae97827a2103459ff23fabb3bb497, type: 3}
+      - BodyName: Male Brown Wizard 05 Purple
+        BodyMap: {fileID: 2800000, guid: 05f94d62919a89e40bb851097d1424e7, type: 3}
+      - BodyName: Male Brown Wizard 05 Red
+        BodyMap: {fileID: 2800000, guid: d48aa3b91a1ea044b9da1b1af391a042, type: 3}
+      - BodyName: Male Brown Wizard 05 White
+        BodyMap: {fileID: 2800000, guid: ab2f5a80f0ef3aa42b957b66d30672a9, type: 3}
+      - BodyName: Male Brown Wizard 06 Black
+        BodyMap: {fileID: 2800000, guid: 3b4fc49d7c84c404b90c120fd4f65408, type: 3}
+      - BodyName: Male Brown Wizard 06 Blue
+        BodyMap: {fileID: 2800000, guid: 3c25730bb9dd8e9499137226f59b563d, type: 3}
+      - BodyName: Male Brown Wizard 06 Brown
+        BodyMap: {fileID: 2800000, guid: 032abc90048cae944b6cc113a83b11ba, type: 3}
+      - BodyName: Male Brown Wizard 06 Green
+        BodyMap: {fileID: 2800000, guid: f7534738201894c4bbbc4b6d6e5b2713, type: 3}
+      - BodyName: Male Brown Wizard 06 Magenta
+        BodyMap: {fileID: 2800000, guid: 89a4e199257edc74baf5228235170225, type: 3}
+      - BodyName: Male Brown Wizard 06 Purple
+        BodyMap: {fileID: 2800000, guid: e913712bb74b82a4797e1f709025bd02, type: 3}
+      - BodyName: Male Brown Wizard 06 Red
+        BodyMap: {fileID: 2800000, guid: 1deebfd32387b4e43a4f6e0b00092588, type: 3}
+      - BodyName: Male Brown Wizard 06 White
+        BodyMap: {fileID: 2800000, guid: 3620168330aec4e46bb3d7f8048c36e3, type: 3}
+    - Skin: 2
+      Paths: Assets/CubeWorld_Assets/Internal_Assets/Prefabs/CustomProps/Body/Male/Black
+      BodyData:
+      - BodyName: Male Black Archer 01 Black
+        BodyMap: {fileID: 2800000, guid: 6a9e291c1bfe45c4a87109f244605fe7, type: 3}
+      - BodyName: Male Black Archer 01 Blue
+        BodyMap: {fileID: 2800000, guid: eb596fc1c9c62dd4d877e5d84afd325f, type: 3}
+      - BodyName: Male Black Archer 01 Green
+        BodyMap: {fileID: 2800000, guid: a60cc5a237c425b4f94b0963e9c92245, type: 3}
+      - BodyName: Male Black Archer 01 Maroon
+        BodyMap: {fileID: 2800000, guid: ec5c9d0eaec00f44ca8114489a809b6a, type: 3}
+      - BodyName: Male Black Archer 01 Olive
+        BodyMap: {fileID: 2800000, guid: 5aafdf35efdfb7b45b45beef68d102ef, type: 3}
+      - BodyName: Male Black Archer 01 Purple
+        BodyMap: {fileID: 2800000, guid: 68699ba85daa6b841a011d9a65fd4393, type: 3}
+      - BodyName: Male Black Archer 01 White
+        BodyMap: {fileID: 2800000, guid: f1aaea33aa648624989c3439c43d2a81, type: 3}
+      - BodyName: Male Black Archer 02 Blue
+        BodyMap: {fileID: 2800000, guid: cf772c4e28f879e42addad27ae86ffc1, type: 3}
+      - BodyName: Male Black Archer 02 Green
+        BodyMap: {fileID: 2800000, guid: 6c7abf818f65eaa459c1821228632f19, type: 3}
+      - BodyName: Male Black Archer 02 Olive
+        BodyMap: {fileID: 2800000, guid: 7d103667f4063b246ac8513c730727c7, type: 3}
+      - BodyName: Male Black Archer 02 Purple
+        BodyMap: {fileID: 2800000, guid: 2149f025895136a4e8a9683bed06c3ad, type: 3}
+      - BodyName: Male Black Archer 02 Red
+        BodyMap: {fileID: 2800000, guid: f4ea41e917ec0a1428645dfab86f3279, type: 3}
+      - BodyName: Male Black Archer 02 White
+        BodyMap: {fileID: 2800000, guid: c0cf583c4babb644aa37c1b3f544276d, type: 3}
+      - BodyName: Male Black Archer 03 Black
+        BodyMap: {fileID: 2800000, guid: 3504956a2996c2142a49abb0ebac1a1f, type: 3}
+      - BodyName: Male Black Archer 03 Blue
+        BodyMap: {fileID: 2800000, guid: 895582927adbadb4ebeeba5d6984859c, type: 3}
+      - BodyName: Male Black Archer 03 Green
+        BodyMap: {fileID: 2800000, guid: 3f8e9922a6899a84ea5cebec3027fe35, type: 3}
+      - BodyName: Male Black Archer 03 Magenta
+        BodyMap: {fileID: 2800000, guid: 2f69a43a895c46642bd552e26d5109fe, type: 3}
+      - BodyName: Male Black Archer 03 Purple
+        BodyMap: {fileID: 2800000, guid: 741c104cf187ef94d9a616f1d30e1c4e, type: 3}
+      - BodyName: Male Black Archer 03 Red
+        BodyMap: {fileID: 2800000, guid: 654f65f2a117cf448a3a73acd4a18265, type: 3}
+      - BodyName: Male Black Archer 03 White
+        BodyMap: {fileID: 2800000, guid: c7bc42e8c36c6c74388bb6bd2b8ab397, type: 3}
+      - BodyName: Male Black Archer 03 Yellow
+        BodyMap: {fileID: 2800000, guid: 9c10d8161778bc9478c16cc517504023, type: 3}
+      - BodyName: Male Black Archer 04 Black
+        BodyMap: {fileID: 2800000, guid: 1e5727894feb23344a9e067e80525776, type: 3}
+      - BodyName: Male Black Archer 04 Blue
+        BodyMap: {fileID: 2800000, guid: 13e26ff8248d7284eae929f76d467667, type: 3}
+      - BodyName: Male Black Archer 04 Green
+        BodyMap: {fileID: 2800000, guid: d037e72e7b8a4154e8a91751e71202aa, type: 3}
+      - BodyName: Male Black Archer 04 Magenta
+        BodyMap: {fileID: 2800000, guid: b41f0231a5260a84082cd994c8a73408, type: 3}
+      - BodyName: Male Black Archer 04 Purple
+        BodyMap: {fileID: 2800000, guid: 887dafd6497fae144b780e29fa0c3b59, type: 3}
+      - BodyName: Male Black Archer 04 Red
+        BodyMap: {fileID: 2800000, guid: 4f8f7298bf19a324095a109cb954faee, type: 3}
+      - BodyName: Male Black Archer 04 White
+        BodyMap: {fileID: 2800000, guid: 9feff17292e86c747a1ccc094b1055ab, type: 3}
+      - BodyName: Male Black Archer 04 Yellow
+        BodyMap: {fileID: 2800000, guid: 6b838f8d6419744468d2f2ef2c822246, type: 3}
+      - BodyName: Male Black Archer 05 Black
+        BodyMap: {fileID: 2800000, guid: 018fc7c1a951d864791ff1e9da0c4032, type: 3}
+      - BodyName: Male Black Archer 05 Blue
+        BodyMap: {fileID: 2800000, guid: ca789b574d1a46944ac3754420298b87, type: 3}
+      - BodyName: Male Black Archer 05 Green
+        BodyMap: {fileID: 2800000, guid: a0de2f001e6824e40966d43985f54d41, type: 3}
+      - BodyName: Male Black Archer 05 Magenta
+        BodyMap: {fileID: 2800000, guid: a5b2fef11fd5d6949bcec350008451bb, type: 3}
+      - BodyName: Male Black Archer 05 Purple
+        BodyMap: {fileID: 2800000, guid: 7fa00c8e1ef4e32438a61f821d7dfee4, type: 3}
+      - BodyName: Male Black Archer 05 Red
+        BodyMap: {fileID: 2800000, guid: c3d89030e8210b845ac522e54c43de75, type: 3}
+      - BodyName: Male Black Archer 05 White
+        BodyMap: {fileID: 2800000, guid: 06b32ad4319b563428239e0070fb2073, type: 3}
+      - BodyName: Male Black Archer 05 Yellow
+        BodyMap: {fileID: 2800000, guid: 3837d342ba1801d4f83c5748e25539ad, type: 3}
+      - BodyName: Male Black Barbarian 01 Blue
+        BodyMap: {fileID: 2800000, guid: e241ca9b624452a49aa3058fb0ee6b58, type: 3}
+      - BodyName: Male Black Barbarian 01 Green
+        BodyMap: {fileID: 2800000, guid: b4d911ba2a2e4704dada92394de1a7da, type: 3}
+      - BodyName: Male Black Barbarian 01 Purple
+        BodyMap: {fileID: 2800000, guid: 68a26c3c0c0f50e49aab0be862827ac3, type: 3}
+      - BodyName: Male Black Barbarian 01 Red
+        BodyMap: {fileID: 2800000, guid: a46e89dc601a6ad43805012155f1e80d, type: 3}
+      - BodyName: Male Black Barbarian 02 Black
+        BodyMap: {fileID: 2800000, guid: 8cc2f58514fb73e4cae6364b5d934f80, type: 3}
+      - BodyName: Male Black Barbarian 02 Blue
+        BodyMap: {fileID: 2800000, guid: f1855c88662460649bc116a87c25427e, type: 3}
+      - BodyName: Male Black Barbarian 02 Brown
+        BodyMap: {fileID: 2800000, guid: a2fc975461ce09e46b80854aed7c46b5, type: 3}
+      - BodyName: Male Black Barbarian 02 Green
+        BodyMap: {fileID: 2800000, guid: 77c52e3bd3973b94092fdc2c9e7b9584, type: 3}
+      - BodyName: Male Black Barbarian 02 Purple
+        BodyMap: {fileID: 2800000, guid: 1909bedf804e63242ac7b066390a9807, type: 3}
+      - BodyName: Male Black Barbarian 02 White
+        BodyMap: {fileID: 2800000, guid: c0534b320bb650f4382c916790562b92, type: 3}
+      - BodyName: Male Black Barbarian 03 Black
+        BodyMap: {fileID: 2800000, guid: 3c59629dd3f69ca44bde892c1738fe4d, type: 3}
+      - BodyName: Male Black Barbarian 03 Blue
+        BodyMap: {fileID: 2800000, guid: 3a99f8b6428f3d84cafe857e5bf7d04a, type: 3}
+      - BodyName: Male Black Barbarian 03 Brown
+        BodyMap: {fileID: 2800000, guid: 127310599415d804f8d3e22721b33a53, type: 3}
+      - BodyName: Male Black Barbarian 03 Green
+        BodyMap: {fileID: 2800000, guid: 1a12f986855558547823bc0a2f777fb9, type: 3}
+      - BodyName: Male Black Barbarian 03 Magenta
+        BodyMap: {fileID: 2800000, guid: 67c5ded209d2e8044b182e3b2e32545d, type: 3}
+      - BodyName: Male Black Barbarian 03 Purple
+        BodyMap: {fileID: 2800000, guid: 4c4f932d3e88b634b927feafc945c945, type: 3}
+      - BodyName: Male Black Barbarian 03 Red
+        BodyMap: {fileID: 2800000, guid: 60455b4e34f98e2419d7ec40311222dd, type: 3}
+      - BodyName: Male Black Barbarian 03 White
+        BodyMap: {fileID: 2800000, guid: a12595ec62f22d2458b62c442d013c62, type: 3}
+      - BodyName: Male Black Barbarian 04 Black
+        BodyMap: {fileID: 2800000, guid: a85655f355481544390a5e7ae0288a19, type: 3}
+      - BodyName: Male Black Barbarian 04 Blue
+        BodyMap: {fileID: 2800000, guid: 1a18c06af2affe545b8ba9a39b828fb9, type: 3}
+      - BodyName: Male Black Barbarian 04 Green
+        BodyMap: {fileID: 2800000, guid: ac92a83369f62c144a4038727f1bc0ca, type: 3}
+      - BodyName: Male Black Barbarian 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 8520fd0bf2783144dbcfef5002efff0c, type: 3}
+      - BodyName: Male Black Barbarian 04 Purple
+        BodyMap: {fileID: 2800000, guid: 5eb87c733db2e544b96ad9963ab3fd44, type: 3}
+      - BodyName: Male Black Barbarian 04 Red
+        BodyMap: {fileID: 2800000, guid: 1bcb23be24d7f5945ab7a9810fba5405, type: 3}
+      - BodyName: Male Black Barbarian 04 White
+        BodyMap: {fileID: 2800000, guid: 3b93344273d64904b92645e132e449b8, type: 3}
+      - BodyName: Male Black Barbarian 04 Yellow
+        BodyMap: {fileID: 2800000, guid: 839e9869663bf4540a25042b37cba04f, type: 3}
+      - BodyName: Male Black Barbarian 05 Black
+        BodyMap: {fileID: 2800000, guid: e725c526369c6b64fb40c1b120f97e1f, type: 3}
+      - BodyName: Male Black Barbarian 05 Blue
+        BodyMap: {fileID: 2800000, guid: c02a17e5d8c5f284fa80f44be1626c2b, type: 3}
+      - BodyName: Male Black Barbarian 05 Green
+        BodyMap: {fileID: 2800000, guid: b8276c7fe77fdf146a7e58ade9755998, type: 3}
+      - BodyName: Male Black Barbarian 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 64fceda48c2cf8d42a867ddad1fc2943, type: 3}
+      - BodyName: Male Black Barbarian 05 Purple
+        BodyMap: {fileID: 2800000, guid: e4c2d781e73e0354ea67861d37b653d2, type: 3}
+      - BodyName: Male Black Barbarian 05 Red
+        BodyMap: {fileID: 2800000, guid: cea9d277f82b3484c89781e679d2fdb3, type: 3}
+      - BodyName: Male Black Barbarian 05 White
+        BodyMap: {fileID: 2800000, guid: a037428f9c3980b40a2148b240031421, type: 3}
+      - BodyName: Male Black Barbarian 05 Yellow
+        BodyMap: {fileID: 2800000, guid: 245681a17b74bfc4fa2ec460be140c99, type: 3}
+      - BodyName: Male Black Barbarian 06 Black
+        BodyMap: {fileID: 2800000, guid: 9ef6fdf4db3908c42aea3314a3da8803, type: 3}
+      - BodyName: Male Black Barbarian 06 Blue
+        BodyMap: {fileID: 2800000, guid: eafcabc86bd2c184bbbd35cf3b49013c, type: 3}
+      - BodyName: Male Black Barbarian 06 Green
+        BodyMap: {fileID: 2800000, guid: 62a8e1b33804c6a41a2e849f73c623f5, type: 3}
+      - BodyName: Male Black Barbarian 06 Magenta
+        BodyMap: {fileID: 2800000, guid: 5bf7a38d5a2fc044c81f6a536d68ba51, type: 3}
+      - BodyName: Male Black Barbarian 06 Purple
+        BodyMap: {fileID: 2800000, guid: b0842f461a9c502459ccfcf4e9dd2ca1, type: 3}
+      - BodyName: Male Black Barbarian 06 Red
+        BodyMap: {fileID: 2800000, guid: c1f65fddd46673d45adbeb0d49c85314, type: 3}
+      - BodyName: Male Black Barbarian 06 White
+        BodyMap: {fileID: 2800000, guid: 16b85b7c205925744bc3591952f594a6, type: 3}
+      - BodyName: Male Black Barbarian 06 Yellow
+        BodyMap: {fileID: 2800000, guid: 7a15ba8892b738a4b9ab557bdcd67aa7, type: 3}
+      - BodyName: Male Black Casual 01A 1
+        BodyMap: {fileID: 2800000, guid: cc7f5795967966b44a016a8c9a97d038, type: 3}
+      - BodyName: Male Black Casual 01A
+        BodyMap: {fileID: 2800000, guid: 27cb25726d1df4242bf0d814208463a0, type: 3}
+      - BodyName: Male Black Casual 01B 1
+        BodyMap: {fileID: 2800000, guid: 02eae577bec510a4ea4f288e90bd0973, type: 3}
+      - BodyName: Male Black Casual 01B
+        BodyMap: {fileID: 2800000, guid: 99743c14f17f58f4d803ad9e15ead661, type: 3}
+      - BodyName: Male Black Casual 01C 1
+        BodyMap: {fileID: 2800000, guid: 27b40e9f8677e6247ba84ccc2dd2718b, type: 3}
+      - BodyName: Male Black Casual 01C
+        BodyMap: {fileID: 2800000, guid: 623f7483f51b0fd41aa105eb9935a8bb, type: 3}
+      - BodyName: Male Black Casual 01D
+        BodyMap: {fileID: 2800000, guid: 6fc23105e42b34941924c853c3ec103d, type: 3}
+      - BodyName: Male Black Casual 02A
+        BodyMap: {fileID: 2800000, guid: abcd5aebb1740f441a7391e194f2e035, type: 3}
+      - BodyName: Male Black Casual 02B
+        BodyMap: {fileID: 2800000, guid: 1fd6386ff46d9f64b9ca11c53ed5846f, type: 3}
+      - BodyName: Male Black Casual 02C
+        BodyMap: {fileID: 2800000, guid: 53f9f5d6825520c4290e9cf188b169bf, type: 3}
+      - BodyName: Male Black Casual 03A
+        BodyMap: {fileID: 2800000, guid: b308d3441c5f91a4a8731740a28ec49f, type: 3}
+      - BodyName: Male Black Casual 03B
+        BodyMap: {fileID: 2800000, guid: 2a1d26f51d51cee419392e05b22fb754, type: 3}
+      - BodyName: Male Black Casual 03C
+        BodyMap: {fileID: 2800000, guid: 69b1e9f2464259b4795a757c5bf01fc7, type: 3}
+      - BodyName: Male Black Casual 04A
+        BodyMap: {fileID: 2800000, guid: f09fb01ae18ac5e4a899eabf9fbf7675, type: 3}
+      - BodyName: Male Black Casual 04B
+        BodyMap: {fileID: 2800000, guid: e0bd68b4a90cb904ba3735270f521f66, type: 3}
+      - BodyName: Male Black Casual 04C
+        BodyMap: {fileID: 2800000, guid: 79b12d98b4e07f344bb7d72abbe3da93, type: 3}
+      - BodyName: Male Black Casual 05A
+        BodyMap: {fileID: 2800000, guid: dd5e452f1a2693548ab3efe57c697f11, type: 3}
+      - BodyName: Male Black Casual 05B
+        BodyMap: {fileID: 2800000, guid: 127d7ad38ca511b4ba1541435d0af702, type: 3}
+      - BodyName: Male Black Casual 05C
+        BodyMap: {fileID: 2800000, guid: 78ba03cd21632b14982b89c58bbbbcad, type: 3}
+      - BodyName: Male Black Casual 06A
+        BodyMap: {fileID: 2800000, guid: 278fff08fb2ce024588012f95d2dde33, type: 3}
+      - BodyName: Male Black Casual 06B
+        BodyMap: {fileID: 2800000, guid: 7ba6036a51ce7b341a731de86ed0664f, type: 3}
+      - BodyName: Male Black Casual 06C
+        BodyMap: {fileID: 2800000, guid: ba784cd59b71ff54c8af1829ae807ebf, type: 3}
+      - BodyName: Male Black Casual 07A
+        BodyMap: {fileID: 2800000, guid: 4a2a55baa75e38d47a633675cf0c5f4c, type: 3}
+      - BodyName: Male Black Casual 07B
+        BodyMap: {fileID: 2800000, guid: fe143194a3e76304c8dea4b0780720c7, type: 3}
+      - BodyName: Male Black Casual 07C
+        BodyMap: {fileID: 2800000, guid: f6d0b07dfadf69644b88b5b7270b82db, type: 3}
+      - BodyName: Male Black Casual 08A
+        BodyMap: {fileID: 2800000, guid: 92dcdf4af699b404a93404beb2f38883, type: 3}
+      - BodyName: Male Black Casual 08B
+        BodyMap: {fileID: 2800000, guid: 1f1bdca547fb4434bb975ede64486a98, type: 3}
+      - BodyName: Male Black Casual 08C
+        BodyMap: {fileID: 2800000, guid: ec259863e92b7ee4bbd46101a0f64597, type: 3}
+      - BodyName: Male Black Doctor 01
+        BodyMap: {fileID: 2800000, guid: 2e2bf75f731891c489b4a2bd6f3ba996, type: 3}
+      - BodyName: Male Black Fireman 01
+        BodyMap: {fileID: 2800000, guid: e6cb0a85b64d4354f8d1080626ffa117, type: 3}
+      - BodyName: Male Black Fireman 02
+        BodyMap: {fileID: 2800000, guid: 92ad1333b77add44f95a18fc2f5cbd9b, type: 3}
+      - BodyName: Male Black King 01 Black
+        BodyMap: {fileID: 2800000, guid: 09bb2db28161d584a84886dcbb6876b1, type: 3}
+      - BodyName: Male Black King 01 Blue
+        BodyMap: {fileID: 2800000, guid: d9d749a7f8a0a9e42919ca6279531183, type: 3}
+      - BodyName: Male Black King 01 Green
+        BodyMap: {fileID: 2800000, guid: 9173ed44005440648bcc4fbd07990619, type: 3}
+      - BodyName: Male Black King 01 Magenta
+        BodyMap: {fileID: 2800000, guid: d98eaf4e58cb5504b8823ef813677a80, type: 3}
+      - BodyName: Male Black King 01 Purple
+        BodyMap: {fileID: 2800000, guid: 6ef88f31300f110438855617733fcfdb, type: 3}
+      - BodyName: Male Black King 01 Red
+        BodyMap: {fileID: 2800000, guid: c3f56be8a127d414a85255d004d42265, type: 3}
+      - BodyName: Male Black King 01 White
+        BodyMap: {fileID: 2800000, guid: a518203f39ac0a742b40a39366bbb215, type: 3}
+      - BodyName: Male Black King 01 Yellow
+        BodyMap: {fileID: 2800000, guid: 3be0543514052a3419d0e89a6cfd106e, type: 3}
+      - BodyName: Male Black Knight 01 Black
+        BodyMap: {fileID: 2800000, guid: c386daa15d50f464a8d06060bbf44bd8, type: 3}
+      - BodyName: Male Black Knight 01 Blue
+        BodyMap: {fileID: 2800000, guid: 46cf1e894b37e3a4d89d8831b69138bd, type: 3}
+      - BodyName: Male Black Knight 01 Red
+        BodyMap: {fileID: 2800000, guid: 031c35b67945dc14d88c0d23f0f91020, type: 3}
+      - BodyName: Male Black Knight 01 White
+        BodyMap: {fileID: 2800000, guid: 6cd8eb2b25eb96d4381410bcb6802dbb, type: 3}
+      - BodyName: Male Black Knight 02 Black
+        BodyMap: {fileID: 2800000, guid: 10a1c7072d95b994a928437249bec3ca, type: 3}
+      - BodyName: Male Black Knight 02 Blue
+        BodyMap: {fileID: 2800000, guid: 3cd997fac9f3e95499e3c305832f5e71, type: 3}
+      - BodyName: Male Black Knight 02 Green
+        BodyMap: {fileID: 2800000, guid: 975e3684b5be3cb40a4e3a5365035e53, type: 3}
+      - BodyName: Male Black Knight 02 Purple
+        BodyMap: {fileID: 2800000, guid: a25db62e4c305ba4fb826599212bed89, type: 3}
+      - BodyName: Male Black Knight 02 Red
+        BodyMap: {fileID: 2800000, guid: 8af7a2bd2cfcfc94aac180b152c16bbd, type: 3}
+      - BodyName: Male Black Knight 02 White
+        BodyMap: {fileID: 2800000, guid: 8e9a353ad4acfda409faf706528950a9, type: 3}
+      - BodyName: Male Black Knight 03 Black
+        BodyMap: {fileID: 2800000, guid: fe70228651f4188489f0d620875e366a, type: 3}
+      - BodyName: Male Black Knight 03 Blue
+        BodyMap: {fileID: 2800000, guid: 50d555ffead7b0a47b0059b8bbc7b5cd, type: 3}
+      - BodyName: Male Black Knight 03 Brown
+        BodyMap: {fileID: 2800000, guid: a81a040247fa16e418ada18b65a2591c, type: 3}
+      - BodyName: Male Black Knight 03 Green
+        BodyMap: {fileID: 2800000, guid: 501e5136aa690104a8e1ecfc356b9c1d, type: 3}
+      - BodyName: Male Black Knight 03 Magenta
+        BodyMap: {fileID: 2800000, guid: fc4a313e798f82b469e893e17211e2bd, type: 3}
+      - BodyName: Male Black Knight 03 Purple
+        BodyMap: {fileID: 2800000, guid: 5b0bcf2a3fd014146aed2a7088b7afd2, type: 3}
+      - BodyName: Male Black Knight 03 Red
+        BodyMap: {fileID: 2800000, guid: 1d99f570b4234f34a9a9114e018ff9d1, type: 3}
+      - BodyName: Male Black Knight 03 White
+        BodyMap: {fileID: 2800000, guid: 20447a42aa2010b4f8f74bbbbbf08a5e, type: 3}
+      - BodyName: Male Black Knight 04 Black
+        BodyMap: {fileID: 2800000, guid: 9d143591ec1439742b489240f3c8c9bb, type: 3}
+      - BodyName: Male Black Knight 04 Blue
+        BodyMap: {fileID: 2800000, guid: 96372ea3856f3a445bf6bddbb8bb2d60, type: 3}
+      - BodyName: Male Black Knight 04 Brown
+        BodyMap: {fileID: 2800000, guid: 04773d9d61f0ef94d97a2ae00b38c2b5, type: 3}
+      - BodyName: Male Black Knight 04 Green
+        BodyMap: {fileID: 2800000, guid: 596f9464f962eb24a9451e3bb0b07741, type: 3}
+      - BodyName: Male Black Knight 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 2b2be1bce520f2c4892d0fe686e5d46a, type: 3}
+      - BodyName: Male Black Knight 04 Purple
+        BodyMap: {fileID: 2800000, guid: d32fba36e031d8c40a1b80f53639f524, type: 3}
+      - BodyName: Male Black Knight 04 Red
+        BodyMap: {fileID: 2800000, guid: 1b0b36276b7d7de40a3540303290a9a6, type: 3}
+      - BodyName: Male Black Knight 04 White
+        BodyMap: {fileID: 2800000, guid: 7974d0dd39a40a446bb37f80a6461b01, type: 3}
+      - BodyName: Male Black Knight 05 Black
+        BodyMap: {fileID: 2800000, guid: 116bd4e5814bbcd4588f16add0259f1d, type: 3}
+      - BodyName: Male Black Knight 05 Blue
+        BodyMap: {fileID: 2800000, guid: 9d1e43349e877af4a8e8e9c1c8659a6a, type: 3}
+      - BodyName: Male Black Knight 05 Brown
+        BodyMap: {fileID: 2800000, guid: 2b90f8256b51a6e4d9e20d0079045bd0, type: 3}
+      - BodyName: Male Black Knight 05 Green
+        BodyMap: {fileID: 2800000, guid: 68755cacd063cc8429ec374f883e4a13, type: 3}
+      - BodyName: Male Black Knight 05 Magenta
+        BodyMap: {fileID: 2800000, guid: b0a784088c5fbf347b7d6281d75fedbe, type: 3}
+      - BodyName: Male Black Knight 05 Purple
+        BodyMap: {fileID: 2800000, guid: 2b656119b3c25f7488a46a7149e04197, type: 3}
+      - BodyName: Male Black Knight 05 Red
+        BodyMap: {fileID: 2800000, guid: a03f4549487e9664497c30e0b08a779c, type: 3}
+      - BodyName: Male Black Knight 05 White
+        BodyMap: {fileID: 2800000, guid: 58b2ced4b94c06b499f4d78699f642bc, type: 3}
+      - BodyName: Male Black Knight 06 Black
+        BodyMap: {fileID: 2800000, guid: 07b4406626779644785013b67f9f4892, type: 3}
+      - BodyName: Male Black Knight 06 Blue
+        BodyMap: {fileID: 2800000, guid: 9166f80d30cac5346b84087ce6460f6f, type: 3}
+      - BodyName: Male Black Knight 06 Green
+        BodyMap: {fileID: 2800000, guid: deb7a71d8f6c34e439e8e852459c20e5, type: 3}
+      - BodyName: Male Black Knight 06 Magenta
+        BodyMap: {fileID: 2800000, guid: b7cef5bce8042154facc8e271f160a3a, type: 3}
+      - BodyName: Male Black Knight 06 Purple
+        BodyMap: {fileID: 2800000, guid: 2e99301a1c78a5a418d9754fac5a5c3c, type: 3}
+      - BodyName: Male Black Knight 06 Red
+        BodyMap: {fileID: 2800000, guid: 9e9d8ced0ef0cb04fad4df59d9847e71, type: 3}
+      - BodyName: Male Black Knight 06 White
+        BodyMap: {fileID: 2800000, guid: cf6b866a53aa5874ba982415629f817e, type: 3}
+      - BodyName: Male Black Knight 06 Yellow
+        BodyMap: {fileID: 2800000, guid: 92a5da60739f2bc4a9aa02d00d7f57a5, type: 3}
+      - BodyName: Male Black Knight 07 Black
+        BodyMap: {fileID: 2800000, guid: ec7ac1fd9de9dcd48b40edad69b4662a, type: 3}
+      - BodyName: Male Black Knight 07 Blue
+        BodyMap: {fileID: 2800000, guid: 174bbfe1e49306b478982f3a44d7b63f, type: 3}
+      - BodyName: Male Black Knight 07 Green
+        BodyMap: {fileID: 2800000, guid: bfa9112fd0e26e04f925d879a9adb497, type: 3}
+      - BodyName: Male Black Knight 07 Magenta
+        BodyMap: {fileID: 2800000, guid: a7ca94319da5ec745ba6963ae2d2ab6e, type: 3}
+      - BodyName: Male Black Knight 07 Purple
+        BodyMap: {fileID: 2800000, guid: f2336b029478b624ba91b34075cf8585, type: 3}
+      - BodyName: Male Black Knight 07 Red
+        BodyMap: {fileID: 2800000, guid: f54cebf03636ff94cbe4dbf0b3d76a7e, type: 3}
+      - BodyName: Male Black Knight 07 White
+        BodyMap: {fileID: 2800000, guid: 63c1aa628e930de40ba6cabf48106d1d, type: 3}
+      - BodyName: Male Black Knight 07 Yellow
+        BodyMap: {fileID: 2800000, guid: 19b25b1609170e14faadf699f4789b4a, type: 3}
+      - BodyName: Male Black Knight 08 Black
+        BodyMap: {fileID: 2800000, guid: 55670ce2343d1394597761f5e6d7c23c, type: 3}
+      - BodyName: Male Black Knight 08 Blue
+        BodyMap: {fileID: 2800000, guid: fce4b61854cc1f443b4e365a541ca44b, type: 3}
+      - BodyName: Male Black Knight 08 Green
+        BodyMap: {fileID: 2800000, guid: e118ed34b20d3504b8f027569e94eff2, type: 3}
+      - BodyName: Male Black Knight 08 Magenta
+        BodyMap: {fileID: 2800000, guid: 65597e345b7062649bfff82a4d5d3eaf, type: 3}
+      - BodyName: Male Black Knight 08 Purple
+        BodyMap: {fileID: 2800000, guid: 914c5b375c920004399fe72e2302cc5b, type: 3}
+      - BodyName: Male Black Knight 08 Red
+        BodyMap: {fileID: 2800000, guid: 0cd44d785d942804caab439719689751, type: 3}
+      - BodyName: Male Black Knight 08 White
+        BodyMap: {fileID: 2800000, guid: 462bccbbceac9f540b1d6e29af8cce21, type: 3}
+      - BodyName: Male Black Knight 08 Yellow
+        BodyMap: {fileID: 2800000, guid: 357dec30671dd5349abfba7617972bf4, type: 3}
+      - BodyName: Male Black L Robe 01 Blue
+        BodyMap: {fileID: 2800000, guid: c0c0ae885b708e34c8ced444bbffc293, type: 3}
+      - BodyName: Male Black L Robe 01 Brown
+        BodyMap: {fileID: 2800000, guid: 49a8f43ecb184f24d85c643e29e35eae, type: 3}
+      - BodyName: Male Black L Robe 01 Green
+        BodyMap: {fileID: 2800000, guid: f4727fc5bc4995047985b65f28b4cf15, type: 3}
+      - BodyName: Male Black L Robe 01 Purple
+        BodyMap: {fileID: 2800000, guid: efb21d37f50b4f74587be8e66e20276f, type: 3}
+      - BodyName: Male Black L Robe 01 Red
+        BodyMap: {fileID: 2800000, guid: eec74e47c31024542add58bbd1a9f390, type: 3}
+      - BodyName: Male Black L Robe 02 Blue
+        BodyMap: {fileID: 2800000, guid: 73ca2e9e41143334dac8fd83893f96ba, type: 3}
+      - BodyName: Male Black L Robe 02 Brown
+        BodyMap: {fileID: 2800000, guid: 35037a998aac81d47a90b147168d76c3, type: 3}
+      - BodyName: Male Black L Robe 02 Green
+        BodyMap: {fileID: 2800000, guid: 7b8f66b31a2adf64ca036c26efc22009, type: 3}
+      - BodyName: Male Black L Robe 02 Purple
+        BodyMap: {fileID: 2800000, guid: 245fc0ca180ad6e4383e4af7fc8c2d00, type: 3}
+      - BodyName: Male Black L Robe 02 Red
+        BodyMap: {fileID: 2800000, guid: 4e5a99bd81359394e93e0d63cca5224c, type: 3}
+      - BodyName: Male Black Naked
+        BodyMap: {fileID: 2800000, guid: c0dc010a49942b845bf105f83a21779e, type: 3}
+      - BodyName: Male Black Nurse 01
+        BodyMap: {fileID: 2800000, guid: a143501c5a2be684f978a5d8fc595a18, type: 3}
+      - BodyName: Male Black Office 01A
+        BodyMap: {fileID: 2800000, guid: 8173eda26090f104e96074e186ca86a5, type: 3}
+      - BodyName: Male Black Office 01B
+        BodyMap: {fileID: 2800000, guid: c23aad1448d5fdd4589fbb1bb8592066, type: 3}
+      - BodyName: Male Black Office 01C
+        BodyMap: {fileID: 2800000, guid: 6bd7aa9d01fabe24b8bf4b7ae144e3b0, type: 3}
+      - BodyName: Male Black Office 01D
+        BodyMap: {fileID: 2800000, guid: 39b434b9df0c5e44d9e72d72ae6717a8, type: 3}
+      - BodyName: Male Black Office 02A
+        BodyMap: {fileID: 2800000, guid: 373d2f8a848e36d4d8610cbc297f6f7e, type: 3}
+      - BodyName: Male Black Office 02B
+        BodyMap: {fileID: 2800000, guid: 4389d3976b78342429f8252798c572ff, type: 3}
+      - BodyName: Male Black Office 02C
+        BodyMap: {fileID: 2800000, guid: 3b13de77524951b4d80c587f6733821f, type: 3}
+      - BodyName: Male Black Office 02D
+        BodyMap: {fileID: 2800000, guid: b4329ba071e8e6243a38cee34a3a917a, type: 3}
+      - BodyName: Male Black Patient 01
+        BodyMap: {fileID: 2800000, guid: 7b9b0902e87eba74886ed9f341c2e0b9, type: 3}
+      - BodyName: Male Black Police 01
+        BodyMap: {fileID: 2800000, guid: bfe192485be5a7142bb01897b1fc383d, type: 3}
+      - BodyName: Male Black S Robe 01 Blue
+        BodyMap: {fileID: 2800000, guid: b7ba2cc33f37a0045911ed00f29ae496, type: 3}
+      - BodyName: Male Black S Robe 01 Brown
+        BodyMap: {fileID: 2800000, guid: 9adbbf04e4e248947a505c758c5353a2, type: 3}
+      - BodyName: Male Black S Robe 01 Green
+        BodyMap: {fileID: 2800000, guid: 89366949225fa124288c6f14b9ff2c94, type: 3}
+      - BodyName: Male Black S Robe 01 Purple
+        BodyMap: {fileID: 2800000, guid: 4e153ae7971e63b4f8ec4030a805a803, type: 3}
+      - BodyName: Male Black S Robe 01 Red
+        BodyMap: {fileID: 2800000, guid: a64518f0a81ae9041ba4c44ed2989db4, type: 3}
+      - BodyName: Male Black S Robe 02 Blue
+        BodyMap: {fileID: 2800000, guid: 85504dab4ca589440b6c48b2312b8a02, type: 3}
+      - BodyName: Male Black S Robe 02 Brown
+        BodyMap: {fileID: 2800000, guid: 553a172c2c81f1c4da9a36aeffaf0536, type: 3}
+      - BodyName: Male Black S Robe 02 Green
+        BodyMap: {fileID: 2800000, guid: 26b583cdeef19bc4f865d91b2962cc2d, type: 3}
+      - BodyName: Male Black S Robe 02 Purple
+        BodyMap: {fileID: 2800000, guid: 4b3ec2ff2f180e541b7b7c6a7dea31a5, type: 3}
+      - BodyName: Male Black S Robe 02 Red
+        BodyMap: {fileID: 2800000, guid: cf3c541b6ed12214c8574afd12bb99a9, type: 3}
+      - BodyName: Male Black Santa 01
+        BodyMap: {fileID: 2800000, guid: 42fd8910d9c512b41a421fb96fae48ea, type: 3}
+      - BodyName: Male Black Sports 01A
+        BodyMap: {fileID: 2800000, guid: a6c7e53a2f74ab2499165dc56f3ec5b6, type: 3}
+      - BodyName: Male Black Sports 01B
+        BodyMap: {fileID: 2800000, guid: 256ed941b63b1d6428dfe7ffbf02b611, type: 3}
+      - BodyName: Male Black Sports 01C
+        BodyMap: {fileID: 2800000, guid: e8a55f0fbeaeb874fb519ec3dddd3ff6, type: 3}
+      - BodyName: Male Black Sports 01D
+        BodyMap: {fileID: 2800000, guid: 98174da917569e342a9542ce05ba1e2c, type: 3}
+      - BodyName: Male Black Sports 02A
+        BodyMap: {fileID: 2800000, guid: 58a65c519fad5af42ba5316b3baadc51, type: 3}
+      - BodyName: Male Black Sports 02B
+        BodyMap: {fileID: 2800000, guid: 1cf1c86b44e434d4e9b7aeee92822777, type: 3}
+      - BodyName: Male Black Sports 02C
+        BodyMap: {fileID: 2800000, guid: 74073f06c64c0154cbc065fef0a68510, type: 3}
+      - BodyName: Male Black Sports 02D
+        BodyMap: {fileID: 2800000, guid: a23977d78889842479b386c163da3bfe, type: 3}
+      - BodyName: Male Black Sports 3A
+        BodyMap: {fileID: 2800000, guid: ebe947f35a8652a4dbfaa8e2ac35cbcd, type: 3}
+      - BodyName: Male Black Sports 3B
+        BodyMap: {fileID: 2800000, guid: 240fdc78504e5884b859f5d4f2798c11, type: 3}
+      - BodyName: Male Black Sports 3C
+        BodyMap: {fileID: 2800000, guid: 4c634fa93129dc34cac7dde4a5ca9c3b, type: 3}
+      - BodyName: Male Black Sports 3D
+        BodyMap: {fileID: 2800000, guid: c261de2286518fb4a85ecce47132aa95, type: 3}
+      - BodyName: Male Black Wizard 01 Black
+        BodyMap: {fileID: 2800000, guid: a1c2a3f96f7b4734bac157c52cb15927, type: 3}
+      - BodyName: Male Black Wizard 01 Blue
+        BodyMap: {fileID: 2800000, guid: 23ceb55e031d7964b9a2c3dfe5e64e28, type: 3}
+      - BodyName: Male Black Wizard 01 Green
+        BodyMap: {fileID: 2800000, guid: f43b203c886f832408430050d9f43a26, type: 3}
+      - BodyName: Male Black Wizard 01 Purple
+        BodyMap: {fileID: 2800000, guid: b817f931d9d23da45871f5ab49f2d6ae, type: 3}
+      - BodyName: Male Black Wizard 01 Red
+        BodyMap: {fileID: 2800000, guid: 80926a405912c694aae8364e611ec4f7, type: 3}
+      - BodyName: Male Black Wizard 01 White
+        BodyMap: {fileID: 2800000, guid: 48d8deec7c28cb1488b6fd756d9acc3a, type: 3}
+      - BodyName: Male Black Wizard 02 Black
+        BodyMap: {fileID: 2800000, guid: 0577204059c06cc44a699f77c3adea23, type: 3}
+      - BodyName: Male Black Wizard 02 Blue
+        BodyMap: {fileID: 2800000, guid: b5d9c33de9693124eb0791dff9ca0356, type: 3}
+      - BodyName: Male Black Wizard 02 Brown
+        BodyMap: {fileID: 2800000, guid: 984975ccb9041724f83668983ae0f10d, type: 3}
+      - BodyName: Male Black Wizard 02 Green
+        BodyMap: {fileID: 2800000, guid: a3793b9bcbe007540b4586f70e6aa7f8, type: 3}
+      - BodyName: Male Black Wizard 02 Purple
+        BodyMap: {fileID: 2800000, guid: e4e6017b47cf8c0439659b265e388bcf, type: 3}
+      - BodyName: Male Black Wizard 02 Red
+        BodyMap: {fileID: 2800000, guid: d7bc0fbda885fd44f8a05ba6db1dc028, type: 3}
+      - BodyName: Male Black Wizard 02 White
+        BodyMap: {fileID: 2800000, guid: 1255ce18f96bab6429492491f33ca5d6, type: 3}
+      - BodyName: Male Black Wizard 03 Black
+        BodyMap: {fileID: 2800000, guid: 5e9df737b299fd148bc07f7c5b2ed542, type: 3}
+      - BodyName: Male Black Wizard 03 Blue
+        BodyMap: {fileID: 2800000, guid: 7157dccd799c55f4080efeb713285161, type: 3}
+      - BodyName: Male Black Wizard 03 Green
+        BodyMap: {fileID: 2800000, guid: d4beccb685334cb46b7f94ef62c71a06, type: 3}
+      - BodyName: Male Black Wizard 03 Purple
+        BodyMap: {fileID: 2800000, guid: bf0cc22c33f9f764ca930e688a1d9a19, type: 3}
+      - BodyName: Male Black Wizard 03 Red
+        BodyMap: {fileID: 2800000, guid: 6323ad0748ad40d49924ab997b5949f5, type: 3}
+      - BodyName: Male Black Wizard 03 Yellow
+        BodyMap: {fileID: 2800000, guid: 00973b3fc19ef4848a018a8e63477283, type: 3}
+      - BodyName: Male Black Wizard 04 Black
+        BodyMap: {fileID: 2800000, guid: 499ea664032e8fb4d87f08e7ad9346ba, type: 3}
+      - BodyName: Male Black Wizard 04 Blue
+        BodyMap: {fileID: 2800000, guid: 0a137508eb9374d4db01b5aee61af2bd, type: 3}
+      - BodyName: Male Black Wizard 04 Brown
+        BodyMap: {fileID: 2800000, guid: 9a09e9c2ea97b8b48b362a5c0ac2f94f, type: 3}
+      - BodyName: Male Black Wizard 04 Green
+        BodyMap: {fileID: 2800000, guid: ac45b445abe93be4899fe0c937d175bb, type: 3}
+      - BodyName: Male Black Wizard 04 Magenta
+        BodyMap: {fileID: 2800000, guid: f3ebee68d5b7f814ba5d0f0e3517667a, type: 3}
+      - BodyName: Male Black Wizard 04 Purple
+        BodyMap: {fileID: 2800000, guid: f4543e2547d5f7448a0a34a8e972abcf, type: 3}
+      - BodyName: Male Black Wizard 04 Red
+        BodyMap: {fileID: 2800000, guid: f62d5f45dfaf4444bba7b5510432e9d1, type: 3}
+      - BodyName: Male Black Wizard 04 White
+        BodyMap: {fileID: 2800000, guid: 94b33c23d4d9212488f9ed19857a0c5d, type: 3}
+      - BodyName: Male Black Wizard 05 Black
+        BodyMap: {fileID: 2800000, guid: 6543cb1a28fdebc4da6f0be16cf1138a, type: 3}
+      - BodyName: Male Black Wizard 05 Blue
+        BodyMap: {fileID: 2800000, guid: dd1ce2bfba99ed5498c6086868552692, type: 3}
+      - BodyName: Male Black Wizard 05 Brown
+        BodyMap: {fileID: 2800000, guid: 9b1543b0ee013ab44af2bfeff549ec54, type: 3}
+      - BodyName: Male Black Wizard 05 Green
+        BodyMap: {fileID: 2800000, guid: 836ce0b0e87639441afd5ceb00f3427b, type: 3}
+      - BodyName: Male Black Wizard 05 Magenta
+        BodyMap: {fileID: 2800000, guid: dc22f464fbf93ca46ab57f7b981ed7f9, type: 3}
+      - BodyName: Male Black Wizard 05 Purple
+        BodyMap: {fileID: 2800000, guid: 93bf4277dead5a94f95a1494c48b02fd, type: 3}
+      - BodyName: Male Black Wizard 05 Red
+        BodyMap: {fileID: 2800000, guid: eda7863b59ef151479c1ffe6f93d2b32, type: 3}
+      - BodyName: Male Black Wizard 05 White
+        BodyMap: {fileID: 2800000, guid: 5b99806ecc8850241be9b0a3a4bda8cc, type: 3}
+      - BodyName: Male Black Wizard 06 Black
+        BodyMap: {fileID: 2800000, guid: 8c0889e13b6d4434a81dc8a26c0467bf, type: 3}
+      - BodyName: Male Black Wizard 06 Blue
+        BodyMap: {fileID: 2800000, guid: e4cb59ba562ede74eabf98940875b4aa, type: 3}
+      - BodyName: Male Black Wizard 06 Brown
+        BodyMap: {fileID: 2800000, guid: f9f1b7a9e8e808a409fffa98446879da, type: 3}
+      - BodyName: Male Black Wizard 06 Green
+        BodyMap: {fileID: 2800000, guid: 149d5abe44b538e47bc12dfc31a9c567, type: 3}
+      - BodyName: Male Black Wizard 06 Magenta
+        BodyMap: {fileID: 2800000, guid: 1f0d516589006bd4e8abe5303f802fe2, type: 3}
+      - BodyName: Male Black Wizard 06 Purple
+        BodyMap: {fileID: 2800000, guid: 5e5359422802a124e96b6510a6565c6b, type: 3}
+      - BodyName: Male Black Wizard 06 Red
+        BodyMap: {fileID: 2800000, guid: 954e0b23861d31e42aeed8cc76cde3ef, type: 3}
+      - BodyName: Male Black Wizard 06 White
+        BodyMap: {fileID: 2800000, guid: a41c73ee16b4acb478b8d750df855d83, type: 3}
+  - Sex: 1
+    Skins:
+    - Skin: 0
+      Paths: Assets/CubeWorld_Assets/Internal_Assets/Prefabs/CustomProps/Body/Female/White
+      BodyData:
+      - BodyName: Female White Archer 01 Black
+        BodyMap: {fileID: 2800000, guid: 4eec49b5104be22458be9e0b3d700e14, type: 3}
+      - BodyName: Female White Archer 01 Blue
+        BodyMap: {fileID: 2800000, guid: 5be75cd994fa1554bbef8f726a85b2be, type: 3}
+      - BodyName: Female White Archer 01 Green
+        BodyMap: {fileID: 2800000, guid: 969ae5fcdcff22249987d80a9b755a02, type: 3}
+      - BodyName: Female White Archer 01 Magenta
+        BodyMap: {fileID: 2800000, guid: 58bd0f762eebec5428434a8e6ef62458, type: 3}
+      - BodyName: Female White Archer 01 Purple
+        BodyMap: {fileID: 2800000, guid: eeb18c775aea0cd45a7cc633600dd214, type: 3}
+      - BodyName: Female White Archer 01 White
+        BodyMap: {fileID: 2800000, guid: f4c1172c5fddd594b83f5e10f7b7e858, type: 3}
+      - BodyName: Female White Archer 02 Black
+        BodyMap: {fileID: 2800000, guid: cf4b671667c4ce441be3968385b4915f, type: 3}
+      - BodyName: Female White Archer 02 Blue
+        BodyMap: {fileID: 2800000, guid: 2a9da79018c77cc4d9e6975e888c78fa, type: 3}
+      - BodyName: Female White Archer 02 Green
+        BodyMap: {fileID: 2800000, guid: c2b9d1e68af40e24ca1465e6953e1108, type: 3}
+      - BodyName: Female White Archer 02 Lime
+        BodyMap: {fileID: 2800000, guid: 3a6cb4f3cc7c9bb44b1ef332387a9d80, type: 3}
+      - BodyName: Female White Archer 02 Magenta
+        BodyMap: {fileID: 2800000, guid: 086b907a486aa984baca89c18f78fd50, type: 3}
+      - BodyName: Female White Archer 02 Purple
+        BodyMap: {fileID: 2800000, guid: f8f86fa0daa246e498cf28d0e0828c4c, type: 3}
+      - BodyName: Female White Archer 02 White
+        BodyMap: {fileID: 2800000, guid: c7b3d58d3856e314aa2138c63bf1fade, type: 3}
+      - BodyName: Female White Archer 03 Black
+        BodyMap: {fileID: 2800000, guid: f77b090a9f56ade4490cb5fc76897e1c, type: 3}
+      - BodyName: Female White Archer 03 Blue
+        BodyMap: {fileID: 2800000, guid: 3d74ac7617c5cf445846ad7be1133d7a, type: 3}
+      - BodyName: Female White Archer 03 Green
+        BodyMap: {fileID: 2800000, guid: 327e75065ee76d341bda69fa7b8e94c4, type: 3}
+      - BodyName: Female White Archer 03 Maroon
+        BodyMap: {fileID: 2800000, guid: 33b8f4b76e30d144a8b5d9fb1e74584d, type: 3}
+      - BodyName: Female White Archer 03 Olive
+        BodyMap: {fileID: 2800000, guid: abf12551d11d6ac49abe3c860eb5da9c, type: 3}
+      - BodyName: Female White Archer 03 Purple
+        BodyMap: {fileID: 2800000, guid: 4a57b57dbaf6072419ebd3695d82bede, type: 3}
+      - BodyName: Female White Archer 03 White
+        BodyMap: {fileID: 2800000, guid: 37f885f3afbec4840bfa186ec5a23010, type: 3}
+      - BodyName: Female White Archer 04 Black
+        BodyMap: {fileID: 2800000, guid: 79ae18457ee032d48a6c0c128c6e37a0, type: 3}
+      - BodyName: Female White Archer 04 Blue
+        BodyMap: {fileID: 2800000, guid: da0385dc6c5aa054cabcfaf09c550dee, type: 3}
+      - BodyName: Female White Archer 04 Green
+        BodyMap: {fileID: 2800000, guid: 1eab86a7e2d7023439bb35e6957eecfb, type: 3}
+      - BodyName: Female White Archer 04 Magenta
+        BodyMap: {fileID: 2800000, guid: ed45badfca298814db26951d5f0695fa, type: 3}
+      - BodyName: Female White Archer 04 Purple
+        BodyMap: {fileID: 2800000, guid: 9843daad5a3b429489a6ab5f920ee791, type: 3}
+      - BodyName: Female White Archer 04 Red
+        BodyMap: {fileID: 2800000, guid: 1159fd001fb72134d8372eecd5a48cee, type: 3}
+      - BodyName: Female White Archer 04 White
+        BodyMap: {fileID: 2800000, guid: d2732f06b788c61439bc1fafcb023aff, type: 3}
+      - BodyName: Female White Archer 04 Yellow
+        BodyMap: {fileID: 2800000, guid: f385557c27592fd4d87f32810a96b916, type: 3}
+      - BodyName: Female White Archer 05 Black
+        BodyMap: {fileID: 2800000, guid: 49a1886331a2bad44a58f99411d9b470, type: 3}
+      - BodyName: Female White Archer 05 Blue
+        BodyMap: {fileID: 2800000, guid: 4012f0d9dc2303649aa68b6db05eb2dc, type: 3}
+      - BodyName: Female White Archer 05 Green
+        BodyMap: {fileID: 2800000, guid: 0bfd36c210d4cc24bb87f565473cdef4, type: 3}
+      - BodyName: Female White Archer 05 Magenta
+        BodyMap: {fileID: 2800000, guid: bb83ed1e83805b44b8281ddf81790beb, type: 3}
+      - BodyName: Female White Archer 05 Purple
+        BodyMap: {fileID: 2800000, guid: 3c461309d39233c46aea4a3b2e7abfda, type: 3}
+      - BodyName: Female White Archer 05 Red
+        BodyMap: {fileID: 2800000, guid: d167b99995479e444986836935a77333, type: 3}
+      - BodyName: Female White Archer 05 White
+        BodyMap: {fileID: 2800000, guid: 4958b2b8ca64def4a8fdd247a2f24c41, type: 3}
+      - BodyName: Female White Archer 05 Yellow
+        BodyMap: {fileID: 2800000, guid: b6f1df7245debdf4282dfe58bd1f6307, type: 3}
+      - BodyName: Female White Barbarian 01 Blue
+        BodyMap: {fileID: 2800000, guid: fe45664fcd74a104d8fa50edf6d48ee6, type: 3}
+      - BodyName: Female White Barbarian 01 Green
+        BodyMap: {fileID: 2800000, guid: 2c2f689896a7c494a8a9d2c2ed51f269, type: 3}
+      - BodyName: Female White Barbarian 01 Pink
+        BodyMap: {fileID: 2800000, guid: 5e2ca50ec1278554989843ce8e887b91, type: 3}
+      - BodyName: Female White Barbarian 01 Purple
+        BodyMap: {fileID: 2800000, guid: aa5765ef88142954c881d1c23ef29d96, type: 3}
+      - BodyName: Female White Barbarian 01 Yellow
+        BodyMap: {fileID: 2800000, guid: 30da95f00697cbf45a0b0c1416abd0aa, type: 3}
+      - BodyName: Female White Barbarian 02 Black
+        BodyMap: {fileID: 2800000, guid: a457a5b0b15f2c246924705cb3fb47c1, type: 3}
+      - BodyName: Female White Barbarian 02 Blue
+        BodyMap: {fileID: 2800000, guid: d7f3910e075b0494aa7ce16b44fa9cbb, type: 3}
+      - BodyName: Female White Barbarian 02 Green
+        BodyMap: {fileID: 2800000, guid: c92a1eb2b67b6594c83526cce39ade5b, type: 3}
+      - BodyName: Female White Barbarian 02 Purple
+        BodyMap: {fileID: 2800000, guid: 2d710e128275d564192a2e71e7ce99d2, type: 3}
+      - BodyName: Female White Barbarian 02 Red
+        BodyMap: {fileID: 2800000, guid: 8b962e3d40e961944bf55d27fb85d2b3, type: 3}
+      - BodyName: Female White Barbarian 02 White
+        BodyMap: {fileID: 2800000, guid: 5f5019f368dc6ce468ec829524d5ffb7, type: 3}
+      - BodyName: Female White Barbarian 03 Black
+        BodyMap: {fileID: 2800000, guid: 22f1cebe5af5cb4499f4bc7d2dd9c4fb, type: 3}
+      - BodyName: Female White Barbarian 03 Blue
+        BodyMap: {fileID: 2800000, guid: 4404120428af8df44bb9bd7c600ee11f, type: 3}
+      - BodyName: Female White Barbarian 03 Brown
+        BodyMap: {fileID: 2800000, guid: 88d76b2e670e23b418d93687f2aea154, type: 3}
+      - BodyName: Female White Barbarian 03 Green
+        BodyMap: {fileID: 2800000, guid: b0210490dbc729347a514a2707702358, type: 3}
+      - BodyName: Female White Barbarian 03 Magenta
+        BodyMap: {fileID: 2800000, guid: 3076819f6a3f72d4c82e161d6bbc3f1b, type: 3}
+      - BodyName: Female White Barbarian 03 Purple
+        BodyMap: {fileID: 2800000, guid: 7c2906909b8fa2543a946b9b80aa334e, type: 3}
+      - BodyName: Female White Barbarian 03 Red
+        BodyMap: {fileID: 2800000, guid: a7465fefc2239b942943f63cfdd64648, type: 3}
+      - BodyName: Female White Barbarian 03 White
+        BodyMap: {fileID: 2800000, guid: 2625b763a0d8ce84680f413f5e553aa7, type: 3}
+      - BodyName: Female White Barbarian 04 Black
+        BodyMap: {fileID: 2800000, guid: 6148e97b871b4f745a679051b59ab022, type: 3}
+      - BodyName: Female White Barbarian 04 Blue
+        BodyMap: {fileID: 2800000, guid: 02bd90d7697264a4ab7106cfc4408b17, type: 3}
+      - BodyName: Female White Barbarian 04 Green
+        BodyMap: {fileID: 2800000, guid: e71bd817f0aa98242bb7ee2daa4ab593, type: 3}
+      - BodyName: Female White Barbarian 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 9fbf21035f1f2864799d1286f2b31e75, type: 3}
+      - BodyName: Female White Barbarian 04 Purple
+        BodyMap: {fileID: 2800000, guid: d23e4240b6a7deb459b1f805ac4061fa, type: 3}
+      - BodyName: Female White Barbarian 04 Red
+        BodyMap: {fileID: 2800000, guid: 250894232af262b4886582397b707336, type: 3}
+      - BodyName: Female White Barbarian 04 White
+        BodyMap: {fileID: 2800000, guid: d9e40fcbcc5bcda449d3ffeb68ea6aa3, type: 3}
+      - BodyName: Female White Barbarian 04 Yellow
+        BodyMap: {fileID: 2800000, guid: eaa7f656916ab7647b5579e515444398, type: 3}
+      - BodyName: Female White Barbarian 05 Black
+        BodyMap: {fileID: 2800000, guid: 61f6fd84e1d207a4aae0e94d7d33bcf6, type: 3}
+      - BodyName: Female White Barbarian 05 Blue
+        BodyMap: {fileID: 2800000, guid: bf08a5ef756f9524ab08c8663af5126b, type: 3}
+      - BodyName: Female White Barbarian 05 Green
+        BodyMap: {fileID: 2800000, guid: 73a33ed4912b5194399058f5f965ded1, type: 3}
+      - BodyName: Female White Barbarian 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 5c3a95392398b434aa956b13743bf9c9, type: 3}
+      - BodyName: Female White Barbarian 05 Purple
+        BodyMap: {fileID: 2800000, guid: a252b8acbfabb734f862c5608619f81c, type: 3}
+      - BodyName: Female White Barbarian 05 Red
+        BodyMap: {fileID: 2800000, guid: b4b6cb8953689f74b95fdfdefe45fa09, type: 3}
+      - BodyName: Female White Barbarian 05 White
+        BodyMap: {fileID: 2800000, guid: 9d421f494da1d054b95be784b0f845bc, type: 3}
+      - BodyName: Female White Barbarian 05 Yellow
+        BodyMap: {fileID: 2800000, guid: b91315bee5d394e4586502b309d63d7b, type: 3}
+      - BodyName: Female White Casual 01A 1
+        BodyMap: {fileID: 2800000, guid: 6b5eb98731e06aa4b86a27fbcb99e292, type: 3}
+      - BodyName: Female White Casual 01A
+        BodyMap: {fileID: 2800000, guid: 66276fdd8a4e98342a67532300ef576a, type: 3}
+      - BodyName: Female White Casual 01B 1
+        BodyMap: {fileID: 2800000, guid: ac0b48ce482e7084c97a4808b4800f1c, type: 3}
+      - BodyName: Female White Casual 01B
+        BodyMap: {fileID: 2800000, guid: 30fddf250cacecb4e8c828616519fe28, type: 3}
+      - BodyName: Female White Casual 01C 1
+        BodyMap: {fileID: 2800000, guid: 723e7873ce6e41f4dbc0fc8cc8c33458, type: 3}
+      - BodyName: Female White Casual 01C
+        BodyMap: {fileID: 2800000, guid: 1f5c0876f60f8144aa66402293b2ade6, type: 3}
+      - BodyName: Female White Casual 01D
+        BodyMap: {fileID: 2800000, guid: fc8ad3cd4066ebd47a155cdd827f1fe8, type: 3}
+      - BodyName: Female White Casual 02A
+        BodyMap: {fileID: 2800000, guid: bf30d2e3e61eecb4d9396c24fbdde38e, type: 3}
+      - BodyName: Female White Casual 02B
+        BodyMap: {fileID: 2800000, guid: 8b07d12b23a6e5d4ea5b2b65b05c1ee3, type: 3}
+      - BodyName: Female White Casual 02C
+        BodyMap: {fileID: 2800000, guid: a328ce319c53cc741991c236d88c96f6, type: 3}
+      - BodyName: Female White Casual 03A
+        BodyMap: {fileID: 2800000, guid: 3b570e8685463f24ea719b17370b6ad7, type: 3}
+      - BodyName: Female White Casual 03B
+        BodyMap: {fileID: 2800000, guid: d4bbf8976e0a0b54c9586579ac6a69e7, type: 3}
+      - BodyName: Female White Casual 03C
+        BodyMap: {fileID: 2800000, guid: ba3bc48566e7121478faf1ab6a1ddf1b, type: 3}
+      - BodyName: Female White Casual 04A
+        BodyMap: {fileID: 2800000, guid: 9b92af4cfaec2f34480cf5b3419942df, type: 3}
+      - BodyName: Female White Casual 04B
+        BodyMap: {fileID: 2800000, guid: a1ae84bc022d1ba45bc0e972b04be23e, type: 3}
+      - BodyName: Female White Casual 04C
+        BodyMap: {fileID: 2800000, guid: f7f9660a9250c804e800999e642a7e3b, type: 3}
+      - BodyName: Female White Casual 05A
+        BodyMap: {fileID: 2800000, guid: 8af534c22f268024fb32fa59b3f1e95a, type: 3}
+      - BodyName: Female White Casual 05B
+        BodyMap: {fileID: 2800000, guid: 9fb80617373abdd4f9660f8b32015975, type: 3}
+      - BodyName: Female White Casual 05C
+        BodyMap: {fileID: 2800000, guid: 8c9be73e0f5f57842aadc6d418977655, type: 3}
+      - BodyName: Female White Casual 06A
+        BodyMap: {fileID: 2800000, guid: 8925e601abc51d640b8cab2ebe546476, type: 3}
+      - BodyName: Female White Casual 06B
+        BodyMap: {fileID: 2800000, guid: 9b9a406f2f92cb24bbdaddcf86c8cff1, type: 3}
+      - BodyName: Female White Casual 06C
+        BodyMap: {fileID: 2800000, guid: 7557e91c611a23a439f5c8344f0dde61, type: 3}
+      - BodyName: Female White Casual 07A
+        BodyMap: {fileID: 2800000, guid: bdbb57d7f2cc21e428eae36ab65eb933, type: 3}
+      - BodyName: Female White Casual 07B
+        BodyMap: {fileID: 2800000, guid: a82c40bc175b81a4394e3e2710f7ab46, type: 3}
+      - BodyName: Female White Casual 07C
+        BodyMap: {fileID: 2800000, guid: 18ec00ee59eac7440882c3d276cf8d83, type: 3}
+      - BodyName: Female White Casual 08A
+        BodyMap: {fileID: 2800000, guid: 71e5e3d814276554c8bae114087790a6, type: 3}
+      - BodyName: Female White Casual 08B
+        BodyMap: {fileID: 2800000, guid: 918c64989866724449f1c1e7612ba574, type: 3}
+      - BodyName: Female White Casual 08C
+        BodyMap: {fileID: 2800000, guid: 2244dedd43cf0664b81eac497b979e2e, type: 3}
+      - BodyName: Female White Doctor 01
+        BodyMap: {fileID: 2800000, guid: e7b161671eda0624d8c4b4bb70e6b62e, type: 3}
+      - BodyName: Female White Elf 01
+        BodyMap: {fileID: 2800000, guid: 6414d751b89d3604bb20538286b922f1, type: 3}
+      - BodyName: Female White Fireman 01
+        BodyMap: {fileID: 2800000, guid: 0f924dcb98a1ab442963745642565132, type: 3}
+      - BodyName: Female White Fireman 02
+        BodyMap: {fileID: 2800000, guid: fd9249a84d27a224b9dd3b6db00197eb, type: 3}
+      - BodyName: Female White Knight 01 Black
+        BodyMap: {fileID: 2800000, guid: c9704a5dc0092334c88a615f0dd5aab2, type: 3}
+      - BodyName: Female White Knight 01 Blue
+        BodyMap: {fileID: 2800000, guid: 89354fbe71602004794ade224486c6f6, type: 3}
+      - BodyName: Female White Knight 01 Green
+        BodyMap: {fileID: 2800000, guid: 5ab9c09f172b61b48843a986499af85a, type: 3}
+      - BodyName: Female White Knight 01 Purple
+        BodyMap: {fileID: 2800000, guid: 5d678fd655f417c4da16fce79185bf1a, type: 3}
+      - BodyName: Female White Knight 01 Red
+        BodyMap: {fileID: 2800000, guid: 0c7f1ac11e78ce2498103450815e633a, type: 3}
+      - BodyName: Female White Knight 01 White
+        BodyMap: {fileID: 2800000, guid: 73604fa7fd74a024fa40c09f09291c71, type: 3}
+      - BodyName: Female White Knight 02 Black
+        BodyMap: {fileID: 2800000, guid: 14657576b16977b4ba59ed5463f3b536, type: 3}
+      - BodyName: Female White Knight 02 Blue
+        BodyMap: {fileID: 2800000, guid: 75770ef197b1d9e4ea81f9deb90c34d6, type: 3}
+      - BodyName: Female White Knight 02 Green
+        BodyMap: {fileID: 2800000, guid: 205327d080de9194d8d43d9dfea36dc2, type: 3}
+      - BodyName: Female White Knight 02 Purple
+        BodyMap: {fileID: 2800000, guid: 41118a2c94059544b9159f995604e7a8, type: 3}
+      - BodyName: Female White Knight 02 Red
+        BodyMap: {fileID: 2800000, guid: 5b32802ea8968c04cb052a6df229a0c2, type: 3}
+      - BodyName: Female White Knight 02 White
+        BodyMap: {fileID: 2800000, guid: 42b50d28f71edf842b9e556eae9b0d38, type: 3}
+      - BodyName: Female White Knight 03 Black
+        BodyMap: {fileID: 2800000, guid: 9a1e044c21117a94a82060c3ed0ff69d, type: 3}
+      - BodyName: Female White Knight 03 Blue
+        BodyMap: {fileID: 2800000, guid: 0d10ab1199f1abb4cacc84f63d835603, type: 3}
+      - BodyName: Female White Knight 03 Green
+        BodyMap: {fileID: 2800000, guid: 4a06fcbb433e0ea4c898be031b1a0dc9, type: 3}
+      - BodyName: Female White Knight 03 Purple
+        BodyMap: {fileID: 2800000, guid: 2104bad06f940a446b08dd4073819ba3, type: 3}
+      - BodyName: Female White Knight 03 Red
+        BodyMap: {fileID: 2800000, guid: ee9a576f6c0932b4f980b2dae75dfc75, type: 3}
+      - BodyName: Female White Knight 03 White
+        BodyMap: {fileID: 2800000, guid: dde0a2879c4b6744e82f77a7b5dd1302, type: 3}
+      - BodyName: Female White Knight 04 Black
+        BodyMap: {fileID: 2800000, guid: 4d976298b20c4fc4386058ee58c655c6, type: 3}
+      - BodyName: Female White Knight 04 Blue
+        BodyMap: {fileID: 2800000, guid: 234757374b43d004eb111e5c7e59b228, type: 3}
+      - BodyName: Female White Knight 04 Green
+        BodyMap: {fileID: 2800000, guid: 105e3dd8b1a837240af667cbf87065df, type: 3}
+      - BodyName: Female White Knight 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 4b4d80ba356a075468cbad74b2c1934e, type: 3}
+      - BodyName: Female White Knight 04 Purple
+        BodyMap: {fileID: 2800000, guid: 524204fb612b6d145ac8e7e4b775aaf6, type: 3}
+      - BodyName: Female White Knight 04 Red
+        BodyMap: {fileID: 2800000, guid: d8762c228a20d7041b3e968db7f4da80, type: 3}
+      - BodyName: Female White Knight 04 White
+        BodyMap: {fileID: 2800000, guid: ee309d7ebdc9abb42b82cb48db845bfe, type: 3}
+      - BodyName: Female White Knight 04 Yellow
+        BodyMap: {fileID: 2800000, guid: 4f5dea76bdc028a4fb77385ff3cf19a5, type: 3}
+      - BodyName: Female White Knight 05 Black
+        BodyMap: {fileID: 2800000, guid: 9cd41ccadedcf834eb976d9233820169, type: 3}
+      - BodyName: Female White Knight 05 Blue
+        BodyMap: {fileID: 2800000, guid: be71a823285a3584192f04ff8509985d, type: 3}
+      - BodyName: Female White Knight 05 Green
+        BodyMap: {fileID: 2800000, guid: a50ca6135f4103f459f8ad1badb25ef2, type: 3}
+      - BodyName: Female White Knight 05 Magenta
+        BodyMap: {fileID: 2800000, guid: d830dd8118a5de84ab69b03a71f1c93c, type: 3}
+      - BodyName: Female White Knight 05 Purple
+        BodyMap: {fileID: 2800000, guid: a87a952487dffcf4798d9d897022df4f, type: 3}
+      - BodyName: Female White Knight 05 Red
+        BodyMap: {fileID: 2800000, guid: c0fcba14c64beaf4d9edfc28d62637f3, type: 3}
+      - BodyName: Female White Knight 05 White
+        BodyMap: {fileID: 2800000, guid: 41eb1c457452fa04881b2e5707ffb760, type: 3}
+      - BodyName: Female White Knight 05 Yellow
+        BodyMap: {fileID: 2800000, guid: 35edb669b22e27d499e87e6418ee00df, type: 3}
+      - BodyName: Female White Knight 06 Black
+        BodyMap: {fileID: 2800000, guid: 39df3ecb5e7f9df4cbdaf0f249863a9a, type: 3}
+      - BodyName: Female White Knight 06 Blue
+        BodyMap: {fileID: 2800000, guid: 0c62290240f4bc44a8749913b8ebc32f, type: 3}
+      - BodyName: Female White Knight 06 Green
+        BodyMap: {fileID: 2800000, guid: 53f6426855b612c4f9df933655624ed4, type: 3}
+      - BodyName: Female White Knight 06 Magenta
+        BodyMap: {fileID: 2800000, guid: 646d1a2cc9845d144bf494813b6a7c48, type: 3}
+      - BodyName: Female White Knight 06 Purple
+        BodyMap: {fileID: 2800000, guid: a68d2b5ca1c3aa340930ad30441c688c, type: 3}
+      - BodyName: Female White Knight 06 Red
+        BodyMap: {fileID: 2800000, guid: 28f3af5bf583cbe47a346224ecb4fdd7, type: 3}
+      - BodyName: Female White Knight 06 White
+        BodyMap: {fileID: 2800000, guid: 5c52e5a430258df4c89dbbb66699548e, type: 3}
+      - BodyName: Female White Knight 06 Yellow
+        BodyMap: {fileID: 2800000, guid: 596b202d27cd93c4aa5fd04ac53b63e3, type: 3}
+      - BodyName: Female White L Dress 01 Blue
+        BodyMap: {fileID: 2800000, guid: a827333379abad24fbbc664011025de2, type: 3}
+      - BodyName: Female White L Dress 01 Brown
+        BodyMap: {fileID: 2800000, guid: 66413ff3219549d4092c9529dfd46eec, type: 3}
+      - BodyName: Female White L Dress 01 Green
+        BodyMap: {fileID: 2800000, guid: aa54f8e4e2726c043912f1b4377f454d, type: 3}
+      - BodyName: Female White L Dress 01 Purple
+        BodyMap: {fileID: 2800000, guid: ba1f172e76a2c2745bb761af9fd2319a, type: 3}
+      - BodyName: Female White L Dress 01 Red
+        BodyMap: {fileID: 2800000, guid: cfb52870516947d419d984d40ce94471, type: 3}
+      - BodyName: Female White L Dress 02 Blue
+        BodyMap: {fileID: 2800000, guid: 280621ddc0ce18d4da26d1a4c40ea352, type: 3}
+      - BodyName: Female White L Dress 02 Brown
+        BodyMap: {fileID: 2800000, guid: b153e692f44001b42b2e49ec700f8d0b, type: 3}
+      - BodyName: Female White L Dress 02 Green
+        BodyMap: {fileID: 2800000, guid: e0f15b7287e7e794da7a327ba9714f13, type: 3}
+      - BodyName: Female White L Dress 02 Purple
+        BodyMap: {fileID: 2800000, guid: d213a6edf00a18a4d82eee1f47a4503b, type: 3}
+      - BodyName: Female White L Dress 02 Red
+        BodyMap: {fileID: 2800000, guid: 4848a773a8fd3ef4582a0ee8f58bccbb, type: 3}
+      - BodyName: Female White L Dress 03 Blue
+        BodyMap: {fileID: 2800000, guid: f6d67478b31913a49bac4842bd251766, type: 3}
+      - BodyName: Female White L Dress 03 Brown
+        BodyMap: {fileID: 2800000, guid: fa09f7c37cf2ce1408304133a7c8d772, type: 3}
+      - BodyName: Female White L Dress 03 Green
+        BodyMap: {fileID: 2800000, guid: 80e746601b29a164eb6bc16eb7ff26b0, type: 3}
+      - BodyName: Female White L Dress 03 Purple
+        BodyMap: {fileID: 2800000, guid: bf44731b7dabaf2418b10d4af6464ed5, type: 3}
+      - BodyName: Female White L Dress 03 Red
+        BodyMap: {fileID: 2800000, guid: dcab5edc3288ddc4281fd90dae0f2933, type: 3}
+      - BodyName: Female White L Dress 04 Blue
+        BodyMap: {fileID: 2800000, guid: 6b24ed8c24cf95147846421983aa2d49, type: 3}
+      - BodyName: Female White L Dress 04 Brown
+        BodyMap: {fileID: 2800000, guid: 39b1522745499ea4f89f213ac95a67a4, type: 3}
+      - BodyName: Female White L Dress 04 Green
+        BodyMap: {fileID: 2800000, guid: adfaeb8fb4fe96848a221da1c056b354, type: 3}
+      - BodyName: Female White L Dress 04 Purple
+        BodyMap: {fileID: 2800000, guid: d9b8187348262824686ba03e7fd58138, type: 3}
+      - BodyName: Female White L Dress 04 Red
+        BodyMap: {fileID: 2800000, guid: 1ecf0be322060294a900a0cf32eb960a, type: 3}
+      - BodyName: Female White Naked
+        BodyMap: {fileID: 2800000, guid: 15b55c3f08db2e94fadbfc3585288af9, type: 3}
+      - BodyName: Female White Nurse 01
+        BodyMap: {fileID: 2800000, guid: 046f0fb3a90253244b658dc7a93c9cd1, type: 3}
+      - BodyName: Female White Office 01A
+        BodyMap: {fileID: 2800000, guid: eccbecb1dc0602c4e829dca0bc57a4d3, type: 3}
+      - BodyName: Female White Office 01B
+        BodyMap: {fileID: 2800000, guid: 03d8dd1a1f0bf9a4fb6c67081d16ee6f, type: 3}
+      - BodyName: Female White Office 01C
+        BodyMap: {fileID: 2800000, guid: a836f5ccad4168641a724d2a4237771e, type: 3}
+      - BodyName: Female White Office 01D
+        BodyMap: {fileID: 2800000, guid: 4998e4614556fd64d8bf8596bb3c57e7, type: 3}
+      - BodyName: Female White Patient 01
+        BodyMap: {fileID: 2800000, guid: 233929aaf2abeda45942b16a429f40b1, type: 3}
+      - BodyName: Female White Police 01
+        BodyMap: {fileID: 2800000, guid: 42ef98b920a7d364e82b091c381f475e, type: 3}
+      - BodyName: Female White Sorceress 01 Black
+        BodyMap: {fileID: 2800000, guid: aa9417e5bd6f1c243b129da7b098f267, type: 3}
+      - BodyName: Female White Sorceress 01 Blue
+        BodyMap: {fileID: 2800000, guid: 923ef0b2e0c6ca14aafb1c10461b398e, type: 3}
+      - BodyName: Female White Sorceress 01 Green
+        BodyMap: {fileID: 2800000, guid: 56b115cd0d7e7bf49be8f5760132f278, type: 3}
+      - BodyName: Female White Sorceress 01 Pink
+        BodyMap: {fileID: 2800000, guid: 16cec0e1f3d361e42b8493b8840dc79f, type: 3}
+      - BodyName: Female White Sorceress 01 Purple
+        BodyMap: {fileID: 2800000, guid: 8e0dfe5d1d063f048ad9d9d4bfced68d, type: 3}
+      - BodyName: Female White Sorceress 02 Blue
+        BodyMap: {fileID: 2800000, guid: 40792535fd81bb94d986d46ccc6da9a7, type: 3}
+      - BodyName: Female White Sorceress 02 Green
+        BodyMap: {fileID: 2800000, guid: 50e2f462853fa3b4bb62e1ac3a2388ec, type: 3}
+      - BodyName: Female White Sorceress 02 Purple
+        BodyMap: {fileID: 2800000, guid: 416af71814aa2234a8bb666c32ce078e, type: 3}
+      - BodyName: Female White Sorceress 02 Red
+        BodyMap: {fileID: 2800000, guid: 5890617c667cdd449b794941ab2b528d, type: 3}
+      - BodyName: Female White Sorceress 03 Black
+        BodyMap: {fileID: 2800000, guid: 72bb77e0a4b8495468b3ec0e7dcadb2c, type: 3}
+      - BodyName: Female White Sorceress 03 Blue
+        BodyMap: {fileID: 2800000, guid: e7c5a7a53211c4f478dde4d038dc10ca, type: 3}
+      - BodyName: Female White Sorceress 03 Brown
+        BodyMap: {fileID: 2800000, guid: 96b8f9de8d42be54c9b65bb850bffa87, type: 3}
+      - BodyName: Female White Sorceress 03 Green
+        BodyMap: {fileID: 2800000, guid: eb2134fd87212ab4584bc02dab1312d5, type: 3}
+      - BodyName: Female White Sorceress 03 Purple
+        BodyMap: {fileID: 2800000, guid: 1f448a01a11907d4db1626092ca959ca, type: 3}
+      - BodyName: Female White Sorceress 03 Red
+        BodyMap: {fileID: 2800000, guid: 9e44ea038dbfdf142bac00280cb6b230, type: 3}
+      - BodyName: Female White Sorceress 03 White
+        BodyMap: {fileID: 2800000, guid: 4e23e29df0ae84545bb53f9021f149a4, type: 3}
+      - BodyName: Female White Sorceress 04 Black
+        BodyMap: {fileID: 2800000, guid: 5bc1b720b6c781d4585446ce72a6a839, type: 3}
+      - BodyName: Female White Sorceress 04 Blue
+        BodyMap: {fileID: 2800000, guid: 508a739f23fc5f8498e7a768ab78a09f, type: 3}
+      - BodyName: Female White Sorceress 04 Brown
+        BodyMap: {fileID: 2800000, guid: 9591cbe527184fe4887e1a5b6012acee, type: 3}
+      - BodyName: Female White Sorceress 04 Green
+        BodyMap: {fileID: 2800000, guid: b15d0aac5727c0640b2637aa89233e27, type: 3}
+      - BodyName: Female White Sorceress 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 0d72111198d621c4abdbe9489adbccdc, type: 3}
+      - BodyName: Female White Sorceress 04 Purple
+        BodyMap: {fileID: 2800000, guid: 71ccca8555adcd74395d5c0e6a579d7c, type: 3}
+      - BodyName: Female White Sorceress 04 Red
+        BodyMap: {fileID: 2800000, guid: 512aadc282481974bb1001bc436feb16, type: 3}
+      - BodyName: Female White Sorceress 04 White
+        BodyMap: {fileID: 2800000, guid: 5eb51314408a8bf47b8dcff842a3ed24, type: 3}
+      - BodyName: Female White Sorceress 05 Black
+        BodyMap: {fileID: 2800000, guid: a207edf447efdd24d81c6e89589d559b, type: 3}
+      - BodyName: Female White Sorceress 05 Blue
+        BodyMap: {fileID: 2800000, guid: 5cfec51af78c85a4391046e21c31466c, type: 3}
+      - BodyName: Female White Sorceress 05 Brown
+        BodyMap: {fileID: 2800000, guid: 706ee9c022893ad47a715eaf68edf838, type: 3}
+      - BodyName: Female White Sorceress 05 Green
+        BodyMap: {fileID: 2800000, guid: 3fbff8f2d095a3041bfca2ee6fe88098, type: 3}
+      - BodyName: Female White Sorceress 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 1cc941353da339e449ab5d8fabb7e448, type: 3}
+      - BodyName: Female White Sorceress 05 Purple
+        BodyMap: {fileID: 2800000, guid: 9abb7211f4b0a334cb34920dfb2367b6, type: 3}
+      - BodyName: Female White Sorceress 05 Red
+        BodyMap: {fileID: 2800000, guid: b1fb4c9491761174e94c56cce22a4ef1, type: 3}
+      - BodyName: Female White Sorceress 05 White
+        BodyMap: {fileID: 2800000, guid: b4e876a6b6a2f874780f9dd49224d70a, type: 3}
+      - BodyName: Female White Sorceress 06 Black
+        BodyMap: {fileID: 2800000, guid: 85467a210c74fc24c8bda34561922572, type: 3}
+      - BodyName: Female White Sorceress 06 Blue
+        BodyMap: {fileID: 2800000, guid: ecc00ed98ce2e6f4090b373424293017, type: 3}
+      - BodyName: Female White Sorceress 06 Brown
+        BodyMap: {fileID: 2800000, guid: e63724c1cfa8cd34a8e2b137627e4016, type: 3}
+      - BodyName: Female White Sorceress 06 Green
+        BodyMap: {fileID: 2800000, guid: efd26469a2363c74a819ba4f064231a1, type: 3}
+      - BodyName: Female White Sorceress 06 Magenta
+        BodyMap: {fileID: 2800000, guid: 2fe9ffe5b71d1994f837d76beb474569, type: 3}
+      - BodyName: Female White Sorceress 06 Purple
+        BodyMap: {fileID: 2800000, guid: 503464a67ce9a8046935c8c5a99fd004, type: 3}
+      - BodyName: Female White Sorceress 06 Red
+        BodyMap: {fileID: 2800000, guid: 3fec667ef5f8c824493b054cb63dba14, type: 3}
+      - BodyName: Female White Sorceress 06 White
+        BodyMap: {fileID: 2800000, guid: d43c48495d007984b8dee5cca31fde02, type: 3}
+      - BodyName: Female White Sports 01A
+        BodyMap: {fileID: 2800000, guid: 472574bbd2d2bb4499bbfb4eaba72bf0, type: 3}
+      - BodyName: Female White Sports 01B
+        BodyMap: {fileID: 2800000, guid: 055b9c0640f5f48419caba56636bec97, type: 3}
+      - BodyName: Female White Sports 01C
+        BodyMap: {fileID: 2800000, guid: 866ce7bb0611c3b41a297797c9f8be72, type: 3}
+      - BodyName: Female White Sports 01D
+        BodyMap: {fileID: 2800000, guid: 4a1c40215eb31ca42b27cb0c109d02d1, type: 3}
+    - Skin: 1
+      Paths: Assets/CubeWorld_Assets/Internal_Assets/Prefabs/CustomProps/Body/Female/Brown
+      BodyData:
+      - BodyName: Female Brown Archer 01 Black
+        BodyMap: {fileID: 2800000, guid: a669c377f3cf51640800e72f6697ea80, type: 3}
+      - BodyName: Female Brown Archer 01 Blue
+        BodyMap: {fileID: 2800000, guid: d4fb6ea3cc230de408142b4dfe47973f, type: 3}
+      - BodyName: Female Brown Archer 01 Green
+        BodyMap: {fileID: 2800000, guid: 229f818a3b8d90c47ade48e8c6274476, type: 3}
+      - BodyName: Female Brown Archer 01 Magenta
+        BodyMap: {fileID: 2800000, guid: 8fe1a5faa62778743ae3a4aaea55a685, type: 3}
+      - BodyName: Female Brown Archer 01 Purple
+        BodyMap: {fileID: 2800000, guid: 41c4f6bebd129034db30245c5976aef8, type: 3}
+      - BodyName: Female Brown Archer 01 White
+        BodyMap: {fileID: 2800000, guid: 90183b7a0a0088946a22d17c06ccd54b, type: 3}
+      - BodyName: Female Brown Archer 02 Black
+        BodyMap: {fileID: 2800000, guid: 1519d3fbd37fd574ab54de0c4f119d27, type: 3}
+      - BodyName: Female Brown Archer 02 Blue
+        BodyMap: {fileID: 2800000, guid: 6bb3befb9944b8242b27fe70b8ca5a9a, type: 3}
+      - BodyName: Female Brown Archer 02 Green
+        BodyMap: {fileID: 2800000, guid: 954a830fdc843944e84a195636973912, type: 3}
+      - BodyName: Female Brown Archer 02 Lime
+        BodyMap: {fileID: 2800000, guid: c946d466ae8714349a1f781d3f8cebab, type: 3}
+      - BodyName: Female Brown Archer 02 Magenta
+        BodyMap: {fileID: 2800000, guid: d194471423bf8f446a5203756bdd660f, type: 3}
+      - BodyName: Female Brown Archer 02 Purple
+        BodyMap: {fileID: 2800000, guid: 863f8fdf652b1a24e8dca86b28cb5203, type: 3}
+      - BodyName: Female Brown Archer 02 White
+        BodyMap: {fileID: 2800000, guid: 7bb3ac0e255e79c4d85e34ad850e9c76, type: 3}
+      - BodyName: Female Brown Archer 03 Black
+        BodyMap: {fileID: 2800000, guid: 77672cf8081c53441949d9471a23f939, type: 3}
+      - BodyName: Female Brown Archer 03 Blue
+        BodyMap: {fileID: 2800000, guid: 849f5b6f7ad8c764bbc62ae22e36571a, type: 3}
+      - BodyName: Female Brown Archer 03 Green
+        BodyMap: {fileID: 2800000, guid: 8e7b0cf8414cd6547b7ada8e048cb849, type: 3}
+      - BodyName: Female Brown Archer 03 Maroon
+        BodyMap: {fileID: 2800000, guid: 47e8b7da6c04e36498fbf44b5655339a, type: 3}
+      - BodyName: Female Brown Archer 03 Olive
+        BodyMap: {fileID: 2800000, guid: a300742bf3cef424b9ed48e975bc6766, type: 3}
+      - BodyName: Female Brown Archer 03 Purple
+        BodyMap: {fileID: 2800000, guid: 15335247f589d064892fc0530a7134a6, type: 3}
+      - BodyName: Female Brown Archer 03 White
+        BodyMap: {fileID: 2800000, guid: 37f724b5f0fb1ca41819caf56af7c26c, type: 3}
+      - BodyName: Female Brown Archer 04 Black
+        BodyMap: {fileID: 2800000, guid: 0d4383708c2d56e4ab31460294deb823, type: 3}
+      - BodyName: Female Brown Archer 04 Blue
+        BodyMap: {fileID: 2800000, guid: 8a2fb64004b9ded4fa2fcc137761c2a8, type: 3}
+      - BodyName: Female Brown Archer 04 Green
+        BodyMap: {fileID: 2800000, guid: 8288297fe41e51049a27b197fc5ac333, type: 3}
+      - BodyName: Female Brown Archer 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 3b7f837915ef55e4a8dae5cdb2dd15b1, type: 3}
+      - BodyName: Female Brown Archer 04 Purple
+        BodyMap: {fileID: 2800000, guid: d1959da8e32d3014abfe204e765d482b, type: 3}
+      - BodyName: Female Brown Archer 04 Red
+        BodyMap: {fileID: 2800000, guid: 941b222db8579094eb3b873a12ecd40c, type: 3}
+      - BodyName: Female Brown Archer 04 White
+        BodyMap: {fileID: 2800000, guid: 40f2dd802ce00774fa30fe406f6caad5, type: 3}
+      - BodyName: Female Brown Archer 04 Yellow
+        BodyMap: {fileID: 2800000, guid: fe30d9b60519a1d4ca86423b2f591340, type: 3}
+      - BodyName: Female Brown Archer 05 Black
+        BodyMap: {fileID: 2800000, guid: cb619afc065d10f4584c50bb0e074255, type: 3}
+      - BodyName: Female Brown Archer 05 Blue
+        BodyMap: {fileID: 2800000, guid: 7e87dd606d87e0b4b87fb0bd8f734539, type: 3}
+      - BodyName: Female Brown Archer 05 Green
+        BodyMap: {fileID: 2800000, guid: c145243dd90dfa24bbd59494a4fd880d, type: 3}
+      - BodyName: Female Brown Archer 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 07a47f5d048d84a498c48a4e43443b73, type: 3}
+      - BodyName: Female Brown Archer 05 Purple
+        BodyMap: {fileID: 2800000, guid: a4d59c0172510b54e80cf7e622ac979c, type: 3}
+      - BodyName: Female Brown Archer 05 Red
+        BodyMap: {fileID: 2800000, guid: 59a1f1394f05a0343bdc1210d8cbb09c, type: 3}
+      - BodyName: Female Brown Archer 05 White
+        BodyMap: {fileID: 2800000, guid: 37b16e32bd7b0fe44a721a1f8f7c4cf0, type: 3}
+      - BodyName: Female Brown Archer 05 Yellow
+        BodyMap: {fileID: 2800000, guid: 1f8976431d56a444eb68fac7feb7f407, type: 3}
+      - BodyName: Female Brown Barbarian 01 Blue
+        BodyMap: {fileID: 2800000, guid: 4335aa354cef19445a9c49cbe672c5fa, type: 3}
+      - BodyName: Female Brown Barbarian 01 Green
+        BodyMap: {fileID: 2800000, guid: a896982897af0a343b2ffda95d9390c8, type: 3}
+      - BodyName: Female Brown Barbarian 01 Pink
+        BodyMap: {fileID: 2800000, guid: d350b23b140edb44ab97ee38390f860a, type: 3}
+      - BodyName: Female Brown Barbarian 01 Purple
+        BodyMap: {fileID: 2800000, guid: d22dc19dda3ffd344a4d9156640a8c05, type: 3}
+      - BodyName: Female Brown Barbarian 01 Yellow
+        BodyMap: {fileID: 2800000, guid: f990334491f6ba1478fcd77c1da636c6, type: 3}
+      - BodyName: Female Brown Barbarian 02 Black
+        BodyMap: {fileID: 2800000, guid: 3599a8987c5c51b4f8a360f33c2eb269, type: 3}
+      - BodyName: Female Brown Barbarian 02 Blue
+        BodyMap: {fileID: 2800000, guid: 8e7a939b01a24d94f9b287b28e1e4cc2, type: 3}
+      - BodyName: Female Brown Barbarian 02 Green
+        BodyMap: {fileID: 2800000, guid: 4da09f63cd8921547b84404e30f034a9, type: 3}
+      - BodyName: Female Brown Barbarian 02 Purple
+        BodyMap: {fileID: 2800000, guid: 71344be11ba42774da025f12d6347601, type: 3}
+      - BodyName: Female Brown Barbarian 02 Red
+        BodyMap: {fileID: 2800000, guid: 132135dd17dfe284cb18a135e7abdb02, type: 3}
+      - BodyName: Female Brown Barbarian 02 White
+        BodyMap: {fileID: 2800000, guid: 90a9578bfa0918440a0b27d00c4c1853, type: 3}
+      - BodyName: Female Brown Barbarian 03 Black
+        BodyMap: {fileID: 2800000, guid: 4c4409cf9dfadf94496457ce70f5734a, type: 3}
+      - BodyName: Female Brown Barbarian 03 Blue
+        BodyMap: {fileID: 2800000, guid: 8e7878fd695441e4ba3996919a92f152, type: 3}
+      - BodyName: Female Brown Barbarian 03 Brown
+        BodyMap: {fileID: 2800000, guid: 9c4411a375a553c498fac39b64385fc8, type: 3}
+      - BodyName: Female Brown Barbarian 03 Green
+        BodyMap: {fileID: 2800000, guid: ee9cda2a2e35a2b4299511288bea6636, type: 3}
+      - BodyName: Female Brown Barbarian 03 Magenta
+        BodyMap: {fileID: 2800000, guid: 6533b44a6f02ceb43a21d762fcdc97b6, type: 3}
+      - BodyName: Female Brown Barbarian 03 Purple
+        BodyMap: {fileID: 2800000, guid: 904bee4dfc0c63540bfe3fd0df570346, type: 3}
+      - BodyName: Female Brown Barbarian 03 Red
+        BodyMap: {fileID: 2800000, guid: 844ea988f352674438b2c200a0f87dee, type: 3}
+      - BodyName: Female Brown Barbarian 03 White
+        BodyMap: {fileID: 2800000, guid: c0f33125f45f93f45aa9d6bb06ac6d84, type: 3}
+      - BodyName: Female Brown Barbarian 04 Black
+        BodyMap: {fileID: 2800000, guid: 003bb89b393b73041a29a9ae936a066a, type: 3}
+      - BodyName: Female Brown Barbarian 04 Blue
+        BodyMap: {fileID: 2800000, guid: 3c0257bdec4f3584ab382d0a9938f576, type: 3}
+      - BodyName: Female Brown Barbarian 04 Green
+        BodyMap: {fileID: 2800000, guid: 403c64a074f434a4dac7baa72f5aa2c3, type: 3}
+      - BodyName: Female Brown Barbarian 04 Magenta
+        BodyMap: {fileID: 2800000, guid: d63f8c1c2e7ae7846914eb0b78b50c2a, type: 3}
+      - BodyName: Female Brown Barbarian 04 Purple
+        BodyMap: {fileID: 2800000, guid: 251d06325fbd13c448188264ffde7015, type: 3}
+      - BodyName: Female Brown Barbarian 04 Red
+        BodyMap: {fileID: 2800000, guid: 0f0b294ef7485c44cb47a9627804aa2c, type: 3}
+      - BodyName: Female Brown Barbarian 04 White
+        BodyMap: {fileID: 2800000, guid: 86f1fe871524c254da8e8286b452387c, type: 3}
+      - BodyName: Female Brown Barbarian 04 Yellow
+        BodyMap: {fileID: 2800000, guid: 4f00921caba466045ba86719f36464a1, type: 3}
+      - BodyName: Female Brown Barbarian 05 Black
+        BodyMap: {fileID: 2800000, guid: eb2cc6c3ca515ee48b1cf5352421c2d0, type: 3}
+      - BodyName: Female Brown Barbarian 05 Blue
+        BodyMap: {fileID: 2800000, guid: 39cd97a2b16a24848b1c4179d8c159cc, type: 3}
+      - BodyName: Female Brown Barbarian 05 Green
+        BodyMap: {fileID: 2800000, guid: 53eb68cb0fd0a0b4c9c0355c83c1b437, type: 3}
+      - BodyName: Female Brown Barbarian 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 676dd67a4ebce2a4cb9fced0d668fb97, type: 3}
+      - BodyName: Female Brown Barbarian 05 Purple
+        BodyMap: {fileID: 2800000, guid: a3451c0d330727b44bd0736ceac9384b, type: 3}
+      - BodyName: Female Brown Barbarian 05 Red
+        BodyMap: {fileID: 2800000, guid: 4d4d13b592f50e741ad8df741522b6b7, type: 3}
+      - BodyName: Female Brown Barbarian 05 White
+        BodyMap: {fileID: 2800000, guid: dfa313a59aadb5b48b6b95a99b78a238, type: 3}
+      - BodyName: Female Brown Barbarian 05 Yellow
+        BodyMap: {fileID: 2800000, guid: 92fc5e8e1fa0281438a3f29b159e4f50, type: 3}
+      - BodyName: Female Brown Casual 01A 1
+        BodyMap: {fileID: 2800000, guid: 3b16be7d344fd7b4b9c9554d42f40dda, type: 3}
+      - BodyName: Female Brown Casual 01A
+        BodyMap: {fileID: 2800000, guid: 9558fec639080154398f42c79496805f, type: 3}
+      - BodyName: Female Brown Casual 01B 1
+        BodyMap: {fileID: 2800000, guid: 84ca583a872c4a249b89421fee461f11, type: 3}
+      - BodyName: Female Brown Casual 01B
+        BodyMap: {fileID: 2800000, guid: 6dd6e4398cbf4044495914bfa20e1853, type: 3}
+      - BodyName: Female Brown Casual 01C 1
+        BodyMap: {fileID: 2800000, guid: 6cca7ce497069184db8ed40fa81c0ecc, type: 3}
+      - BodyName: Female Brown Casual 01C
+        BodyMap: {fileID: 2800000, guid: 830843a7b9344904ab8aeb56879d4e5a, type: 3}
+      - BodyName: Female Brown Casual 01D
+        BodyMap: {fileID: 2800000, guid: 49aba082ec04c3b45ac4aa6a305b737b, type: 3}
+      - BodyName: Female Brown Casual 02A
+        BodyMap: {fileID: 2800000, guid: 16238c1552f926c48aaa27120bd33d45, type: 3}
+      - BodyName: Female Brown Casual 02B
+        BodyMap: {fileID: 2800000, guid: 6cf2d98d6889da740a9425f06f3b4a90, type: 3}
+      - BodyName: Female Brown Casual 02C
+        BodyMap: {fileID: 2800000, guid: f6e20918aeec7474aba641b45156d05f, type: 3}
+      - BodyName: Female Brown Casual 03A
+        BodyMap: {fileID: 2800000, guid: c10078b7348e65241ae868e4daae338c, type: 3}
+      - BodyName: Female Brown Casual 03B
+        BodyMap: {fileID: 2800000, guid: c5284da833717154eac4a1bbdfd8ff0d, type: 3}
+      - BodyName: Female Brown Casual 03C
+        BodyMap: {fileID: 2800000, guid: 99030acb95e2d7242bc91ea30905a32b, type: 3}
+      - BodyName: Female Brown Casual 04A
+        BodyMap: {fileID: 2800000, guid: a104b257c5564e648b2a3ee9fa4119b6, type: 3}
+      - BodyName: Female Brown Casual 04B
+        BodyMap: {fileID: 2800000, guid: 4140542080d22a54a9eef8edea010051, type: 3}
+      - BodyName: Female Brown Casual 04C
+        BodyMap: {fileID: 2800000, guid: 1da41c751215c2e4c88c500bf9edaf2d, type: 3}
+      - BodyName: Female Brown Casual 05A
+        BodyMap: {fileID: 2800000, guid: 9536fd7eef2b76848b4a63834bc15341, type: 3}
+      - BodyName: Female Brown Casual 05B
+        BodyMap: {fileID: 2800000, guid: f5ec30e4e9f3c6e449e88b5f06d6341b, type: 3}
+      - BodyName: Female Brown Casual 05C
+        BodyMap: {fileID: 2800000, guid: 489368fba2c4dd645b6c3c8668bcb0ae, type: 3}
+      - BodyName: Female Brown Casual 06A
+        BodyMap: {fileID: 2800000, guid: 5c0e46e2ad5a99b45a5b7475a0201093, type: 3}
+      - BodyName: Female Brown Casual 06B
+        BodyMap: {fileID: 2800000, guid: 4d7c2efcb00b0e34799531ed60bbfd9d, type: 3}
+      - BodyName: Female Brown Casual 06C
+        BodyMap: {fileID: 2800000, guid: 84f5a41af000fa5499be9cac259327ca, type: 3}
+      - BodyName: Female Brown Casual 07A
+        BodyMap: {fileID: 2800000, guid: 8a7a2c9bf7184ae4991428a1b39df86c, type: 3}
+      - BodyName: Female Brown Casual 07B
+        BodyMap: {fileID: 2800000, guid: 5d6a5c2672a588848a4e2eaeeb2f9481, type: 3}
+      - BodyName: Female Brown Casual 07C
+        BodyMap: {fileID: 2800000, guid: 977eef904e8ec924ca2e62fa6a9d56d2, type: 3}
+      - BodyName: Female Brown Casual 08A
+        BodyMap: {fileID: 2800000, guid: c8988951cfa853c438487586146b2695, type: 3}
+      - BodyName: Female Brown Casual 08B
+        BodyMap: {fileID: 2800000, guid: 5aeae96c3ca2ba544b06ba363fb07858, type: 3}
+      - BodyName: Female Brown Casual 08C
+        BodyMap: {fileID: 2800000, guid: eb5e4a5d6430ffa458540d59935e0f30, type: 3}
+      - BodyName: Female Brown Doctor 01
+        BodyMap: {fileID: 2800000, guid: 04012e70233b39748a1da7640d736999, type: 3}
+      - BodyName: Female Brown Elf 01
+        BodyMap: {fileID: 2800000, guid: aa7e592ba4162574d957495946a8fc30, type: 3}
+      - BodyName: Female Brown Fireman 01
+        BodyMap: {fileID: 2800000, guid: 22639ebde83a8bf4eba504011bda97e4, type: 3}
+      - BodyName: Female Brown Fireman 02
+        BodyMap: {fileID: 2800000, guid: 7eea96f2e9765d946b0d3c0597a0221a, type: 3}
+      - BodyName: Female Brown Knight 01 Black
+        BodyMap: {fileID: 2800000, guid: 2f66fc7d79a92f54e9feca886a986f8f, type: 3}
+      - BodyName: Female Brown Knight 01 Blue
+        BodyMap: {fileID: 2800000, guid: cfcb4005f83da6f4abb50f6e15440656, type: 3}
+      - BodyName: Female Brown Knight 01 Green
+        BodyMap: {fileID: 2800000, guid: 91e5d4cf4d306d641a44a9da92aa10e3, type: 3}
+      - BodyName: Female Brown Knight 01 Purple
+        BodyMap: {fileID: 2800000, guid: 528e13267b5e19948b4b31fdccc15582, type: 3}
+      - BodyName: Female Brown Knight 01 Red
+        BodyMap: {fileID: 2800000, guid: 8e2752f2f07b555419d0c8052189cf4a, type: 3}
+      - BodyName: Female Brown Knight 01 White
+        BodyMap: {fileID: 2800000, guid: 14bb3ca461154db43bfeaab50b7a7f10, type: 3}
+      - BodyName: Female Brown Knight 02 Black
+        BodyMap: {fileID: 2800000, guid: 02a273ea57a928a4e8143e369f25401e, type: 3}
+      - BodyName: Female Brown Knight 02 Blue
+        BodyMap: {fileID: 2800000, guid: 5d9e67a81ceb8ec4abd416e00f364296, type: 3}
+      - BodyName: Female Brown Knight 02 Green
+        BodyMap: {fileID: 2800000, guid: 6d6affa54f99a9c478943238b73ae336, type: 3}
+      - BodyName: Female Brown Knight 02 Purple
+        BodyMap: {fileID: 2800000, guid: 842b389c89ba3664c937305cdd41ab1e, type: 3}
+      - BodyName: Female Brown Knight 02 Red
+        BodyMap: {fileID: 2800000, guid: 65d411de020b91448a743da5c8a7ec18, type: 3}
+      - BodyName: Female Brown Knight 02 White
+        BodyMap: {fileID: 2800000, guid: 773d880cdb7fdfd459e76bad23386322, type: 3}
+      - BodyName: Female Brown Knight 03 Black
+        BodyMap: {fileID: 2800000, guid: fc23d93a13032734985cab51e0aa44fa, type: 3}
+      - BodyName: Female Brown Knight 03 Blue
+        BodyMap: {fileID: 2800000, guid: db5fe2aa69c947347854b956c2db2a47, type: 3}
+      - BodyName: Female Brown Knight 03 Green
+        BodyMap: {fileID: 2800000, guid: 3f6dda57f3e055a48bea8bd47d520e97, type: 3}
+      - BodyName: Female Brown Knight 03 Purple
+        BodyMap: {fileID: 2800000, guid: f876a7c0293fcc44ab07df9bd8a0f927, type: 3}
+      - BodyName: Female Brown Knight 03 Red
+        BodyMap: {fileID: 2800000, guid: 90fbecdbc868a234281dee73e84d49d2, type: 3}
+      - BodyName: Female Brown Knight 03 White
+        BodyMap: {fileID: 2800000, guid: e98f5b442bff3404b9e3f073423b169e, type: 3}
+      - BodyName: Female Brown Knight 04 Black
+        BodyMap: {fileID: 2800000, guid: c25ed4e5cff25ae47b35b6e2230cf100, type: 3}
+      - BodyName: Female Brown Knight 04 Blue
+        BodyMap: {fileID: 2800000, guid: 894537ac1250a014693ecee1de2e46f0, type: 3}
+      - BodyName: Female Brown Knight 04 Green
+        BodyMap: {fileID: 2800000, guid: cc09d9463f1ab1d46afba2742c95d78b, type: 3}
+      - BodyName: Female Brown Knight 04 Magenta
+        BodyMap: {fileID: 2800000, guid: d824361895f339f418cf471406d859da, type: 3}
+      - BodyName: Female Brown Knight 04 Purple
+        BodyMap: {fileID: 2800000, guid: 54a0f0c5e756c6b46b0b6670492c79f2, type: 3}
+      - BodyName: Female Brown Knight 04 Red
+        BodyMap: {fileID: 2800000, guid: cd4ad0befe00b284e9ffbddf42726842, type: 3}
+      - BodyName: Female Brown Knight 04 White
+        BodyMap: {fileID: 2800000, guid: 9ada242212ab5714aa9c0245ec105949, type: 3}
+      - BodyName: Female Brown Knight 04 Yellow
+        BodyMap: {fileID: 2800000, guid: 63a80fa79c5d46847bc52398252fa419, type: 3}
+      - BodyName: Female Brown Knight 05 Black
+        BodyMap: {fileID: 2800000, guid: c607fd487c31cd348abd714b23bff2b6, type: 3}
+      - BodyName: Female Brown Knight 05 Blue
+        BodyMap: {fileID: 2800000, guid: f11c5835d70a94f47b4af632fdba5d75, type: 3}
+      - BodyName: Female Brown Knight 05 Green
+        BodyMap: {fileID: 2800000, guid: 2337ec236bedcf7488cf66d534625cd3, type: 3}
+      - BodyName: Female Brown Knight 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 5eb26abbf8256884abdd5cd5e3a0b75f, type: 3}
+      - BodyName: Female Brown Knight 05 Purple
+        BodyMap: {fileID: 2800000, guid: 1f0844fa7d0257247b6d839bdb4f45fc, type: 3}
+      - BodyName: Female Brown Knight 05 Red
+        BodyMap: {fileID: 2800000, guid: e078642ebee18f4428e473271241e983, type: 3}
+      - BodyName: Female Brown Knight 05 White
+        BodyMap: {fileID: 2800000, guid: f740003e7dccba949b5ac4c317e5e1ac, type: 3}
+      - BodyName: Female Brown Knight 05 Yellow
+        BodyMap: {fileID: 2800000, guid: d8368cd7433233547bef8ea1c2e9e59f, type: 3}
+      - BodyName: Female Brown Knight 06 Black
+        BodyMap: {fileID: 2800000, guid: 8ae7e63230eea154087a550043803c92, type: 3}
+      - BodyName: Female Brown Knight 06 Blue
+        BodyMap: {fileID: 2800000, guid: 697895ca452eb79438b0e30aa49324c8, type: 3}
+      - BodyName: Female Brown Knight 06 Green
+        BodyMap: {fileID: 2800000, guid: 4d8b824ad3feaa145b6417c6bf35b59a, type: 3}
+      - BodyName: Female Brown Knight 06 Magenta
+        BodyMap: {fileID: 2800000, guid: 5b2cd30047a47ee45bb9b7bf7b253660, type: 3}
+      - BodyName: Female Brown Knight 06 Purple
+        BodyMap: {fileID: 2800000, guid: 97acae4075dd09f45820cba7f8e3e222, type: 3}
+      - BodyName: Female Brown Knight 06 Red
+        BodyMap: {fileID: 2800000, guid: 86ac0adfabf907842bd5520c801e8555, type: 3}
+      - BodyName: Female Brown Knight 06 White
+        BodyMap: {fileID: 2800000, guid: d8d37f45d63b6fc41966198b8b3a5d63, type: 3}
+      - BodyName: Female Brown Knight 06 Yellow
+        BodyMap: {fileID: 2800000, guid: d1741008783886745b380fe286ca0f3f, type: 3}
+      - BodyName: Female Brown L Dress 01 Blue
+        BodyMap: {fileID: 2800000, guid: 3eb66f9116dd35b4fb73d25d48de7dfd, type: 3}
+      - BodyName: Female Brown L Dress 01 Brown
+        BodyMap: {fileID: 2800000, guid: 0f97c41aac1153c4da0f67b9e07abd30, type: 3}
+      - BodyName: Female Brown L Dress 01 Green
+        BodyMap: {fileID: 2800000, guid: 044896a620dc0544596253f23792c8b9, type: 3}
+      - BodyName: Female Brown L Dress 01 Purple
+        BodyMap: {fileID: 2800000, guid: c7746acd40c43f74cbd4a398d396c386, type: 3}
+      - BodyName: Female Brown L Dress 01 Red
+        BodyMap: {fileID: 2800000, guid: b2ec349ece7aa6f4797dadd8ac87d22b, type: 3}
+      - BodyName: Female Brown L Dress 02 Blue
+        BodyMap: {fileID: 2800000, guid: 69adbf99736ebf84a961e9f1860e761f, type: 3}
+      - BodyName: Female Brown L Dress 02 Brown
+        BodyMap: {fileID: 2800000, guid: ec46cd7ecd810d6429f18443b7e44d50, type: 3}
+      - BodyName: Female Brown L Dress 02 Green
+        BodyMap: {fileID: 2800000, guid: 4d241a0296baf9e448495534baf06b9b, type: 3}
+      - BodyName: Female Brown L Dress 02 Purple
+        BodyMap: {fileID: 2800000, guid: 94ed8859e0a59424ca959f25abf13746, type: 3}
+      - BodyName: Female Brown L Dress 02 Red
+        BodyMap: {fileID: 2800000, guid: d1ae359a47bed22488610f46065c46b9, type: 3}
+      - BodyName: Female Brown L Dress 03 Blue
+        BodyMap: {fileID: 2800000, guid: 4efcbf4266a3e2f4a8ccb1990363d385, type: 3}
+      - BodyName: Female Brown L Dress 03 Brown
+        BodyMap: {fileID: 2800000, guid: 41ba95e12a207924a917c7f9bf6c8074, type: 3}
+      - BodyName: Female Brown L Dress 03 Green
+        BodyMap: {fileID: 2800000, guid: 7853c7c77398b624584e575b5cb7a3d7, type: 3}
+      - BodyName: Female Brown L Dress 03 Purple
+        BodyMap: {fileID: 2800000, guid: 27842ca48d2174546a581aa794f98db9, type: 3}
+      - BodyName: Female Brown L Dress 03 Red
+        BodyMap: {fileID: 2800000, guid: 2d6583fb23c1e3641991155b43f40475, type: 3}
+      - BodyName: Female Brown L Dress 04 Blue
+        BodyMap: {fileID: 2800000, guid: 8e600d7d2aa183640807ab0c8d60036c, type: 3}
+      - BodyName: Female Brown L Dress 04 Brown
+        BodyMap: {fileID: 2800000, guid: 3f1b6d18d82a67141acbc3cce8c97feb, type: 3}
+      - BodyName: Female Brown L Dress 04 Green
+        BodyMap: {fileID: 2800000, guid: 324526c597c9741458c08aea92c9dea6, type: 3}
+      - BodyName: Female Brown L Dress 04 Purple
+        BodyMap: {fileID: 2800000, guid: 30ce489e92e700a4ea1486c0f8d7663d, type: 3}
+      - BodyName: Female Brown L Dress 04 Red
+        BodyMap: {fileID: 2800000, guid: 24f6b0f375e6ffe469a5c5f11bb2ffe0, type: 3}
+      - BodyName: Female Brown Naked
+        BodyMap: {fileID: 2800000, guid: 6068016ac0358084dbb92dea37225d76, type: 3}
+      - BodyName: Female Brown Nurse 01
+        BodyMap: {fileID: 2800000, guid: b70c4fb127d722b49a658d1b25f175f5, type: 3}
+      - BodyName: Female Brown Office 01A
+        BodyMap: {fileID: 2800000, guid: 228e0674934b25444b149a61d3eae703, type: 3}
+      - BodyName: Female Brown Office 01B
+        BodyMap: {fileID: 2800000, guid: e01e2a47e5ae65644af7644cfe4135e0, type: 3}
+      - BodyName: Female Brown Office 01C
+        BodyMap: {fileID: 2800000, guid: d22f269bdafcd5449a508020b97ccc52, type: 3}
+      - BodyName: Female Brown Office 01D
+        BodyMap: {fileID: 2800000, guid: 2bc25c6066fc7ba4aa2ab3004f8a3b3e, type: 3}
+      - BodyName: Female Brown Patient 01
+        BodyMap: {fileID: 2800000, guid: 9d27303eed39b7443b99fed58d071b2a, type: 3}
+      - BodyName: Female Brown Police 01
+        BodyMap: {fileID: 2800000, guid: 94a6d04c5f43ada438deb88229e91384, type: 3}
+      - BodyName: Female Brown Sorceress 01 Black
+        BodyMap: {fileID: 2800000, guid: d6c142ab150763546971b85c6b4715fe, type: 3}
+      - BodyName: Female Brown Sorceress 01 Blue
+        BodyMap: {fileID: 2800000, guid: ed773ea079d5dc24d8a80257a62560f2, type: 3}
+      - BodyName: Female Brown Sorceress 01 Green
+        BodyMap: {fileID: 2800000, guid: e429dffe894c6d042a7d4407b5d8f35e, type: 3}
+      - BodyName: Female Brown Sorceress 01 Pink
+        BodyMap: {fileID: 2800000, guid: 57506c303e2a88c47a9d1fd91591d10b, type: 3}
+      - BodyName: Female Brown Sorceress 01 Purple
+        BodyMap: {fileID: 2800000, guid: c108a806c199b854ab0f2ea79be6f1b7, type: 3}
+      - BodyName: Female Brown Sorceress 02 Blue
+        BodyMap: {fileID: 2800000, guid: c86aeb67869d6cc4991dbdb7f2006f52, type: 3}
+      - BodyName: Female Brown Sorceress 02 Green
+        BodyMap: {fileID: 2800000, guid: 12c1e08b1247cfc4cb90c8835c87578e, type: 3}
+      - BodyName: Female Brown Sorceress 02 Purple
+        BodyMap: {fileID: 2800000, guid: 5f3bfbcedeb09ee4fa912e6050c59cdc, type: 3}
+      - BodyName: Female Brown Sorceress 02 Red
+        BodyMap: {fileID: 2800000, guid: 2934a2ac011690c4e9243954c86b5e2b, type: 3}
+      - BodyName: Female Brown Sorceress 03 Black
+        BodyMap: {fileID: 2800000, guid: 103b4e1698d8eb545821c0461fc89750, type: 3}
+      - BodyName: Female Brown Sorceress 03 Blue
+        BodyMap: {fileID: 2800000, guid: 8a2b20ff4b8c9da47ab6acda55259649, type: 3}
+      - BodyName: Female Brown Sorceress 03 Brown
+        BodyMap: {fileID: 2800000, guid: f0139bbfb68907e418f991ef90222ab7, type: 3}
+      - BodyName: Female Brown Sorceress 03 Green
+        BodyMap: {fileID: 2800000, guid: fdaf4fa0c0fe20a4c8ea43a1db0df8dc, type: 3}
+      - BodyName: Female Brown Sorceress 03 Purple
+        BodyMap: {fileID: 2800000, guid: 67f05b9406cba864fb13c6723b9b38a5, type: 3}
+      - BodyName: Female Brown Sorceress 03 Red
+        BodyMap: {fileID: 2800000, guid: c1ba61048eda3814a8eda571e4778521, type: 3}
+      - BodyName: Female Brown Sorceress 03 White
+        BodyMap: {fileID: 2800000, guid: de241c5d6c9f7d943b0e220feed33c53, type: 3}
+      - BodyName: Female Brown Sorceress 04 Black
+        BodyMap: {fileID: 2800000, guid: f0cef9c77ca33ad4a95fdad11a4d86a3, type: 3}
+      - BodyName: Female Brown Sorceress 04 Blue
+        BodyMap: {fileID: 2800000, guid: 169d810883d5a744fa14d4747f1aa1e5, type: 3}
+      - BodyName: Female Brown Sorceress 04 Brown
+        BodyMap: {fileID: 2800000, guid: c785228f1a110044c96c65b0ed0fb0aa, type: 3}
+      - BodyName: Female Brown Sorceress 04 Green
+        BodyMap: {fileID: 2800000, guid: f0173bb7afdbe45449fad1848eef2531, type: 3}
+      - BodyName: Female Brown Sorceress 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 75ae0a02d0a137a4d8efebda8f75f961, type: 3}
+      - BodyName: Female Brown Sorceress 04 Purple
+        BodyMap: {fileID: 2800000, guid: 4297f039073713b4e985072429122e65, type: 3}
+      - BodyName: Female Brown Sorceress 04 Red
+        BodyMap: {fileID: 2800000, guid: 146fe5b2e6dcd004585abf357559fde2, type: 3}
+      - BodyName: Female Brown Sorceress 04 White
+        BodyMap: {fileID: 2800000, guid: 38c14edfcce8a184caef2b19b990d7a4, type: 3}
+      - BodyName: Female Brown Sorceress 05 Black
+        BodyMap: {fileID: 2800000, guid: 341ed1266913a8f42853c4f913730572, type: 3}
+      - BodyName: Female Brown Sorceress 05 Blue
+        BodyMap: {fileID: 2800000, guid: a2e3a323ce7ed9144a1e3c0340d127fa, type: 3}
+      - BodyName: Female Brown Sorceress 05 Brown
+        BodyMap: {fileID: 2800000, guid: b46f59de3133e47429c07127ff977d50, type: 3}
+      - BodyName: Female Brown Sorceress 05 Green
+        BodyMap: {fileID: 2800000, guid: 1996f7053697519408a3bb17cd41bf9c, type: 3}
+      - BodyName: Female Brown Sorceress 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 243fc21976314db4983e1cc976e5e4e9, type: 3}
+      - BodyName: Female Brown Sorceress 05 Purple
+        BodyMap: {fileID: 2800000, guid: 59bf75e2eef0f094da0e5112757cde85, type: 3}
+      - BodyName: Female Brown Sorceress 05 Red
+        BodyMap: {fileID: 2800000, guid: 5fcf8b741dbd03d46b5f147edcc0ad7b, type: 3}
+      - BodyName: Female Brown Sorceress 05 White
+        BodyMap: {fileID: 2800000, guid: 1cba5b5509bf02f4a917eb48ecf25a7c, type: 3}
+      - BodyName: Female Brown Sorceress 06 Black
+        BodyMap: {fileID: 2800000, guid: 0ca1b64a382980247990367140c76629, type: 3}
+      - BodyName: Female Brown Sorceress 06 Blue
+        BodyMap: {fileID: 2800000, guid: 394e4d46e14059342a99ea6622ded159, type: 3}
+      - BodyName: Female Brown Sorceress 06 Brown
+        BodyMap: {fileID: 2800000, guid: f76271c3d338e77409cfe6572214fc7b, type: 3}
+      - BodyName: Female Brown Sorceress 06 Green
+        BodyMap: {fileID: 2800000, guid: 186d216740f7ae448a4ec6ff15b65c8d, type: 3}
+      - BodyName: Female Brown Sorceress 06 Magenta
+        BodyMap: {fileID: 2800000, guid: 78ce0bfc7c91f0f4abbec635c7ee9ce3, type: 3}
+      - BodyName: Female Brown Sorceress 06 Purple
+        BodyMap: {fileID: 2800000, guid: b84077e59f7524a4090156f1654ce8a5, type: 3}
+      - BodyName: Female Brown Sorceress 06 Red
+        BodyMap: {fileID: 2800000, guid: 502275e8fdba2c945a9119cdeca8a5e0, type: 3}
+      - BodyName: Female Brown Sorceress 06 White
+        BodyMap: {fileID: 2800000, guid: 5d72f5bb377a05e468eeeac9c8354f3f, type: 3}
+      - BodyName: Female Brown Sports 01A
+        BodyMap: {fileID: 2800000, guid: 5522d4821026352439a3b233005a1cde, type: 3}
+      - BodyName: Female Brown Sports 01B
+        BodyMap: {fileID: 2800000, guid: 30197ecbc57cf2741a7dd2916124fe6b, type: 3}
+      - BodyName: Female Brown Sports 01C
+        BodyMap: {fileID: 2800000, guid: 6498a2d120f6d6340b1d1f0e858f3d22, type: 3}
+      - BodyName: Female Brown Sports 01D
+        BodyMap: {fileID: 2800000, guid: bf11ded76069de14082496a6472bc1e1, type: 3}
+    - Skin: 2
+      Paths: Assets/CubeWorld_Assets/Internal_Assets/Prefabs/CustomProps/Body/Female/Black
+      BodyData:
+      - BodyName: Female Black Archer 01 Black
+        BodyMap: {fileID: 2800000, guid: 9983274795fb1914482c5c57b4b131cd, type: 3}
+      - BodyName: Female Black Archer 01 Blue
+        BodyMap: {fileID: 2800000, guid: fb84433df786c65459e65a79653960ee, type: 3}
+      - BodyName: Female Black Archer 01 Green
+        BodyMap: {fileID: 2800000, guid: 7c44c707bb962bf41acbd0c326300d51, type: 3}
+      - BodyName: Female Black Archer 01 Magenta
+        BodyMap: {fileID: 2800000, guid: 90fbb8793b6d0964894e84946844949e, type: 3}
+      - BodyName: Female Black Archer 01 Purple
+        BodyMap: {fileID: 2800000, guid: c47493a33e00c76468376e06069fe79e, type: 3}
+      - BodyName: Female Black Archer 01 White
+        BodyMap: {fileID: 2800000, guid: efa0a464f46b4d24c9d4c95b6c05ebfe, type: 3}
+      - BodyName: Female Black Archer 02 Black
+        BodyMap: {fileID: 2800000, guid: 25ce3d42be8e3004aacc54eb49defb58, type: 3}
+      - BodyName: Female Black Archer 02 Blue
+        BodyMap: {fileID: 2800000, guid: 5f5bc2571b064374baac7449e0add472, type: 3}
+      - BodyName: Female Black Archer 02 Green
+        BodyMap: {fileID: 2800000, guid: 054f33dc6996ffb4e85994f38a9cff9a, type: 3}
+      - BodyName: Female Black Archer 02 Lime
+        BodyMap: {fileID: 2800000, guid: 8c7630df39ce33148b3ac50f2d4bb341, type: 3}
+      - BodyName: Female Black Archer 02 Magenta
+        BodyMap: {fileID: 2800000, guid: 311d01f563eee8a419de28a4bf7311b3, type: 3}
+      - BodyName: Female Black Archer 02 Purple
+        BodyMap: {fileID: 2800000, guid: 26aff4e3584d1a94081aa6cf10dd5c3b, type: 3}
+      - BodyName: Female Black Archer 02 White
+        BodyMap: {fileID: 2800000, guid: d56286cf2d292ce43ab31a4ceda29730, type: 3}
+      - BodyName: Female Black Archer 03 Black
+        BodyMap: {fileID: 2800000, guid: 211d4cfa8a9781344b9e911e1ea3c2e0, type: 3}
+      - BodyName: Female Black Archer 03 Blue
+        BodyMap: {fileID: 2800000, guid: 0484836277fdc794bb76997289994fb4, type: 3}
+      - BodyName: Female Black Archer 03 Green
+        BodyMap: {fileID: 2800000, guid: 378a2c9a0efcf014e8ecb2113a44401a, type: 3}
+      - BodyName: Female Black Archer 03 Maroon
+        BodyMap: {fileID: 2800000, guid: 267e5f261aa7e5d4a9f32386daeb0cb7, type: 3}
+      - BodyName: Female Black Archer 03 Olive
+        BodyMap: {fileID: 2800000, guid: 60c6fac385ae6f84485027ad7d2af3c2, type: 3}
+      - BodyName: Female Black Archer 03 Purple
+        BodyMap: {fileID: 2800000, guid: 9cf76a52ac5c84b46985b01d6454c4ae, type: 3}
+      - BodyName: Female Black Archer 03 White
+        BodyMap: {fileID: 2800000, guid: 8f236012df4045a49be78c20f8d1caec, type: 3}
+      - BodyName: Female Black Archer 04 Black
+        BodyMap: {fileID: 2800000, guid: 6820489ee6aed274abce440acdb732c6, type: 3}
+      - BodyName: Female Black Archer 04 Blue
+        BodyMap: {fileID: 2800000, guid: 4cfeddc400d2b7b42a124219d2047343, type: 3}
+      - BodyName: Female Black Archer 04 Green
+        BodyMap: {fileID: 2800000, guid: c1b1b5f54f126994392bf575ee52ca26, type: 3}
+      - BodyName: Female Black Archer 04 Magenta
+        BodyMap: {fileID: 2800000, guid: b3241e5c956107543815b097781e19ed, type: 3}
+      - BodyName: Female Black Archer 04 Purple
+        BodyMap: {fileID: 2800000, guid: 8e1760c85719b89448704bae19d833d5, type: 3}
+      - BodyName: Female Black Archer 04 Red
+        BodyMap: {fileID: 2800000, guid: 7f775ea248fb61b47846ec5924fd5f3d, type: 3}
+      - BodyName: Female Black Archer 04 White
+        BodyMap: {fileID: 2800000, guid: 1d46b1780bce9b848bc03bc2900f508e, type: 3}
+      - BodyName: Female Black Archer 04 Yellow
+        BodyMap: {fileID: 2800000, guid: 95667b9d99880604c974798b62997186, type: 3}
+      - BodyName: Female Black Archer 05 Black
+        BodyMap: {fileID: 2800000, guid: 99ae37bd199bce1458c6aef9cdceb23f, type: 3}
+      - BodyName: Female Black Archer 05 Blue
+        BodyMap: {fileID: 2800000, guid: f34368e4c8b63214c83e01cfff9e5e7f, type: 3}
+      - BodyName: Female Black Archer 05 Green
+        BodyMap: {fileID: 2800000, guid: 70fad7a00d6a4ab40aa444b0e0ba4d83, type: 3}
+      - BodyName: Female Black Archer 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 3032b796b608ad14eabdccfc090c2abc, type: 3}
+      - BodyName: Female Black Archer 05 Purple
+        BodyMap: {fileID: 2800000, guid: ac28cc95b5c8cfd418100e12bdd207bd, type: 3}
+      - BodyName: Female Black Archer 05 Red
+        BodyMap: {fileID: 2800000, guid: a4802f7ba23cbfd45903fefef63c3ed3, type: 3}
+      - BodyName: Female Black Archer 05 White
+        BodyMap: {fileID: 2800000, guid: f7387a23377ec604b95efce75a8a191f, type: 3}
+      - BodyName: Female Black Archer 05 Yellow
+        BodyMap: {fileID: 2800000, guid: 3f36c2e104e3cf748ac794297bf2d559, type: 3}
+      - BodyName: Female Black Barbarian 01 Blue
+        BodyMap: {fileID: 2800000, guid: 36818d5a0aa42424296dd5ffe278b70c, type: 3}
+      - BodyName: Female Black Barbarian 01 Green
+        BodyMap: {fileID: 2800000, guid: 41289b014fd70864c9d82c1d5be6b5e6, type: 3}
+      - BodyName: Female Black Barbarian 01 Pink
+        BodyMap: {fileID: 2800000, guid: 7180941e333d6e540ab99ee6ea8bcd52, type: 3}
+      - BodyName: Female Black Barbarian 01 Purple
+        BodyMap: {fileID: 2800000, guid: 3542ac6a06c373047936d6bf37dc61a3, type: 3}
+      - BodyName: Female Black Barbarian 01 Yellow
+        BodyMap: {fileID: 2800000, guid: a4c00f0ca0c4b2c4ea75b607263d2766, type: 3}
+      - BodyName: Female Black Barbarian 02 Black
+        BodyMap: {fileID: 2800000, guid: db8c3d66d2bf2774bb8e032940d6f841, type: 3}
+      - BodyName: Female Black Barbarian 02 Blue
+        BodyMap: {fileID: 2800000, guid: 23cf8a0fa9381b940b8fba58af593f84, type: 3}
+      - BodyName: Female Black Barbarian 02 Green
+        BodyMap: {fileID: 2800000, guid: b02e09aeeb8921d48a48ee8207e56886, type: 3}
+      - BodyName: Female Black Barbarian 02 Purple
+        BodyMap: {fileID: 2800000, guid: 851ebe82ffab5f5498f1c9740ae7709b, type: 3}
+      - BodyName: Female Black Barbarian 02 Red
+        BodyMap: {fileID: 2800000, guid: af3d8fc602430e0468729ee5df704f33, type: 3}
+      - BodyName: Female Black Barbarian 02 White
+        BodyMap: {fileID: 2800000, guid: f7c1fd96ca9011d408e73f673d0fddd4, type: 3}
+      - BodyName: Female Black Barbarian 03 Black
+        BodyMap: {fileID: 2800000, guid: 181063d0a5fd7d843ae80874d67d3fb8, type: 3}
+      - BodyName: Female Black Barbarian 03 Blue
+        BodyMap: {fileID: 2800000, guid: aa46486b0cc8d304c891e3f9044441ba, type: 3}
+      - BodyName: Female Black Barbarian 03 Brown
+        BodyMap: {fileID: 2800000, guid: a19191a9a271f634b9d1898183694161, type: 3}
+      - BodyName: Female Black Barbarian 03 Green
+        BodyMap: {fileID: 2800000, guid: 3f078b6546e04324188c2d198609f0fb, type: 3}
+      - BodyName: Female Black Barbarian 03 Magenta
+        BodyMap: {fileID: 2800000, guid: 5419587a26b6b5e4681ca0ef96bad07b, type: 3}
+      - BodyName: Female Black Barbarian 03 Purple
+        BodyMap: {fileID: 2800000, guid: 28231415e238ab643ba9ee7c9316765e, type: 3}
+      - BodyName: Female Black Barbarian 03 Red
+        BodyMap: {fileID: 2800000, guid: 1a5da6290f4b52d46830c6b0a3175629, type: 3}
+      - BodyName: Female Black Barbarian 03 White
+        BodyMap: {fileID: 2800000, guid: 18125fae4b8f6fb40b986f2b355b635e, type: 3}
+      - BodyName: Female Black Barbarian 04 Black
+        BodyMap: {fileID: 2800000, guid: 9abc0255c0243924c8f7cce1269d88eb, type: 3}
+      - BodyName: Female Black Barbarian 04 Blue
+        BodyMap: {fileID: 2800000, guid: 983d3011f880e09478ac81725e4b9bc3, type: 3}
+      - BodyName: Female Black Barbarian 04 Green
+        BodyMap: {fileID: 2800000, guid: 6598236f4739bbe42863c0d91e878d69, type: 3}
+      - BodyName: Female Black Barbarian 04 Magenta
+        BodyMap: {fileID: 2800000, guid: 349a9909bd8dd0f4b8703c2170ada34a, type: 3}
+      - BodyName: Female Black Barbarian 04 Purple
+        BodyMap: {fileID: 2800000, guid: 6e5fb8709fba5404a932aaa54ca93210, type: 3}
+      - BodyName: Female Black Barbarian 04 Red
+        BodyMap: {fileID: 2800000, guid: bc23e369e105cad419d2c07a05280b6b, type: 3}
+      - BodyName: Female Black Barbarian 04 White
+        BodyMap: {fileID: 2800000, guid: 72e4600b2a5445040862b634970966a9, type: 3}
+      - BodyName: Female Black Barbarian 04 Yellow
+        BodyMap: {fileID: 2800000, guid: 394772be46e7fe3448bfdc4fca49f6d2, type: 3}
+      - BodyName: Female Black Barbarian 05 Black
+        BodyMap: {fileID: 2800000, guid: 6b9e7233bc3b66c44a7e93f8f1ee18fb, type: 3}
+      - BodyName: Female Black Barbarian 05 Blue
+        BodyMap: {fileID: 2800000, guid: aa159e1067058804abaac620edefe09a, type: 3}
+      - BodyName: Female Black Barbarian 05 Green
+        BodyMap: {fileID: 2800000, guid: dec31e23aefc25b4f860c43a9f844e40, type: 3}
+      - BodyName: Female Black Barbarian 05 Magenta
+        BodyMap: {fileID: 2800000, guid: f9acc2e9e6b96684db87e2e0c4f9494b, type: 3}
+      - BodyName: Female Black Barbarian 05 Purple
+        BodyMap: {fileID: 2800000, guid: fcb1ffe534cf60e4796c856dd5538631, type: 3}
+      - BodyName: Female Black Barbarian 05 Red
+        BodyMap: {fileID: 2800000, guid: 4c23ad2dd9f7be64499f8b285bff4c42, type: 3}
+      - BodyName: Female Black Barbarian 05 White
+        BodyMap: {fileID: 2800000, guid: 8a737322da7666c4fb9164d564f6159c, type: 3}
+      - BodyName: Female Black Barbarian 05 Yellow
+        BodyMap: {fileID: 2800000, guid: 24981ac8d6a07b84c8b07fab40424dcc, type: 3}
+      - BodyName: Female Black Casual 01A 1
+        BodyMap: {fileID: 2800000, guid: 1d98c07c4cd8570468f1632639ffea8e, type: 3}
+      - BodyName: Female Black Casual 01A
+        BodyMap: {fileID: 2800000, guid: 795ccce1abf8071478519d84f60eb80a, type: 3}
+      - BodyName: Female Black Casual 01B 1
+        BodyMap: {fileID: 2800000, guid: 8754763c41f935d4c9707a4d22eb7bdc, type: 3}
+      - BodyName: Female Black Casual 01B
+        BodyMap: {fileID: 2800000, guid: 331098a812175d74bb37414e29ed892e, type: 3}
+      - BodyName: Female Black Casual 01C 1
+        BodyMap: {fileID: 2800000, guid: a2af2ad61daafc54ea6c14b95d21c248, type: 3}
+      - BodyName: Female Black Casual 01C
+        BodyMap: {fileID: 2800000, guid: de89cffc8bd74a14caa7cc61aad748f4, type: 3}
+      - BodyName: Female Black Casual 01D
+        BodyMap: {fileID: 2800000, guid: ba8725f87a10b8c47933f90cd0f99f65, type: 3}
+      - BodyName: Female Black Casual 02A
+        BodyMap: {fileID: 2800000, guid: ac9d590c4b7a4594fa8dce12e5de5969, type: 3}
+      - BodyName: Female Black Casual 02B
+        BodyMap: {fileID: 2800000, guid: 9d1e9e6a3dd12974bbda3221cc484eff, type: 3}
+      - BodyName: Female Black Casual 02C
+        BodyMap: {fileID: 2800000, guid: e6bd33af06aa82e4588a4eed75927876, type: 3}
+      - BodyName: Female Black Casual 03A
+        BodyMap: {fileID: 2800000, guid: f2ccb893acfeb504e9398d0541fc57c4, type: 3}
+      - BodyName: Female Black Casual 03B
+        BodyMap: {fileID: 2800000, guid: c234a68478691ff4e93c5913f280326f, type: 3}
+      - BodyName: Female Black Casual 03C
+        BodyMap: {fileID: 2800000, guid: 47f8d139c00585a4a936db779c87c8e6, type: 3}
+      - BodyName: Female Black Casual 04A
+        BodyMap: {fileID: 2800000, guid: c7e6ecd3acef8b2468444180b8795ac0, type: 3}
+      - BodyName: Female Black Casual 04B
+        BodyMap: {fileID: 2800000, guid: 2ab772811e83da545b12e3a1ecd33394, type: 3}
+      - BodyName: Female Black Casual 04C
+        BodyMap: {fileID: 2800000, guid: f87220649bec2d544a4b489da24fd190, type: 3}
+      - BodyName: Female Black Casual 05A
+        BodyMap: {fileID: 2800000, guid: 912f5edf465996449a1d01a17725d1ca, type: 3}
+      - BodyName: Female Black Casual 05B
+        BodyMap: {fileID: 2800000, guid: 72efe681e7ccde84a84b1133a2ad2e69, type: 3}
+      - BodyName: Female Black Casual 05C
+        BodyMap: {fileID: 2800000, guid: 2301cb8613323244ca5ca43fa00fcd60, type: 3}
+      - BodyName: Female Black Casual 06A
+        BodyMap: {fileID: 2800000, guid: 0d2bebafe0760ee42ab254c4dbbf8f56, type: 3}
+      - BodyName: Female Black Casual 06B
+        BodyMap: {fileID: 2800000, guid: fec1465e38d43c24291efea55a97a6bc, type: 3}
+      - BodyName: Female Black Casual 06C
+        BodyMap: {fileID: 2800000, guid: a387174481c575d4092862e8a336ba00, type: 3}
+      - BodyName: Female Black Casual 07A
+        BodyMap: {fileID: 2800000, guid: 3c08679b718e8c346ae753ac92ab1332, type: 3}
+      - BodyName: Female Black Casual 07B
+        BodyMap: {fileID: 2800000, guid: fc0ada35de5c60f4d8e6425d18e3ce85, type: 3}
+      - BodyName: Female Black Casual 07C
+        BodyMap: {fileID: 2800000, guid: a02e75176fc41ab43a0b51b4e7ed15a7, type: 3}
+      - BodyName: Female Black Casual 08A
+        BodyMap: {fileID: 2800000, guid: 27392042e13ed5a4d927d252170aebda, type: 3}
+      - BodyName: Female Black Casual 08B
+        BodyMap: {fileID: 2800000, guid: 9f42e5d50f676ab4f94fa584f08ce4ab, type: 3}
+      - BodyName: Female Black Casual 08C
+        BodyMap: {fileID: 2800000, guid: cd15f45022d023344b219430e1e19d1b, type: 3}
+      - BodyName: Female Black Doctor 01
+        BodyMap: {fileID: 2800000, guid: 972644e7890bd76499da058752671503, type: 3}
+      - BodyName: Female Black Elf 01
+        BodyMap: {fileID: 2800000, guid: 2f8dfa67db08d3741972d1d53d3b08b8, type: 3}
+      - BodyName: Female Black Fireman 01
+        BodyMap: {fileID: 2800000, guid: 20138b503fde3ea49b6ee9bb85929552, type: 3}
+      - BodyName: Female Black Fireman 02
+        BodyMap: {fileID: 2800000, guid: dc36416669bdfc9498c7a0cdd3f4b6dc, type: 3}
+      - BodyName: Female Black Knight 01 Black
+        BodyMap: {fileID: 2800000, guid: 825829c7b6f07ab4aa967d25851f8dce, type: 3}
+      - BodyName: Female Black Knight 01 Blue
+        BodyMap: {fileID: 2800000, guid: 5f86def03d6ab634c8cf0d372c18dfa3, type: 3}
+      - BodyName: Female Black Knight 01 Green
+        BodyMap: {fileID: 2800000, guid: 7bd12729bff245241a855bbdb42b1938, type: 3}
+      - BodyName: Female Black Knight 01 Purple
+        BodyMap: {fileID: 2800000, guid: ebb66f7092d393a4fbdcf27ef4deed83, type: 3}
+      - BodyName: Female Black Knight 01 Red
+        BodyMap: {fileID: 2800000, guid: 570b67d1d01b9974e9ecd5e4ef622560, type: 3}
+      - BodyName: Female Black Knight 01 White
+        BodyMap: {fileID: 2800000, guid: ba009856d63919b4e98992f0230959f5, type: 3}
+      - BodyName: Female Black Knight 02 Black
+        BodyMap: {fileID: 2800000, guid: 099122137172e984093ff3e84c1e0bbb, type: 3}
+      - BodyName: Female Black Knight 02 Blue
+        BodyMap: {fileID: 2800000, guid: 08b581cf868d0d74da91749ffdce2d72, type: 3}
+      - BodyName: Female Black Knight 02 Green
+        BodyMap: {fileID: 2800000, guid: 2facc3100d20ad8499403999df6edcc6, type: 3}
+      - BodyName: Female Black Knight 02 Purple
+        BodyMap: {fileID: 2800000, guid: abbfe3325f1b54647b9bd736cbef03c1, type: 3}
+      - BodyName: Female Black Knight 02 Red
+        BodyMap: {fileID: 2800000, guid: 1512f6733a4371643809392d898aa5de, type: 3}
+      - BodyName: Female Black Knight 02 White
+        BodyMap: {fileID: 2800000, guid: 96366d709cedd0c41a8c94b053fb2785, type: 3}
+      - BodyName: Female Black Knight 03 Black
+        BodyMap: {fileID: 2800000, guid: 692bd46d18aa1e84e8a9838a88cd5257, type: 3}
+      - BodyName: Female Black Knight 03 Blue
+        BodyMap: {fileID: 2800000, guid: 0619b11bc65a2bb4fb0ef5bedb467d3a, type: 3}
+      - BodyName: Female Black Knight 03 Green
+        BodyMap: {fileID: 2800000, guid: ac3f0824c6afdd5419a8c60812f77292, type: 3}
+      - BodyName: Female Black Knight 03 Purple
+        BodyMap: {fileID: 2800000, guid: c18e2ca7a5eac9c4bbf23f0d267b2e5f, type: 3}
+      - BodyName: Female Black Knight 03 Red
+        BodyMap: {fileID: 2800000, guid: 7b089b75f3da782428bf15d8c9bde0db, type: 3}
+      - BodyName: Female Black Knight 03 White
+        BodyMap: {fileID: 2800000, guid: 55276af54da65524daf5cd849f1d493b, type: 3}
+      - BodyName: Female Black Knight 04 Black
+        BodyMap: {fileID: 2800000, guid: f2581adb9c9772e448d70045d9903ede, type: 3}
+      - BodyName: Female Black Knight 04 Blue
+        BodyMap: {fileID: 2800000, guid: a0a5e9824a1f90a49bce42bed12cd0c1, type: 3}
+      - BodyName: Female Black Knight 04 Green
+        BodyMap: {fileID: 2800000, guid: aa52bc5121e2ec042ab5a13d2ea83cb0, type: 3}
+      - BodyName: Female Black Knight 04 Magenta
+        BodyMap: {fileID: 2800000, guid: f653943fa86940c48a8f96f01fbf8110, type: 3}
+      - BodyName: Female Black Knight 04 Purple
+        BodyMap: {fileID: 2800000, guid: e5683dc603cd93a49bc61490282239b3, type: 3}
+      - BodyName: Female Black Knight 04 Red
+        BodyMap: {fileID: 2800000, guid: 62d720d5b1203b941963975d6c86e108, type: 3}
+      - BodyName: Female Black Knight 04 White
+        BodyMap: {fileID: 2800000, guid: b1ca6b930239a0f489d0a50233a1f8c1, type: 3}
+      - BodyName: Female Black Knight 04 Yellow
+        BodyMap: {fileID: 2800000, guid: 1abe0b455ac733e498c406ef8a604235, type: 3}
+      - BodyName: Female Black Knight 05 Black
+        BodyMap: {fileID: 2800000, guid: ed152812965a1b2479a69ab5516b7a68, type: 3}
+      - BodyName: Female Black Knight 05 Blue
+        BodyMap: {fileID: 2800000, guid: 0b41067068f891a49955afbfca660e6d, type: 3}
+      - BodyName: Female Black Knight 05 Green
+        BodyMap: {fileID: 2800000, guid: 6a1268a945603104387cece48f80347d, type: 3}
+      - BodyName: Female Black Knight 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 50b1b739fe99074498e998e55dfcb679, type: 3}
+      - BodyName: Female Black Knight 05 Purple
+        BodyMap: {fileID: 2800000, guid: 20e0d4bd402ba504b82bbb5f4848b466, type: 3}
+      - BodyName: Female Black Knight 05 Red
+        BodyMap: {fileID: 2800000, guid: 0ba1a469450b1324597746150689b0e6, type: 3}
+      - BodyName: Female Black Knight 05 White
+        BodyMap: {fileID: 2800000, guid: b91a3a7d75d96e34cb923c8bc7492ab8, type: 3}
+      - BodyName: Female Black Knight 05 Yellow
+        BodyMap: {fileID: 2800000, guid: cb0047fc7caf40b489c4e0870f7f4237, type: 3}
+      - BodyName: Female Black Knight 06 Black
+        BodyMap: {fileID: 2800000, guid: 72a05c4670a68d44db3633506ec5be7d, type: 3}
+      - BodyName: Female Black Knight 06 Blue
+        BodyMap: {fileID: 2800000, guid: 02b72eb7a33ba3744b69a047f9d17021, type: 3}
+      - BodyName: Female Black Knight 06 Green
+        BodyMap: {fileID: 2800000, guid: dd6de46b8fdd08348858c1b8133822c5, type: 3}
+      - BodyName: Female Black Knight 06 Magenta
+        BodyMap: {fileID: 2800000, guid: ad18285461ff8d040be6b2485647d797, type: 3}
+      - BodyName: Female Black Knight 06 Purple
+        BodyMap: {fileID: 2800000, guid: a1df0c899fba65943ae151e78d1c77da, type: 3}
+      - BodyName: Female Black Knight 06 Red
+        BodyMap: {fileID: 2800000, guid: 81406c4927103f940b4828f43658f029, type: 3}
+      - BodyName: Female Black Knight 06 White
+        BodyMap: {fileID: 2800000, guid: 6bed32f86c882df45a5e1cd836fbc821, type: 3}
+      - BodyName: Female Black Knight 06 Yellow
+        BodyMap: {fileID: 2800000, guid: ef4f69e6dddbd394d8dd56e8d6be70a8, type: 3}
+      - BodyName: Female Black L Dress 01 Blue
+        BodyMap: {fileID: 2800000, guid: 377fa5768a40b6849993abe7ed96edb2, type: 3}
+      - BodyName: Female Black L Dress 01 Brown
+        BodyMap: {fileID: 2800000, guid: af466fa26e816254491a5730af74d403, type: 3}
+      - BodyName: Female Black L Dress 01 Green
+        BodyMap: {fileID: 2800000, guid: 96c84dc23427d5b4492812e2d9860295, type: 3}
+      - BodyName: Female Black L Dress 01 Purple
+        BodyMap: {fileID: 2800000, guid: 74862166de1d79545bcbb92b32b1dfc6, type: 3}
+      - BodyName: Female Black L Dress 01 Red
+        BodyMap: {fileID: 2800000, guid: e644c11e8c4c58d49a2c36bddabe89d3, type: 3}
+      - BodyName: Female Black L Dress 02 Blue
+        BodyMap: {fileID: 2800000, guid: 2e3b17f7da683d44daee364c242e6b9f, type: 3}
+      - BodyName: Female Black L Dress 02 Brown
+        BodyMap: {fileID: 2800000, guid: 85d94859e15744e44a9be0be6554cbb1, type: 3}
+      - BodyName: Female Black L Dress 02 Green
+        BodyMap: {fileID: 2800000, guid: e4c92854693773b4488da3669288b72a, type: 3}
+      - BodyName: Female Black L Dress 02 Purple
+        BodyMap: {fileID: 2800000, guid: 72697d81df3696741a9b9a35c9b121a1, type: 3}
+      - BodyName: Female Black L Dress 02 Red
+        BodyMap: {fileID: 2800000, guid: 6a76d74939751d744b8c00bff910fa71, type: 3}
+      - BodyName: Female Black L Dress 03 Blue
+        BodyMap: {fileID: 2800000, guid: 32ba2236956c67446893071dfdf248b0, type: 3}
+      - BodyName: Female Black L Dress 03 Brown
+        BodyMap: {fileID: 2800000, guid: 333bd997ce37fde499fe7d29fd5a3c9a, type: 3}
+      - BodyName: Female Black L Dress 03 Green
+        BodyMap: {fileID: 2800000, guid: d0de2df0555c2f9478c4da1f678e2320, type: 3}
+      - BodyName: Female Black L Dress 03 Purple
+        BodyMap: {fileID: 2800000, guid: 7dfc9d616e83f82429ce18d2f5a3afde, type: 3}
+      - BodyName: Female Black L Dress 03 Red
+        BodyMap: {fileID: 2800000, guid: fe2f8574791606d449d3027d2885e004, type: 3}
+      - BodyName: Female Black L Dress 04 Blue
+        BodyMap: {fileID: 2800000, guid: ae0c20ae2984b78418677ce60afd1bcb, type: 3}
+      - BodyName: Female Black L Dress 04 Brown
+        BodyMap: {fileID: 2800000, guid: dd36c558cb7478b438ef5a27af20ec1a, type: 3}
+      - BodyName: Female Black L Dress 04 Green
+        BodyMap: {fileID: 2800000, guid: 57e14dd441d25e346b262bf424482cfc, type: 3}
+      - BodyName: Female Black L Dress 04 Purple
+        BodyMap: {fileID: 2800000, guid: 090202dfbd1b28548aad3a07bbb3bf3d, type: 3}
+      - BodyName: Female Black L Dress 04 Red
+        BodyMap: {fileID: 2800000, guid: 82ee06f6f2b630d4286a66bccdc772f0, type: 3}
+      - BodyName: Female Black Naked
+        BodyMap: {fileID: 2800000, guid: 4049f067eadd0d9488b40a024fb9f276, type: 3}
+      - BodyName: Female Black Nurse 01
+        BodyMap: {fileID: 2800000, guid: 91d730c19c0e83e43b4a460686f217a4, type: 3}
+      - BodyName: Female Black Office 01A
+        BodyMap: {fileID: 2800000, guid: ef1da9c8381b9b543882b665a314db8f, type: 3}
+      - BodyName: Female Black Office 01B
+        BodyMap: {fileID: 2800000, guid: 5e4ccafde3ab71f4b88adcc171f98aaa, type: 3}
+      - BodyName: Female Black Office 01C
+        BodyMap: {fileID: 2800000, guid: a2ce27a1f988a7144b90032b381ba1f0, type: 3}
+      - BodyName: Female Black Office 01D
+        BodyMap: {fileID: 2800000, guid: 826f1a34e10f98b448967df0278b53da, type: 3}
+      - BodyName: Female Black Patient 01
+        BodyMap: {fileID: 2800000, guid: 519ea3566e70aff438272913c23f2747, type: 3}
+      - BodyName: Female Black Police 01
+        BodyMap: {fileID: 2800000, guid: 280883d88d6e13846843498805d22e0d, type: 3}
+      - BodyName: Female Black Sorceress 01 Black
+        BodyMap: {fileID: 2800000, guid: 6207d959186e58149a35e34fca91c647, type: 3}
+      - BodyName: Female Black Sorceress 01 Blue
+        BodyMap: {fileID: 2800000, guid: 667704bd74825464291c7185210edab7, type: 3}
+      - BodyName: Female Black Sorceress 01 Green
+        BodyMap: {fileID: 2800000, guid: 10df42aabc4941c4a97812196f747061, type: 3}
+      - BodyName: Female Black Sorceress 01 Pink
+        BodyMap: {fileID: 2800000, guid: 100bf5ee677cd2f45ab41c0e11afa63b, type: 3}
+      - BodyName: Female Black Sorceress 01 Purple
+        BodyMap: {fileID: 2800000, guid: 90c8bb45af76e2f4291fbf5703bb9705, type: 3}
+      - BodyName: Female Black Sorceress 02 Blue
+        BodyMap: {fileID: 2800000, guid: 0e2f92fcdf55c0640987517451ffe1e2, type: 3}
+      - BodyName: Female Black Sorceress 02 Green
+        BodyMap: {fileID: 2800000, guid: 2a5b28243eb10dc48845039c1067bd3b, type: 3}
+      - BodyName: Female Black Sorceress 02 Purple
+        BodyMap: {fileID: 2800000, guid: 48c6931b3accf5541964f1187e11d65c, type: 3}
+      - BodyName: Female Black Sorceress 02 Red
+        BodyMap: {fileID: 2800000, guid: 5af31e679eabd8c4fa0abbc8ed23339f, type: 3}
+      - BodyName: Female Black Sorceress 03 Black
+        BodyMap: {fileID: 2800000, guid: 74420cd7aae780046b3441061298ca67, type: 3}
+      - BodyName: Female Black Sorceress 03 Blue
+        BodyMap: {fileID: 2800000, guid: 873f0608f62d4d7459928618cbe21897, type: 3}
+      - BodyName: Female Black Sorceress 03 Brown
+        BodyMap: {fileID: 2800000, guid: b0986048d28bd4c44b40b644bdfcfa99, type: 3}
+      - BodyName: Female Black Sorceress 03 Green
+        BodyMap: {fileID: 2800000, guid: b2a485ddf70f17f4a991c4a5407fc572, type: 3}
+      - BodyName: Female Black Sorceress 03 Purple
+        BodyMap: {fileID: 2800000, guid: 30aade8c29c522a4aad8e6d33c5e38ff, type: 3}
+      - BodyName: Female Black Sorceress 03 Red
+        BodyMap: {fileID: 2800000, guid: d551163f43fb12e4796be53bcf678229, type: 3}
+      - BodyName: Female Black Sorceress 03 White
+        BodyMap: {fileID: 2800000, guid: e594b5f439f8da0499ba818c5425150e, type: 3}
+      - BodyName: Female Black Sorceress 04 Black
+        BodyMap: {fileID: 2800000, guid: 7ba90d8bd2dc017409955cde0a80830c, type: 3}
+      - BodyName: Female Black Sorceress 04 Blue
+        BodyMap: {fileID: 2800000, guid: 5ee49eb4f500827499a4841097bf6668, type: 3}
+      - BodyName: Female Black Sorceress 04 Brown
+        BodyMap: {fileID: 2800000, guid: 6dac41680b4706c4a85f8a5345f2535d, type: 3}
+      - BodyName: Female Black Sorceress 04 Green
+        BodyMap: {fileID: 2800000, guid: b0138dfe5ea78c84eb0e7a008312991c, type: 3}
+      - BodyName: Female Black Sorceress 04 Magenta
+        BodyMap: {fileID: 2800000, guid: d4841f65005f1aa4086454e6a8b630bb, type: 3}
+      - BodyName: Female Black Sorceress 04 Purple
+        BodyMap: {fileID: 2800000, guid: 4960a2bf12813ec41b57e94d3e7cc85c, type: 3}
+      - BodyName: Female Black Sorceress 04 Red
+        BodyMap: {fileID: 2800000, guid: 252b3caa19e601c4986e0cb5042cc002, type: 3}
+      - BodyName: Female Black Sorceress 04 White
+        BodyMap: {fileID: 2800000, guid: a56360be7fb7bf542845136063a96e6a, type: 3}
+      - BodyName: Female Black Sorceress 05 Black
+        BodyMap: {fileID: 2800000, guid: 0ad0992b7c431e74c93d30b01c505035, type: 3}
+      - BodyName: Female Black Sorceress 05 Blue
+        BodyMap: {fileID: 2800000, guid: 838cc75b1380c1145af94798749427e7, type: 3}
+      - BodyName: Female Black Sorceress 05 Brown
+        BodyMap: {fileID: 2800000, guid: f770600ffb3b39b42bad72c1179c6a13, type: 3}
+      - BodyName: Female Black Sorceress 05 Green
+        BodyMap: {fileID: 2800000, guid: 01c709354d4806249a366e04635736b1, type: 3}
+      - BodyName: Female Black Sorceress 05 Magenta
+        BodyMap: {fileID: 2800000, guid: 6e4ad8525accb3646a51e5aa9e1cb219, type: 3}
+      - BodyName: Female Black Sorceress 05 Purple
+        BodyMap: {fileID: 2800000, guid: 5c91cde0b4b358b46b0b32e6576938d1, type: 3}
+      - BodyName: Female Black Sorceress 05 Red
+        BodyMap: {fileID: 2800000, guid: a7feecc9c3f1ead4980fdb2724db9893, type: 3}
+      - BodyName: Female Black Sorceress 05 White
+        BodyMap: {fileID: 2800000, guid: 46da6d3710c349c468053c4ac446fa09, type: 3}
+      - BodyName: Female Black Sorceress 06 Black
+        BodyMap: {fileID: 2800000, guid: 4920d3d18d8e88248aea1f81c04b718b, type: 3}
+      - BodyName: Female Black Sorceress 06 Blue
+        BodyMap: {fileID: 2800000, guid: 4839cefa78bbf964a8885cfae27f3c03, type: 3}
+      - BodyName: Female Black Sorceress 06 Brown
+        BodyMap: {fileID: 2800000, guid: 6ea75f6c0f59a8d48acad7ce985658a3, type: 3}
+      - BodyName: Female Black Sorceress 06 Green
+        BodyMap: {fileID: 2800000, guid: c40384ecf55e0ab459353b15d2dfac6d, type: 3}
+      - BodyName: Female Black Sorceress 06 Magenta
+        BodyMap: {fileID: 2800000, guid: bbcf694aca6b9b7478d731cc29dea618, type: 3}
+      - BodyName: Female Black Sorceress 06 Purple
+        BodyMap: {fileID: 2800000, guid: 064b29080f168f94ea96b672e0c1022d, type: 3}
+      - BodyName: Female Black Sorceress 06 Red
+        BodyMap: {fileID: 2800000, guid: 53f56eb2c236ecf41895dd5f3710e845, type: 3}
+      - BodyName: Female Black Sorceress 06 White
+        BodyMap: {fileID: 2800000, guid: 0fdd9d297944dab4dbaacd3aa22c8887, type: 3}
+      - BodyName: Female Black Sports 01A
+        BodyMap: {fileID: 2800000, guid: be098667b6da0644f933d7eca0396b49, type: 3}
+      - BodyName: Female Black Sports 01B
+        BodyMap: {fileID: 2800000, guid: ef6e092149c0682449c0763454db4264, type: 3}
+      - BodyName: Female Black Sports 01C
+        BodyMap: {fileID: 2800000, guid: d1635cdfd3ca0af409cccfc978a30982, type: 3}
+      - BodyName: Female Black Sports 01D
+        BodyMap: {fileID: 2800000, guid: 1d0f595ce7012b84fb72fa9ac5acfbd3, type: 3}
+    - Skin: 3
+      Paths: Assets/CubeWorld_Assets/Internal_Assets/Prefabs/CustomProps/Body/Female/Gorgon
+      BodyData:
+      - BodyName: Female Gorgon 01 Black
+        BodyMap: {fileID: 2800000, guid: 7d8d7a836ef8ed04fbb6c751f044c547, type: 3}
+      - BodyName: Female Gorgon 01 Blue
+        BodyMap: {fileID: 2800000, guid: 9a65b0305667e4d49a412d9676187412, type: 3}
+      - BodyName: Female Gorgon 01 Brown
+        BodyMap: {fileID: 2800000, guid: f1dd4e0a4a7d02a42a65c6cd0140c99f, type: 3}
+      - BodyName: Female Gorgon 01 Green
+        BodyMap: {fileID: 2800000, guid: b5bcbe8332a6bc0439d712ce859b979f, type: 3}
+      - BodyName: Female Gorgon 01 Magenta
+        BodyMap: {fileID: 2800000, guid: bfb23b2aaa0972040837ebefeb0e754f, type: 3}
+      - BodyName: Female Gorgon 01 Purple
+        BodyMap: {fileID: 2800000, guid: 59ae328f65fb415429bf45bcfbfa0e73, type: 3}
+      - BodyName: Female Gorgon 01 Red
+        BodyMap: {fileID: 2800000, guid: c0109edea085eca47b08f9e62a766356, type: 3}
+      - BodyName: Female Gorgon 02 Black
+        BodyMap: {fileID: 2800000, guid: 8078eddab4739714bb866ea2a80c4729, type: 3}
+      - BodyName: Female Gorgon 02 Blue
+        BodyMap: {fileID: 2800000, guid: c0e727a337c418347885dd44b216f018, type: 3}
+      - BodyName: Female Gorgon 02 Green
+        BodyMap: {fileID: 2800000, guid: 6cbbfec06859d094c9c9e23ace51aeb9, type: 3}
+      - BodyName: Female Gorgon 02 Magenta
+        BodyMap: {fileID: 2800000, guid: 6bb4531d660fac94c8fe595c39c700a4, type: 3}
+      - BodyName: Female Gorgon 02 Purple
+        BodyMap: {fileID: 2800000, guid: 546d9fd08a3705340954ce8e2ce43317, type: 3}
+      - BodyName: Female Gorgon 02 Red
+        BodyMap: {fileID: 2800000, guid: 6211e8275634b6a4caef4d75e111cec3, type: 3}
+      - BodyName: Female Gorgon 02 White
+        BodyMap: {fileID: 2800000, guid: 892aaba05f2e76247af2bbc5809ad499, type: 3}
+      - BodyName: Female Gorgon 02 Yellow
+        BodyMap: {fileID: 2800000, guid: 423636278472881419dfc45dc7f34425, type: 3}
+      - BodyName: Female Gorgon 03 Black
+        BodyMap: {fileID: 2800000, guid: 2aa7383d846bcee4cb3835a3aa805ad7, type: 3}
+      - BodyName: Female Gorgon 03 Blue
+        BodyMap: {fileID: 2800000, guid: 636cb2bfc42ab5340b4a57dd4f4feb5b, type: 3}
+      - BodyName: Female Gorgon 03 Green
+        BodyMap: {fileID: 2800000, guid: be8605cbadb54204ea05de2e59197f84, type: 3}
+      - BodyName: Female Gorgon 03 Magenta
+        BodyMap: {fileID: 2800000, guid: a1916051b97734a4798489ba3ae90b15, type: 3}
+      - BodyName: Female Gorgon 03 Purple
+        BodyMap: {fileID: 2800000, guid: 868ed8fb584a5cf4e912155c9ceb89f9, type: 3}
+      - BodyName: Female Gorgon 03 Red
+        BodyMap: {fileID: 2800000, guid: 1ffe193c9dac81e43ae7dbecf3c2c9ec, type: 3}
+      - BodyName: Female Gorgon 03 Yellow
+        BodyMap: {fileID: 2800000, guid: 677db61e117602344917164ed4e401d5, type: 3}
+      - BodyName: Female Gorgon Underwear
+        BodyMap: {fileID: 2800000, guid: 7fb5d4a80e3d62b408fea717791fe583, type: 3}
+    - Skin: 4
+      Paths: Assets/CubeWorld_Assets/Internal_Assets/Prefabs/CustomProps/Body/Female/Spider
+      BodyData:
+      - BodyName: Female Spideress 01 Blue
+        BodyMap: {fileID: 2800000, guid: b566b5f4f73027c46b9483e45f787c78, type: 3}
+      - BodyName: Female Spideress 01 Green
+        BodyMap: {fileID: 2800000, guid: 53eec881abf14e247b53936321ad46f5, type: 3}
+      - BodyName: Female Spideress 01 Magenta
+        BodyMap: {fileID: 2800000, guid: 9ffb29a1efacd0d48a6be0e1b8960437, type: 3}
+      - BodyName: Female Spideress 01 Purple
+        BodyMap: {fileID: 2800000, guid: 659c9803193e9d94e89ce644f28433a9, type: 3}
+      - BodyName: Female Spideress 01 Red
+        BodyMap: {fileID: 2800000, guid: 52a93415e74cd5842a95eca34ea61f36, type: 3}
+      - BodyName: Female Spideress 01 White
+        BodyMap: {fileID: 2800000, guid: 6e397b10d0db10545a7588624037a6c8, type: 3}
+      - BodyName: Female Spideress 01 Yellow
+        BodyMap: {fileID: 2800000, guid: 04e5e509611e0a04f9c8f1cc4245503b, type: 3}
+      - BodyName: Female Spideress 02 Black
+        BodyMap: {fileID: 2800000, guid: b2941f3f550c2fa4e92c48a90b3473eb, type: 3}
+      - BodyName: Female Spideress 02 Blue
+        BodyMap: {fileID: 2800000, guid: fae9d3f3c39d3184d98c141f4e3b9ff8, type: 3}
+      - BodyName: Female Spideress 02 Green
+        BodyMap: {fileID: 2800000, guid: a8cfbd4667a1c174696ade61ac449eaa, type: 3}
+      - BodyName: Female Spideress 02 Magenta
+        BodyMap: {fileID: 2800000, guid: c5ed0b5da145f154cb1a075e03e9dd43, type: 3}
+      - BodyName: Female Spideress 02 Purple
+        BodyMap: {fileID: 2800000, guid: 9bd278295ba2d644882a6c08c587340b, type: 3}
+      - BodyName: Female Spideress 02 Yellow
+        BodyMap: {fileID: 2800000, guid: 678450ab082ca3449a86d47ded5872da, type: 3}
+      - BodyName: Female Spideress 03 Black
+        BodyMap: {fileID: 2800000, guid: 897e885f96373e447b6408c708158f0c, type: 3}
+      - BodyName: Female Spideress 03 Blue
+        BodyMap: {fileID: 2800000, guid: 948b2ac36b11aff4397263fd27a38d3e, type: 3}
+      - BodyName: Female Spideress 03 Green
+        BodyMap: {fileID: 2800000, guid: 24038713a9923dc41bf2a28c3a47216b, type: 3}
+      - BodyName: Female Spideress 03 Magenta
+        BodyMap: {fileID: 2800000, guid: dd7665a10be4fb34fbf7da4d49ed78cd, type: 3}
+      - BodyName: Female Spideress 03 Purple
+        BodyMap: {fileID: 2800000, guid: 2c2f4e3169102b5479ce734291e9007f, type: 3}
+      - BodyName: Female Spideress 03 Red
+        BodyMap: {fileID: 2800000, guid: 3b81bd7f19d1cff4381bd2e1f6892a22, type: 3}
+      - BodyName: Female Spideress 03 Yellow
+        BodyMap: {fileID: 2800000, guid: 691d46413b2c4ac4a8867b9632925ef3, type: 3}
+      - BodyName: Female Spideress Underwear
+        BodyMap: {fileID: 2800000, guid: 188d2650af8269b448d0bc1e12d64941, type: 3}
+    - Skin: 5
+      Paths: Assets/CubeWorld_Assets/Internal_Assets/Prefabs/CustomProps/Body/Female/Speical
+      BodyData:
+      - BodyName: Female Aqua 01 Blue
+        BodyMap: {fileID: 2800000, guid: 2f0dd84e5b88ecf42a4724135492e1a6, type: 3}
+      - BodyName: Female Aqua 01 Cyan
+        BodyMap: {fileID: 2800000, guid: 8f8cc49df0ab6e748975269ffd014b13, type: 3}
+      - BodyName: Female Fire 01 Orange
+        BodyMap: {fileID: 2800000, guid: b17caa011bfa3284fbd0ca1c3f23544a, type: 3}
+      - BodyName: Female Fire 01 Yellow
+        BodyMap: {fileID: 2800000, guid: b680790cd9bccee44b7136a6de88addf, type: 3}
