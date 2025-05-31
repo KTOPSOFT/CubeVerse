@@ -1,0 +1,29 @@
+using System;
+using InsaneScatterbrain.ScriptGraph;
+using InsaneScatterbrain.Services;
+using UnityEngine;
+
+[ScriptNode("#NAME#", "Custom"), Serializable]
+public class #SCRIPTNAME# : ProcessorNode
+{
+    [InPort("Int A", typeof(int), true), SerializeReference]
+    private InPort intAIn = null;
+    
+    [InPort("Int B", typeof(int)), SerializeReference] 
+    private InPort intBIn = null;
+
+    [OutPort("Total", typeof(int)), SerializeReference] 
+    private OutPort sumOut = null;
+
+    protected override void OnProcess()
+    {
+        var rng = Get<Rng>();
+        
+        var intA = intAIn.Get<int>();
+        var intB = intBIn.Get<int>();
+
+        var total = intA + intB + rng.Next(0, 100);
+
+        sumOut.Set(() => total);
+    }
+}

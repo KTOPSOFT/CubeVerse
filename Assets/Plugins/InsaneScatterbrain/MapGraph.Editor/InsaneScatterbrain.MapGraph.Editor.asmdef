@@ -1,0 +1,36 @@
+{
+    "name": "InsaneScatterbrain.MapGraph.Editor",
+    "references": [
+        "GUID:521c972b06d4eb8e9a63c65d0121eabd",
+        "GUID:cfaad227a7c464d3f80c018378ba16fa",
+        "GUID:069b8df3588bae0d48653135cce58021",
+        "GUID:94a448d0f1a69befebd26b936f598ee6",
+        "GUID:1475219d9c538b60baf476697e09382b",
+        "GUID:7c3f7e0fc69c63e869c95b518da5f9bc",
+        "GUID:478a2357cc57436488a56e564b08d223"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "QuikGraph_MapGraph.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.2d.tilemap",
+            "expression": "",
+            "define": "MAP_GRAPH_TILEMAP"
+        },
+        {
+            "name": "com.unity.editorcoroutines",
+            "expression": "",
+            "define": "MAP_GRAPH_EDITORCOROUTINES"
+        }
+    ],
+    "noEngineReferences": false
+}

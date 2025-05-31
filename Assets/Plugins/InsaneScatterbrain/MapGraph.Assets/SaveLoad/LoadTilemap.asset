@@ -1,0 +1,338 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1854f941f932404c8e80946768cd4c68, type: 3}
+  m_Name: LoadTilemap
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.26.1
+  id: bc3fc6b5-2374-485a-9b71-c50b53a1ce71
+  nodes:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  - id: 4
+  consumerNodes:
+  - id: 0
+  - id: 2
+  processorNodes:
+  - id: 0
+  - id: 2
+  inputNodes:
+  - id: 1
+  - id: 3
+  - id: 4
+  outputNodes: []
+  sortedProcessorNodes: []
+  inputParameters:
+    elements:
+    - id: 3d167812-ac47-4ca4-9e81-c687a67c9439
+      name: Save Data
+      typeName: InsaneScatterbrain.MapGraph.SaveData, InsaneScatterbrain.MapGraph,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - id: 9722d378-f440-4ffe-89bc-1e176ff50d0b
+      name: Tilemap
+      typeName: UnityEngine.Tilemaps.Tilemap, UnityEngine.TilemapModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    - id: e6cac0cc-6312-4481-b93b-1c2751e2277c
+      name: Tileset
+      typeName: InsaneScatterbrain.MapGraph.Tileset, InsaneScatterbrain.MapGraph,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    orderedIds:
+    - 3d167812-ac47-4ca4-9e81-c687a67c9439
+    - 9722d378-f440-4ffe-89bc-1e176ff50d0b
+    - e6cac0cc-6312-4481-b93b-1c2751e2277c
+    names: []
+    typeNames: []
+  outputParameters:
+    elements: []
+    orderedIds: []
+    names: []
+    typeNames: []
+  dataDependencies: []
+  referenceNodeConnections: []
+  referenceNodes: []
+  groupNodes: []
+  canBeAddedAsNode: 0
+  nodePath: Graphs
+  serializedCustomPreviewBehaviourType: 
+  namedColorSet: {fileID: 0}
+  references:
+    version: 1
+    00000000:
+      type: {class: LoadTextureData, ns: InsaneScatterbrain.MapGraph, asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 452
+          y: 213
+          width: 185
+          height: 77
+        note: 
+        id: a1319e7e-c8ae-40ee-aaa8-7c351304e6e7
+        providerNode:
+          id: 5
+        consumerNode:
+          id: 6
+        saveDataIn:
+          id: 7
+        textureDataOut:
+          id: 8
+    00000001:
+      type: {class: InputNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 325
+          y: 249
+          width: 107
+          height: 41
+        note: 
+        id: a163ec52-49a1-4085-b085-72397979ff32
+        outPorts:
+        - id: 9
+        inputParameterId: 3d167812-ac47-4ca4-9e81-c687a67c9439
+        inputTypeName: InsaneScatterbrain.MapGraph.SaveData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    00000002:
+      type: {class: ConvertTextureToTilemapNode, ns: InsaneScatterbrain.MapGraph,
+        asm: InsaneScatterbrain.MapGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 671
+          y: 236
+          width: 193
+          height: 173
+        note: 
+        id: c906c297-a505-41f7-ac45-1fd613365db5
+        providerNode:
+          id: 10
+        consumerNode:
+          id: 11
+        textureIn:
+          id: 12
+        tilesetIn:
+          id: 13
+        tilemapIn:
+          id: 14
+        offsetIn:
+          id: 15
+        preventClearIn:
+          id: 16
+    00000003:
+      type: {class: InputNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 552
+          y: 296
+          width: 89
+          height: 41
+        note: 
+        id: 70d87c4d-3e94-4638-8042-8985dd70229b
+        outPorts:
+        - id: 17
+        inputParameterId: e6cac0cc-6312-4481-b93b-1c2751e2277c
+        inputTypeName: InsaneScatterbrain.MapGraph.Tileset, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    00000004:
+      type: {class: InputNode, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 543
+          y: 345
+          width: 97
+          height: 41
+        note: 
+        id: 9e3fc980-363f-4b91-bbff-630b395dd7a3
+        outPorts:
+        - id: 18
+        inputParameterId: 9722d378-f440-4ffe-89bc-1e176ff50d0b
+        inputTypeName: UnityEngine.Tilemaps.Tilemap, UnityEngine.TilemapModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    00000005:
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph,
+        asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: fa31da9a-49a0-4911-8af9-ca1b50826854
+        outPorts:
+        - id: 8
+    00000006:
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph,
+        asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 77ab36e3-1531-403b-a71e-8bac27c04779
+        inPorts:
+        - id: 7
+    00000007:
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Save Data
+        owner:
+          id: 0
+        typeName: InsaneScatterbrain.MapGraph.SaveData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          id: 9
+        isConnectionRequired: 1
+    00000008:
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          id: 0
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - id: 12
+    00000009:
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          id: 1
+        typeName: InsaneScatterbrain.MapGraph.SaveData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - id: 7
+    0000000A:
+      type: {class: ProcessorNode/ProcessorProviderNode, ns: InsaneScatterbrain.ScriptGraph,
+        asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 42159132-e640-44d7-bfdf-ebafdd98f05f
+        outPorts: []
+    0000000B:
+      type: {class: ProcessorNode/ProcessorConsumerNode, ns: InsaneScatterbrain.ScriptGraph,
+        asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        graph: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        note: 
+        id: 969fc6fe-5eff-4430-b43d-4f79674e57dc
+        inPorts:
+        - id: 12
+        - id: 13
+        - id: 14
+        - id: 15
+        - id: 16
+    0000000C:
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Texture
+        owner:
+          id: 2
+        typeName: InsaneScatterbrain.MapGraph.TextureData, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          id: 8
+        isConnectionRequired: 1
+    0000000D:
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Tileset
+        owner:
+          id: 2
+        typeName: InsaneScatterbrain.MapGraph.Tileset, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          id: 17
+        isConnectionRequired: 1
+    0000000E:
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Tilemap
+        owner:
+          id: 2
+        typeName: UnityEngine.Tilemaps.Tilemap, UnityEngine.TilemapModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          id: 18
+        isConnectionRequired: 1
+    0000000F:
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Offset
+        owner:
+          id: 2
+        typeName: UnityEngine.Vector2Int, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedOut:
+          id: 19
+        isConnectionRequired: 0
+    00000010:
+      type: {class: InPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: Prevent Clear?
+        owner:
+          id: 2
+        typeName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        connectedOut:
+          id: 19
+        isConnectionRequired: 0
+    00000011:
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          id: 3
+        typeName: InsaneScatterbrain.MapGraph.Tileset, InsaneScatterbrain.MapGraph,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - id: 13
+    00000012:
+      type: {class: OutPort, ns: InsaneScatterbrain.ScriptGraph, asm: InsaneScatterbrain.ScriptGraph}
+      data:
+        name: 
+        owner:
+          id: 4
+        typeName: UnityEngine.Tilemaps.Tilemap, UnityEngine.TilemapModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        connectedInPorts:
+        - id: 14
+    00000013:
+      type: {class: , ns: , asm: }

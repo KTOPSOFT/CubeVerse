@@ -1,0 +1,332 @@
+﻿GridBackground {
+    --grid-background-color: #2A2A2A;
+    --line-color: #222222;
+    --thick-line-color: #191919;
+    --spacing: 10;
+}
+
+InputNodeView #title,
+OutputNodeView #title,
+.no-title #title,
+.constant-node-view #title {
+    display: none;
+}
+
+InputNodeView #input,
+OutputNodeView #output,
+.title-in-input #input {
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -2px;
+}
+
+.highlight {
+    background-color: cyan;
+}
+
+.failed {
+    background-color: red;
+}
+
+.warning {
+    background-color: orange;
+}
+
+.searched, .sticky-note.searched {
+    background-color: mediumpurple;
+}
+
+.searched .mainContainer {
+    background-color: rgba(147, 112, 219, 0.6);
+}
+
+.searched #headerContainer #titleContainer #titleLabel.unity-label,
+.sticky-note.searched #title,
+.sticky-note.searched #contents {
+    color: white;
+}
+
+.node-note {
+    background-color: #ffff88;
+    color: black;
+    padding: 5px;
+    margin: 0;
+}
+
+.node-note > TextInput {
+    background-color: #ffff88;
+    border-color: #ffff88;
+    color: black;
+}
+
+.index-link {
+    color: rgb(150,200,255);
+    
+    cursor: link;
+    
+    border-radius: 10px;
+    
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+}
+
+.latest-execution-time {
+    background-color: #404040;
+    opacity: .8;
+    padding: 6px 0 8px 8px;
+    border-top-width: 1px;
+    border-color: #242424;
+}
+
+/* Set a default width size, so that empty fields aren't easier to select when empty */
+.unity-base-text-field__input {
+    min-width: 20px;   
+}
+
+/* port colors */
+.port.TextureData {
+    --port-color: #b35050;
+}
+
+.port.Color32 {
+    --port-color: #fac8fa;
+}
+
+.port.Vector2Int,
+.port.Vector2IntArray {
+    --port-color: #9ef0c7;
+}
+
+.port.Vector2IntArrayArray {
+    --port-color: #63b38a;
+}
+
+.port.Vector3Int,
+.port.Vector3IntArray {
+    --port-color: #b9ffa6;
+}
+
+.port.TilemapSet {
+    --port-color: #6AFC6F;
+}
+
+.port.TilemapData {
+    --port-color: #627838;
+}
+
+.port.Tileset {
+    --port-color: #f768a6;
+}
+
+.port.Rect {
+    --port-color: #F76243;
+}
+
+.port.RectInt {
+    --port-color: #E07748;
+}
+
+.port.Bounds {
+    --port-color: #2A6AF7;
+}
+
+.port.BoundsInt {
+    --port-color: #759FF9;
+}
+
+.port.Mask {
+    --port-color: #F7E11E;
+}
+
+.port.Pair_Vector2Int,
+.port.Pair_Vector2Int_Array {
+    --port-color: #456DF0;
+}
+
+.port.AreaArray {
+    --port-color: #F0864A;
+}
+
+.port.AreaGraph {
+    --port-color: #F2B694;
+}
+
+.port.AreaGraphEdgeArray {
+    --port-color: #ff9a73;
+}
+
+.port.BspTree {
+    --port-color: #5BCAFA;
+}
+
+.port.RectIntArray {
+    --port-color: #E0A93E;
+}
+
+.port.PrefabSet {
+    --port-color: #8A93EB;
+}
+
+.port.floatArray {
+    --port-color: #84E4E7;
+}
+
+.port.SaveData {
+    --port-color: #055C9D;
+}
+
+.port.CellularDistanceFunction {
+    --port-color: #8ef71e;
+}
+
+.port.CellularReturnType {
+    --port-color: #8ef71e;
+}
+
+.port.NoiseType {
+    --port-color: #8ef71e;
+}
+
+.port.RotationType3D {
+    --port-color: #8ef71e;
+}
+
+.port.FractalType {
+    --port-color: #8ef71e;
+}
+
+.port.DomainWarpType {
+    --port-color: #8ef71e;
+}
+
+.port.DomainWarpFractalType {
+    --port-color: #8ef71e;
+}
+
+
+/* reference types have square caps */
+.port.Vector2IntArray > #connector,
+.port.Vector2IntArray > #connector > #cap,
+.port.Vector2IntArrayArray > #connector,
+.port.Vector2IntArrayArray > #connector > #cap,
+.port.Object > #connector,
+.port.Object > #connector > #cap,
+.port.GameObject > #connector,
+.port.GameObject > #connector > #cap,
+.port.ObjectArray > #connector,
+.port.ObjectArray > #connector > #cap,
+.port.GameObjectArray > #connector,
+.port.GameObjectArray > #connector > #cap,
+.port.PrefabSet > #connector,
+.port.PrefabSet > #connector > #cap,
+.port.Area > #connector,
+.port.Area > #connector > #cap,
+.port.AreaArray > #connector,
+.port.AreaArray > #connector > #cap,
+.port.AreaGraph > #connector,
+.port.AreaGraph > #connector > #cap,
+.port.AreaGraphEdge > #connector,
+.port.AreaGraphEdge > #connector > #cap,
+.port.AreaGraphEdgeArray > #connector,
+.port.AreaGraphEdgeArray > #connector > #cap,
+.port.TextureData > #connector,
+.port.TextureData > #connector > #cap,
+.port.TilemapData > #connector,
+.port.TilemapData > #connector > #cap,
+.port.Texture2D > #connector,
+.port.Texture2D > #connector > #cap,
+.port.Mask > #connector,
+.port.Mask > #connector > #cap,
+.port.Tilemap > #connector,
+.port.Tilemap > #connector > #cap,
+.port.Tileset > #connector,
+.port.Tileset > #connector > #cap,
+.port.TilemapSet > #connector,
+.port.TilemapSet > #connector > #cap,
+.port.BspTree > #connector,
+.port.BspTree > #connector > #cap,
+.port.RectIntArray > #connector,
+.port.RectIntArray > #connector > #cap,
+.port.Pair_Vector2Int_Array > #connector,
+.port.Pair_Vector2Int_Array > #connector > #cap,
+.port.floatArray > #connector,
+.port.floatArray > #connector > #cap,
+.port.SaveData > #connector,
+.port.SaveData > #connector > #cap {
+    border-radius: 0;
+}
+
+
+/* 
+Put fields of some values below each other, instead of next to each other. 
+If they're next to each other, they don't resize right when one value gets longer than the other and the box becomes
+to small to fit the value.
+ */
+
+.unity-vector2-field__input,
+
+.unity-vector3-field__input,
+
+.unity-vector2-int-field__input,
+
+.unity-vector3-int-field__input,
+
+.unity-rect-field__input .unity-composite-field__field-group,
+
+.unity-rect-int-field__input .unity-composite-field__field-group {
+    flex-direction: column;
+}
+
+.unity-vector2-field__input #unity-y-input,
+
+.unity-vector3-field__input #unity-y-input,
+.unity-vector3-field__input #unity-z-input,
+
+.unity-vector2-int-field__input #unity-y-input,
+
+.unity-vector3-int-field__input #unity-y-input,
+.unity-vector3-int-field__input #unity-z-input,
+
+.unity-rect-field__input .unity-composite-field__field-group #unity-y-input,
+.unity-rect-field__input .unity-composite-field__field-group #unity-height-input,
+
+.unity-rect-int-field__input .unity-composite-field__field-group #unity-y-input,
+.unity-rect-int-field__input .unity-composite-field__field-group #unity-height-input {
+    margin-top: 3px;
+}
+
+.unity-vector2-field__input #unity-y-input Label,
+
+.unity-vector3-field__input #unity-y-input Label,
+.unity-vector3-field__input #unity-z-input Label,
+
+.unity-vector2-int-field__input #unity-y-input Label,
+
+.unity-vector3-int-field__input #unity-y-input Label,
+.unity-vector3-int-field__input #unity-z-input Label,
+
+.unity-rect-field__input .unity-composite-field__field-group #unity-y-input Label,
+.unity-rect-field__input .unity-composite-field__field-group #unity-height-input Label,
+
+.unity-rect-int-field__input .unity-composite-field__field-group #unity-y-input Label,
+.unity-rect-int-field__input .unity-composite-field__field-group #unity-height-input Label{
+    margin-left: 0;
+}
+
+ProcessGraphNodeView .field-container {
+    background-color: rgba(63, 63, 63, .8);
+}
+
+ProcessGraphNodeView ObjectField {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+GroupNodeView > .mainContainer > #headerContainer > #titleContainer > #titleLabel,
+GroupNodeView > .mainContainer > #headerContainer > #titleContainer > #titleField > TextInput {
+    font-size: 36px;
+}
