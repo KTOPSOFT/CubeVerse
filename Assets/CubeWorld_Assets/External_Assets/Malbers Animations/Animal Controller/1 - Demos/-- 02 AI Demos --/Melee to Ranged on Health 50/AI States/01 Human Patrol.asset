@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9150655893611835858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a307bf2814ef6d742b57b5b280dd5d46, type: 3}
+  m_Name: D_Find who Hurt Me
+  m_EditorClassIdentifier: 
+  active: 1
+  Description: Type Description Here
+  DecisionID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  send: 0
+  interval:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  WaitForAllTasks: 0
+  waitForTask: -1
+  checkOn: 0
+  ModeState: 1
+  ModeID: {fileID: 11400000, guid: b04409080ae7e3c4fa645d8c67b40424, type: 2}
+  Ability:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+--- !u!114 &-7876254287596138523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2106e56718a0c43ba1182c65e3aa2c, type: 3}
+  m_Name: T_Store Any Equipped Weapon
+  m_EditorClassIdentifier: 
+  active: 1
+  Description: 'Use common Methods of the Weapon Manager to play on the '
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  UpdateInterval: 0.2
+  WaitForPreviousTask: 0
+  near: 0
+  Actions: 1
+  Weapon: {fileID: 0}
+  HolsterID: {fileID: 0}
+  AimValue: 1
+  IgnoreDrawStore: 0
+--- !u!114 &-7625687720133947325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00a63bfc37e3794ea3b0af5a3c6381e, type: 3}
+  m_Name: D_Look for Player
+  m_EditorClassIdentifier: 
+  active: 1
+  Description: The Animal will look for an Object using a cone view
+  DecisionID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  send: 0
+  interval:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  WaitForAllTasks: 0
+  waitForTask: -1
+  LookMultiplier: 0.9
+  LookRange:
+    UseConstant: 1
+    ConstantValue: 15
+    Variable: {fileID: 0}
+  LookAngle: 120
+  lookFor: 7
+  ObstacleLayer:
+    UseConstant: 1
+    ConstantValue:
+      serializedVersion: 2
+      m_Bits: 0
+    Variable: {fileID: 0}
+  AssignTarget: 1
+  MoveToTarget: 0
+  ChooseRandomly: 0
+  UnityTag: 
+  GameObjectName: 
+  transform: {fileID: 11400000, guid: 0c45a2c5e368c004eb9efaa6152aa0ea, type: 2}
+  gameObject: {fileID: 0}
+  gameObjectSet: {fileID: 0}
+  tags: []
+  zoneType: 0
+  AllZones: 1
+  ZoneID: -1
+  ZoneModeAbility: -1
+  debugColor: {r: 0, g: 0, b: 0.7, a: 0.3}
+--- !u!114 &-4346543164776037085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f52ecadff7d8914eae97320934863d1, type: 3}
+  m_Name: T_Patrol
+  m_EditorClassIdentifier: 
+  active: 1
+  Description: Patrol around Waypoints
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  UpdateInterval: 0.2
+  WaitForPreviousTask: 0
+  LookAtOnArrival: 0
+  IgnoreWaitTime: 0
+  patrolType: 1
+  RuntimeSet: {fileID: 11400000, guid: 402f2ee4acec96a45af153d2be693415, type: 2}
+  rtype: 1
+  RTIndex:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  RTName:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e33e187dc72d4a48aaede99913c6393, type: 3}
+  m_Name: 01 Human Patrol
+  m_EditorClassIdentifier: 
+  ID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  tasks:
+  - {fileID: -4346543164776037085}
+  - {fileID: 7595414202633216554}
+  - {fileID: -7876254287596138523}
+  transitions:
+  - decision: {fileID: -7625687720133947325}
+    trueState: {fileID: 11400000, guid: ac769c7ad11af5f4e835e0f3fba1ab04, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: -9150655893611835858}
+    trueState: {fileID: 11400000, guid: 906cc1dbdafcc91469f8bb85d09bc614, type: 2}
+    falseState: {fileID: 0}
+  GizmoStateColor: {r: 0.3679244, g: 0.82191104, b: 1, a: 1}
+  CreateTaskAsset: 1
+  CreateDecisionAsset: 1
+  TasksIndex: -1
+  DecisionIndex: 0
+--- !u!114 &7595414202633216554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d55f5af15654a1848a5d62c35156dfe9, type: 3}
+  m_Name: T_Walk
+  m_EditorClassIdentifier: 
+  active: 1
+  Description: Set to Walk
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  UpdateInterval: 0.2
+  WaitForPreviousTask: 0
+  affect: 0
+  SpeedSet: Ground
+  SpeedIndex:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  Sprint: 0
+  ResetSprintOnExit: 0

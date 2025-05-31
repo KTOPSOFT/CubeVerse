@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5604bd52ecd16544afaa5ca8a0bab03, type: 3}
+  m_Name: Force Up
+  m_EditorClassIdentifier: 
+  Desc: Applies a Force to the Animal when the Mode starts. Remove the force when
+    the mode ends
+  Direction:
+    UseConstant: 1
+    ConstantValue: {x: 0, y: 1, z: 0}
+    Variable: {fileID: 0}
+  UseInputAxis:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  Force:
+    UseConstant: 1
+    ConstantValue: 5
+    Variable: {fileID: 0}
+  m_Time:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  EnterAceleration:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  ExitAceleration:
+    UseConstant: 1
+    ConstantValue: 10
+    Variable: {fileID: 0}
+  ResetGravity:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  ResetGravityDuring:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  NoY:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  stateMultipliers:
+  - ID: {fileID: 11400000, guid: 4dba83308a0851f4897d08125b3b9420, type: 2}
+    Multiplier: 0
+  - ID: {fileID: 11400000, guid: c44e7e8d6840aa243b6c33ec85052763, type: 2}
+    Multiplier: 0

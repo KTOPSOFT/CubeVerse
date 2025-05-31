@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa0d4819217bdc4f8356c0f6386ae14, type: 3}
+  m_Name: HorseRealistic Glide
+  m_EditorClassIdentifier: 
+  Active: 1
+  Input: Glide
+  ExitInput:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}
+  Priority: 7
+  General:
+    modify: -1
+    RootMotion: 1
+    Sprint: 1
+    Gravity: 0
+    Grounded: 0
+    OrientToGround: 0
+    CustomRotation: 0
+    FreeMovement: 1
+    AdditivePosition: 1
+    AdditiveRotation: 1
+    Persistent: 0
+    IgnoreLowerStates: 1
+    LockMovement: 0
+    LockInput: 0
+  GeneralMessage: []
+  TagModifiers: []
+  UseSendMessage: 0
+  IncludeChildren: 1
+  AllowExitFromAnim: 0
+  IncludeSleepState: 1
+  SleepFromState: []
+  SleepFromMode: []
+  QueueFrom: []
+  SleepFromStance: []
+  stances: []
+  TryLoop:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  EnterTag:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}
+  ExitTag:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}
+  ExitFrame: 1
+  ExitOnMain: 1
+  EnterCooldown:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  ExitCooldown:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  CanStrafe: 0
+  MovementStrafe: 1
+  IdleStrafe: 1
+  debug: 1
+  Editor_Tabs1: 0
+  ID: {fileID: 11400000, guid: e540d0fa5cbb6d148aaf89c2cf966b6a, type: 2}
+  GravityDrag:
+    UseConstant: 1
+    ConstantValue: 3
+    Variable: {fileID: 0}
+  Bank: 30
+  PitchLimit: 0
+  BankStrafe: 0
+  PitchStrafe: 0
+  InertiaLerp:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  AlwaysForward:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  UseCameraInput:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  RemoveForce:
+    UseConstant: 1
+    ConstantValue: 5
+    Variable: {fileID: 0}
+  LandOn:
+    serializedVersion: 2
+    m_Bits: 1
+  CheckLandDistance:
+    UseConstant: 1
+    ConstantValue: 3
+    Variable: {fileID: 0}
+  LandDistance:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  LowerBlendDistance:
+    UseConstant: 1
+    ConstantValue: 0.5
+    Variable: {fileID: 0}
+  LerpDistance:
+    UseConstant: 1
+    ConstantValue: 2
+    Variable: {fileID: 0}

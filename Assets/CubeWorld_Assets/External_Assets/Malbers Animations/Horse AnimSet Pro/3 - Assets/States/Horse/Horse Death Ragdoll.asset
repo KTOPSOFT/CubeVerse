@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030ade1051a59b746a5f0dbc0b6ff53f, type: 3}
+  m_Name: Horse Death Ragdoll
+  m_EditorClassIdentifier: 
+  Active: 1
+  animal: {fileID: 0}
+  Input: Death Ragdoll
+  ExitInput:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}
+  m_StateProfile:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  AlwaysForward:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  Priority: 7
+  resetInputOnFailed: 0
+  ResetLastState: 0
+  General:
+    modify: 0
+    RootMotion: 0
+    Sprint: 0
+    Gravity: 0
+    Grounded: 0
+    OrientToGround: 0
+    CustomRotation: 0
+    FreeMovement: 0
+    AdditivePosition: 0
+    AdditiveRotation: 0
+    Persistent: 0
+    IgnoreLowerStates: 0
+    LockMovement: 0
+    LockInput: 0
+  GeneralMessage: []
+  TagModifiers: []
+  UseSendMessage: 0
+  IncludeChildren: 1
+  AllowExitFromAnim: 0
+  CanTransitionToItself: 0
+  IncludeSleepState: 1
+  SleepFromState: []
+  SleepFromMode: []
+  QueueFrom: []
+  ResetFrom: []
+  SleepFromStance: []
+  stances: []
+  TryLoop:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  Duration:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  EnterTag:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}
+  ExitTag:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}
+  ExitOnMain: 1
+  EnterCooldown:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  ExitCooldown:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  CanStrafe: 0
+  StrafeAnimations: 1
+  MovementStrafe: 1
+  IdleStrafe: 1
+  m_debug: 1
+  Editor_Tabs1: 4
+  SpeedSets: []
+  ID: {fileID: 11400000, guid: adfa24f62d6db4d40a1d837f4ec1a6e9, type: 2}
+  ragdollPrefab: {fileID: 6218181054840996649, guid: f5790f1640ebb6644b8d71d236603c6f,
+    type: 3}
+  EnablePreProcesing: 1
+  collision: 2
+  HitForceMode: 2

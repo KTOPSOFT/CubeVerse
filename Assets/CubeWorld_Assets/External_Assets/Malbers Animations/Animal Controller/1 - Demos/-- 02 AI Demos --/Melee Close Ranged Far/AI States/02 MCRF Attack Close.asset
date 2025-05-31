@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8986929827199598103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d55f5af15654a1848a5d62c35156dfe9, type: 3}
+  m_Name: T_Speed to Run
+  m_EditorClassIdentifier: 
+  active: 1
+  Description: Change the Speed on the Animal
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  UpdateInterval: 0.2
+  WaitForPreviousTask: 1
+  affect: 0
+  SpeedSet: Ground
+  SpeedIndex:
+    UseConstant: 1
+    ConstantValue: 3
+    Variable: {fileID: 0}
+  Sprint: 0
+  ResetSprintOnExit: 0
+--- !u!114 &-5750710784352649496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13c3ae5af063c546a807790208b81bc, type: 3}
+  m_Name: D_Target is Death
+  m_EditorClassIdentifier: 
+  active: 1
+  Description: Type Description Here
+  DecisionID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  send: 0
+  interval:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  WaitForAllTasks: 0
+  waitForTask: -1
+  check: 1
+  StateID: {fileID: 11400000, guid: adfa24f62d6db4d40a1d837f4ec1a6e9, type: 2}
+  when: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e33e187dc72d4a48aaede99913c6393, type: 3}
+  m_Name: 02 MCRF Attack Close
+  m_EditorClassIdentifier: 
+  ID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  tasks:
+  - {fileID: 4057521246330476322}
+  - {fileID: -8986929827199598103}
+  - {fileID: 2218202867600350140}
+  - {fileID: 208910227087662932}
+  transitions:
+  - decision: {fileID: -5750710784352649496}
+    trueState: {fileID: 11400000, guid: cbd5421ca226f29458e52960c9d3fc59, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: -4653792338363247721, guid: e8db0464f67d3ec46bdc0dbbb77e3797,
+      type: 2}
+    trueState: {fileID: 0}
+    falseState: {fileID: 11400000, guid: e8db0464f67d3ec46bdc0dbbb77e3797, type: 2}
+  GizmoStateColor: {r: 1, g: 0.41304785, b: 0, a: 1}
+  CreateTaskAsset: 1
+  CreateDecisionAsset: 1
+  TasksIndex: -1
+  DecisionIndex: 1
+--- !u!114 &203308857559917147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00a63bfc37e3794ea3b0af5a3c6381e, type: 3}
+  m_Name: D_Is Target Far 20m
+  m_EditorClassIdentifier: 
+  active: 1
+  Description: The Animal will look for an Object using a cone view
+  DecisionID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  send: 0
+  interval:
+    UseConstant: 1
+    ConstantValue: 0.3
+    Variable: {fileID: 0}
+  WaitForAllTasks: 0
+  waitForTask: -1
+  LookMultiplier: 0.9
+  LookRange:
+    UseConstant: 1
+    ConstantValue: 20
+    Variable: {fileID: 0}
+  LookAngle: 120
+  lookFor: 7
+  ObstacleLayer:
+    UseConstant: 1
+    ConstantValue:
+      serializedVersion: 2
+      m_Bits: 1
+    Variable: {fileID: 0}
+  AssignTarget: 1
+  MoveToTarget: 1
+  ChooseRandomly: 0
+  UnityTag: 
+  GameObjectName: 
+  transform: {fileID: 11400000, guid: 0c45a2c5e368c004eb9efaa6152aa0ea, type: 2}
+  gameObject: {fileID: 0}
+  gameObjectSet: {fileID: 0}
+  tags: []
+  zoneType: 0
+  AllZones: 1
+  ZoneID: -1
+  ZoneModeAbility: -1
+  debugColor: {r: 0.31372547, g: 0.6691421, b: 1, a: 0.18039216}
+--- !u!114 &208910227087662932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2106e56718a0c43ba1182c65e3aa2c, type: 3}
+  m_Name: T_Attack Sword
+  m_EditorClassIdentifier: 
+  active: 1
+  Description: 'Use common Methods of the Weapon Manager to play on the '
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  UpdateInterval: 0.3
+  WaitForPreviousTask: 1
+  near: 1
+  Actions: 5
+  Weapon: {fileID: 0}
+  HolsterID: {fileID: 0}
+  AimValue: 1
+  IgnoreDrawStore: 0
+--- !u!114 &2218202867600350140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20de7ec569e280e4dbc951b31fe6319e, type: 3}
+  m_Name: T_Move To Player
+  m_EditorClassIdentifier: 
+  active: 1
+  Description: Move towards to player
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  UpdateInterval: 0.2
+  WaitForPreviousTask: 1
+  task: 0
+  distance:
+    UseConstant: 1
+    ConstantValue: 10
+    Variable: {fileID: 0}
+  distanceThreshold:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  stoppingDistance:
+    UseConstant: 1
+    ConstantValue: 0.5
+    Variable: {fileID: 0}
+  slowingDistance:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  direction: 0
+  arcsCount: 12
+  LookAtTarget: 1
+  FleeForever: 1
+  StopOnArrive: 1
+  debugColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.25}
+--- !u!114 &4057521246330476322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2106e56718a0c43ba1182c65e3aa2c, type: 3}
+  m_Name: T_Draw Melee
+  m_EditorClassIdentifier: 
+  active: 1
+  Description: 'Use common Methods of the Weapon Manager to play on the '
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  UpdateInterval: 0.2
+  WaitForPreviousTask: 0
+  near: 0
+  Actions: 0
+  Weapon: {fileID: 0}
+  HolsterID: {fileID: 11400000, guid: 8be06e7fc27c57c4e82d4a5cafd76296, type: 2}
+  AimValue: 1
+  IgnoreDrawStore: 1

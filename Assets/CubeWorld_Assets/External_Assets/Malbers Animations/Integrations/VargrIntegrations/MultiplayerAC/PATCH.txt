@@ -1,0 +1,32 @@
+If you are getting Errors Related to ModeBehaviour having Null
+
+Please check ModeBehaviour.cs
+
+override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+
+Requires
+
+if (!animal.enabled) JustExit = true; //Skip the Mode if the Animal is Disabled
+
+after if(animal == null)
+
+override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+{
+    JustExit = false; //Reset the Do Exit Var
+
+    if (animal == null) //Find the Animal the first time
+    {
+        animal = animator.GetComponent<MAnimal>();
+        mode = animal.Mode_Get(ModeID);
+    }
+
+    if (!animal.enabled) JustExit = true; //Skip the Mode if the Animal is Disabled
+
+    if (ModeID == null) { Debug.LogError("Mode behaviour needs an ID"); return; }
+    if (mode == null) { Debug.LogError($"There's no [{ModeID.name}] mode on your character"); return; }
+
+    ActiveAbility = mode.ActiveAbility;
+    if (animal.ModeStatus == Int_ID.Loop) return;            //Means is Looping so Skip!!!
+
+    if (EnterMode) mode.AnimationTagEnter(stateInfo.fullPathHash);
+}

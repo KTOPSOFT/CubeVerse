@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e5edb3b20e92848ba002cb804354b3, type: 3}
+  m_Name: Formula Test
+  m_EditorClassIdentifier: 
+  Description: 
+  debug: 1
+  value: 20
+  values:
+  - display: 20 + 5
+    value:
+      UseConstant: 1
+      ConstantValue: 5
+      Variable: {fileID: 0}
+    operation: 0
+  - display: 20 + 5 * 5
+    value:
+      UseConstant: 1
+      ConstantValue: 5
+      Variable: {fileID: 0}
+    operation: 2
+  - display: 20 + 5 * 5 - 3
+    value:
+      UseConstant: 1
+      ConstantValue: 3
+      Variable: {fileID: 0}
+    operation: 1

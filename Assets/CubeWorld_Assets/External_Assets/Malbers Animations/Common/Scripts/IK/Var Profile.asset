@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e9e55fdf48cda4d910818701bf1118, type: 3}
+  m_Name: Var Profile
+  m_EditorClassIdentifier: 
+  IKProcesors:
+  - rid: 2988806066314412033
+  - rid: 2988806359734026240
+  references:
+    version: 2
+    RefIds:
+    - rid: 2988806066314412033
+      type: {class: HumanIKGoal, ns: MalbersAnimations.IK, asm: MalbersAnimations}
+      data:
+        name: Left Foot IK
+        Active: 1
+        Weight: 1
+        TargetIndex: 0
+        AnimParameter: 
+        AnimParameterHash: 0
+        goal: 0
+        position: 1
+        rotation: 1
+        Distance:
+          minValue: 0
+          maxValue: 0
+        gizmos: 1
+    - rid: 2988806359734026240
+      type: {class: HumanIKGoal, ns: MalbersAnimations.IK, asm: MalbersAnimations}
+      data:
+        name: Left Foot IK
+        Active: 1
+        Weight: 1
+        TargetIndex: 0
+        AnimParameter: 
+        AnimParameterHash: 0
+        goal: 0
+        position: 1
+        rotation: 1
+        Distance:
+          minValue: 0.38
+          maxValue: 0.79
+        gizmos: 1
