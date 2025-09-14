@@ -25,7 +25,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 9
+  version: 10
 --- !u!114 &-4096336723124511546
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -66,7 +66,7 @@ Material:
   m_CustomRenderQueue: 2450
   stringTagMap:
     MotionVector: User
-    RenderType: TransparentCutout
+    RenderType: Opaque
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
@@ -84,6 +84,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AO: 1
+    - _QueueControl: 1
     m_Colors:
     - _Tint: {r: 0.77254903, g: 0.77254903, b: 0.77254903, a: 1}
   m_BuildTextureStacks: []
