@@ -24,22 +24,31 @@ public class CharacterDataReceiver : MonoBehaviour
         //CharacterInfo.hair_color = new Color(0, 0, 0);
         //CharacterInfo.beard_color = new Color(0, 0, 0);
 
-        CharacterInfo.skin_category = CustomizationManager.instance.skin_category;
-        CharacterInfo.sex_category = CustomizationManager.instance.sex_category;
+        CustomizationManager customizationManager = CustomizationManager.instance;
+        if (customizationManager == null)
+        {
+            Debug.LogWarning(
+                "CharacterDataReceiver started without a CustomizationManager. " +
+                "Using the default character data.");
+            return;
+        }
 
-        CharacterInfo.body_index = CustomizationManager.instance.body_index;
+        CharacterInfo.skin_category = customizationManager.skin_category;
+        CharacterInfo.sex_category = customizationManager.sex_category;
 
-        CharacterInfo.backpack_category = CustomizationManager.instance.backpack_category;
-        CharacterInfo.backpack_index = CustomizationManager.instance.backpack_index;
+        CharacterInfo.body_index = customizationManager.body_index;
 
-        CharacterInfo.hair_index = CustomizationManager.instance.hair_index;
-        CharacterInfo.beard_index = CustomizationManager.instance.beard_index;
+        CharacterInfo.backpack_category = customizationManager.backpack_category;
+        CharacterInfo.backpack_index = customizationManager.backpack_index;
 
-        CharacterInfo.hat_category = CustomizationManager.instance.hat_category;
-        CharacterInfo.hat_index = CustomizationManager.instance.hat_index;
+        CharacterInfo.hair_index = customizationManager.hair_index;
+        CharacterInfo.beard_index = customizationManager.beard_index;
 
-        CharacterInfo.face_index = CustomizationManager.instance.face_index;
-        CharacterInfo.bodyprop_index = CustomizationManager.instance.bodyprop_index;
+        CharacterInfo.hat_category = customizationManager.hat_category;
+        CharacterInfo.hat_index = customizationManager.hat_index;
+
+        CharacterInfo.face_index = customizationManager.face_index;
+        CharacterInfo.bodyprop_index = customizationManager.bodyprop_index;
         Debug.Log("Character Data Received");
     }
 }
